@@ -1,0 +1,420 @@
+{
+ "meta": {
+  "league": "Laxmi Chit Fund - Season 5",
+  "season": "2026/27",
+  "pool": "₹1,24,000",
+  "entry_fee": "₹4,000",
+  "managers": 29,
+  "expected": 31,
+  "my_id": 427154,
+  "gw": 0,
+  "next_gw": 1,
+  "next_deadline": "2026-08-21T17:30:00Z",
+  "started": false,
+  "updated": ""
+ },
+ "standings": [
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 0,
+   "team": "Cment_mixers",
+   "name": "Deepankar Sachdeva",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 1,
+   "team": "Onside Offside",
+   "name": "Ajith Thomas Kuthukatt George",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 2,
+   "team": "sakalaka",
+   "name": "prateek gupta",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 3,
+   "team": "fpl_26_27",
+   "name": "Karan Chopra",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 4,
+   "team": "BattleBorn",
+   "name": "Aquib Razack",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 5,
+   "team": "Xa bing chilling",
+   "name": "Satweek Nayak",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 6,
+   "team": "ShakeNBake",
+   "name": "Arshaq Razack",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 7,
+   "team": "Southall United",
+   "name": "Rohan Agrawal",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 8,
+   "team": "Slumber FC",
+   "name": "Dean Jenkins",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 9,
+   "team": "Pole Calmer",
+   "name": "Ashwin Jose",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 10,
+   "team": "Cold Palmer",
+   "name": "Shivanshu Madan",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 11,
+   "team": "Old Reijnders Nagar",
+   "name": "Sid Shaurya",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 12,
+   "team": "Amad Aura",
+   "name": "Karan Khanna",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 13,
+   "team": "Totally Szobo",
+   "name": "Abhinav Premsekhar",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 14,
+   "team": "ItDzntMata",
+   "name": "Danish Javed",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 15,
+   "team": "Redsbay",
+   "name": "Nilay jain",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 16,
+   "team": "Fiery Raiders",
+   "name": "Anish Joshi",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 17,
+   "team": "115 FC",
+   "name": "Abhay Rawat",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 18,
+   "team": "MaSalah",
+   "name": "Raveesh Kalra",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 19,
+   "team": "KingOfKings Fc",
+   "name": "Abhiraj Singh",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 20,
+   "team": "Goal Diggers FC",
+   "name": "Varun Khurana",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 21,
+   "team": "FC Teetotallers",
+   "name": "Rajit Das",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 22,
+   "team": "Mishra's Thirteen",
+   "name": "Aparnesh Mishra",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 23,
+   "team": "Loading...",
+   "name": "Aayush Khanna",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 24,
+   "team": "Enzotic",
+   "name": "Abhishek Gupte",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 25,
+   "team": "Captn Magnifico",
+   "name": "Naman Agrawal",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 26,
+   "team": "Carrick Janta Party",
+   "name": "Pranshul Jain",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 27,
+   "team": "His Name is Diogo",
+   "name": "Aditya Vaidya",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  },
+  {
+   "rank": null,
+   "last_rank": null,
+   "id": 28,
+   "team": "Fluente in Football",
+   "name": "Yash Beohar",
+   "total": null,
+   "event_total": null,
+   "prize": null
+  }
+ ],
+ "mini_tournaments": [
+  {
+   "id": 1,
+   "window": "GW3–GW8",
+   "group_gws": [
+    3,
+    4,
+    5
+   ],
+   "ko_gws": [
+    6,
+    7,
+    8
+   ],
+   "status": "upcoming",
+   "groups": null,
+   "ko": null
+  },
+  {
+   "id": 2,
+   "window": "GW9–GW14",
+   "group_gws": [
+    9,
+    10,
+    11
+   ],
+   "ko_gws": [
+    12,
+    13,
+    14
+   ],
+   "status": "upcoming",
+   "groups": null,
+   "ko": null
+  },
+  {
+   "id": 3,
+   "window": "GW15–GW20",
+   "group_gws": [
+    15,
+    16,
+    17
+   ],
+   "ko_gws": [
+    18,
+    19,
+    20
+   ],
+   "status": "upcoming",
+   "groups": null,
+   "ko": null
+  },
+  {
+   "id": 4,
+   "window": "GW21–GW26",
+   "group_gws": [
+    21,
+    22,
+    23
+   ],
+   "ko_gws": [
+    24,
+    25,
+    26
+   ],
+   "status": "upcoming",
+   "groups": null,
+   "ko": null
+  },
+  {
+   "id": 5,
+   "window": "GW27–GW32",
+   "group_gws": [
+    27,
+    28,
+    29
+   ],
+   "ko_gws": [
+    30,
+    31,
+    32
+   ],
+   "status": "upcoming",
+   "groups": null,
+   "ko": null
+  },
+  {
+   "id": 6,
+   "window": "GW33–GW38",
+   "group_gws": [
+    33,
+    34,
+    35
+   ],
+   "ko_gws": [
+    36,
+    37,
+    38
+   ],
+   "status": "upcoming",
+   "groups": null,
+   "ko": null
+  }
+ ],
+ "side": {},
+ "overall_prizes": {
+  "1": "₹30,000",
+  "2": "₹20,000",
+  "3": "₹12,500",
+  "4": "₹7,500",
+  "5": "₹5,000"
+ }
+}

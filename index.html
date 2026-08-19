@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laxmi Chit Fund · Season 5</title>
+<style>
+:root{--pg:#0d0d0d;--tp:#fff;--ts:#c3c2b7;--mut:#898781;--grid:#2c2c2a;--bl:#3987e5;
+--gold:#eda100;--good:#0ca30c;--bad:#e66767;--ring:rgba(255,255,255,.10);--card:#201f1e;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--pg);color:var(--tp);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;line-height:1.4}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+header{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,#151514,#0d0d0d);border-bottom:1px solid var(--ring);padding:14px 20px}
+.htop{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-size:19px;font-weight:800}.logo b{color:var(--gold)}
+.pills{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.pill{background:#242322;border:1px solid var(--ring);border-radius:8px;padding:6px 11px;font-size:12px;color:var(--ts)}.pill b{color:var(--tp)}
+.sub{color:var(--mut);font-size:12px;margin-top:3px}
+nav{display:flex;gap:4px;overflow-x:auto;padding:10px 16px 0;position:sticky;top:0;background:var(--pg);border-bottom:1px solid var(--grid);z-index:15}
+nav>button{background:none;border:none;color:var(--ts);font:inherit;font-size:13px;font-weight:600;padding:9px 14px;border-radius:8px 8px 0 0;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent}
+nav>button.on{color:var(--tp);border-bottom-color:var(--bl);background:#171716}
+main{max-width:1060px;margin:0 auto;padding:20px 16px 60px}
+section{display:none}section.on{display:block}
+h2{font-size:15px;margin:26px 0 12px;font-weight:700}h2:first-child{margin-top:6px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:8px}
+.tile{background:var(--card);border:1px solid var(--ring);border-radius:12px;padding:14px 16px}
+.tile .k{color:var(--mut);font-size:11.5px;text-transform:uppercase;letter-spacing:.4px}
+.tile .v{font-size:24px;font-weight:800;margin-top:5px}.tile .d{color:var(--ts);font-size:12px;margin-top:2px}
+table{width:100%;border-collapse:collapse}
+.std{background:var(--card);border:1px solid var(--ring);border-radius:12px;overflow:hidden}
+.std th{text-align:left;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.4px;padding:10px;border-bottom:1px solid var(--grid);font-weight:600}
+.std th.num{text-align:right}
+.std td{padding:9px 10px;border-bottom:1px solid #232322}.std tr:last-child td{border-bottom:none}
+.rk{color:var(--mut);width:30px;font-variant-numeric:tabular-nums;font-weight:700}
+.mv{width:18px}.up{color:var(--good)}.dn{color:var(--bad)}.eq{color:var(--mut)}
+.mn .tm{display:block;font-weight:600}.mn .nm{display:block;color:var(--mut);font-size:11.5px}
+.mn2{font-weight:600}.gwp{color:var(--ts)}
+.barcell{width:130px}.bar{display:block;height:7px;background:#2b2a28;border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,#256abf,#3987e5);border-radius:4px}
+tr.prize{background:linear-gradient(90deg,rgba(237,161,0,.09),transparent)}tr.prize .rk{color:var(--gold)}
+.pz{color:var(--gold);font-weight:700;font-size:12px;white-space:nowrap}.pzcell{text-align:right}
+tr.you{box-shadow:inset 3px 0 0 var(--bl)}tr.you .tm::after{content:" · you";color:var(--bl);font-size:11px}
+.u{color:var(--mut);font-size:11px;font-weight:400}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--ring);border-radius:12px;padding:16px}
+.chiphd{font-size:12.5px;color:var(--ts);font-weight:600;display:flex;align-items:center;gap:7px}.ci{font-size:16px}
+.chipbig{font-size:34px;font-weight:800;margin:8px 0 2px}.chipbig span{font-size:14px;color:var(--mut);font-weight:600;margin-left:4px}
+.chipsub{font-weight:600}.chipgw{color:var(--gold);font-size:11.5px;margin-top:6px}
+.mtsub{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.mtsub button{background:#242322;border:1px solid var(--ring);color:var(--ts);font:inherit;font-weight:700;font-size:12.5px;padding:7px 15px;border-radius:9px;cursor:pointer}
+.mtsub button.on{background:#141c26;border-color:#1c3d63;color:var(--bl)}
+.mthd{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.mttitle{font-size:17px;font-weight:800}
+.st{font-size:10.5px;font-weight:700;text-transform:uppercase;padding:2px 8px;border-radius:20px;margin-left:6px}
+.st.complete{color:var(--good);background:#12240f;border:1px solid #1c4a1c}
+.st.live{color:var(--bl);background:#141c26;border:1px solid #1c3d63}
+.st.upcoming{color:var(--mut);background:#222;border:1px solid var(--grid)}
+.mtmeta{color:var(--mut);font-size:12px}
+.phasehd{font-size:13.5px;font-weight:800;margin:22px 0 2px;display:flex;align-items:center;gap:8px}
+.pl{color:var(--mut);font-weight:600;font-size:12px}
+.phsub{color:var(--ts);font-size:12px;margin-bottom:10px}
+.grps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.grp{background:var(--card);border:1px solid var(--ring);border-radius:12px;padding:12px 14px}
+.grphd{font-weight:700;font-size:12.5px;margin-bottom:6px;color:var(--bl)}
+.gtab th{color:var(--mut);font-size:10.5px;text-transform:uppercase;text-align:center;padding:4px 3px;font-weight:600}
+.gtab th:first-child{text-align:left}
+.gtab td{text-align:center;padding:5px 3px;border-top:1px solid #232322;font-variant-numeric:tabular-nums}
+.gtab td.mn2{text-align:left}
+.gtab tr.adv td{background:rgba(57,135,229,.07)}.gtab tr.adv td.mn2::before{content:"● ";color:var(--good);font-size:9px}
+.bracket{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start}
+.bclab{color:var(--mut);font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;font-weight:700;margin-bottom:8px}
+.bcol{display:flex;flex-direction:column;gap:12px}
+.tie{background:var(--card);border:1px solid var(--ring);border-radius:10px;overflow:hidden}
+.side{display:flex;justify-content:space-between;padding:8px 11px;font-size:12.5px}
+.side:first-child{border-bottom:1px solid #232322}
+.side b{font-variant-numeric:tabular-nums;color:var(--mut)}
+.side.win{background:rgba(12,163,12,.10)}.side.win span{font-weight:700}.side.win b{color:var(--good)}
+.champtie{border-color:#6b5410}
+.champ2{margin-top:12px;background:linear-gradient(135deg,#2a2205,#201f1e);border:1px solid #6b5410;border-radius:10px;padding:12px;font-size:15px;display:flex;flex-direction:column;gap:2px}
+.champ2 span{color:var(--gold);font-size:11px;text-transform:uppercase;letter-spacing:.4px;font-weight:700}
+.note{background:#141c26;border:1px solid #1c3d63;border-radius:10px;padding:12px 14px;color:var(--ts);font-size:12.5px;margin:10px 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:720px){.two{grid-template-columns:1fr}.bracket{grid-template-columns:1fr}}
+.locked{opacity:.7;background:var(--card);border:1px dashed var(--grid);border-radius:12px;padding:16px;text-align:center;color:var(--mut);font-size:12.5px}
+.foot{color:var(--mut);font-size:11.5px;text-align:center;margin-top:30px;line-height:1.6}
+.hero{background:linear-gradient(135deg,#1c2633,#161615);border:1px solid #1c3d63;border-radius:16px;padding:30px;text-align:center;margin-bottom:18px}
+.hero .big{font-size:30px;font-weight:800;margin:6px 0}
+.hero .cd{color:var(--bl);font-weight:700;font-size:15px}
+.loading{color:var(--mut);text-align:center;padding:60px}
+</style>
+</head>
+<body>
+<header>
+  <div class="htop">
+    <span class="logo">Laxmi Chit Fund <b>· Season 5</b></span>
+    <div class="pills" id="pills"></div>
+  </div>
+  <div class="sub" id="subline">Loading…</div>
+</header>
+<nav id="nav">
+  <button class="on" data-t="overall">Overall Table</button>
+  <button data-t="mt">Mini-Tournaments</button>
+  <button data-t="cup">FPL Cup</button>
+  <button data-t="chips">Chip Kings</button>
+  <button data-t="side">Side Prizes</button>
+</nav>
+<main id="main"><div class="loading">Loading dashboard…</div></main>
+<script>
+const $ = (s,r=document)=>r.querySelector(s);
+const esc = s => String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const PRIZE = {1:"₹30,000",2:"₹20,000",3:"₹12,500",4:"₹7,500",5:"₹5,000"};
+let DATA=null, curMT=null;
+
+function fmtDeadline(iso){
+  if(!iso) return "";
+  const d=new Date(iso);
+  return d.toLocaleString('en-IN',{weekday:'short',day:'numeric',month:'short',
+    hour:'numeric',minute:'2-digit',timeZone:'Asia/Kolkata'})+" IST";
+}
+function arrow(rank,last){
+  if(!last||!rank) return '<span class="eq">–</span>';
+  if(rank<last) return '<span class="up">▲</span>';
+  if(rank>last) return '<span class="dn">▼</span>';
+  return '<span class="eq">–</span>';
+}
+function mrow(o,valKey,unit){ // leaderboard row
+  return `<tr><td class="rk">${o._i}</td><td class="mn"><span class="tm">${esc(o.team)}</span>
+    <span class="nm">${esc(o.name)}</span></td><td class="num"><b>${o[valKey]}</b>
+    <span class="u">${unit}</span></td></tr>`;
+}
+
+function render(){
+  const d=DATA, m=d.meta;
+  // header pills + subline
+  $('#pills').innerHTML =
+    `<span class="pill">${m.started?('Gameweek <b>'+m.gw+'</b>'):'<b>Pre-season</b>'}</span>
+     <span class="pill">Pot <b>${esc(m.pool)}</b></span>
+     <span class="pill"><b>${m.managers}</b> managers</span>`;
+  $('#subline').innerHTML = m.started
+    ? `Live · ${esc(m.season)} · next deadline ${fmtDeadline(m.next_deadline)}${m.updated?(' · updated '+esc(m.updated)):''}`
+    : `${esc(m.season)} · season starts soon · ${esc(m.managers)}/${esc(m.expected)} managers joined`;
+
+  const sections = {
+    overall: viewOverall(), mt: viewMT(), cup: viewCup(),
+    chips: viewChips(), side: viewSide()
+  };
+  $('#main').innerHTML = Object.entries(sections)
+    .map(([id,html],i)=>`<section id="${id}" class="${i===0?'on':''}">${html}</section>`)
+    .join('');
+  wireMT();
+}
+
+function viewOverall(){
+  const d=DATA, m=d.meta, S=d.standings;
+  if(!m.started){
+    return `<div class="hero">
+        <div class="cd">First deadline</div>
+        <div class="big">${fmtDeadline(m.next_deadline)}</div>
+        <div class="sub">The table goes live the moment GW1 is scored. ${m.managers} of ${m.expected} managers have joined.</div>
+      </div>
+      <h2>Managers</h2>
+      <table class="std"><tbody>${S.map(r=>`<tr class="${r.id===m.my_id?'you':''}">
+        <td class="mn"><span class="tm">${esc(r.team)}</span><span class="nm">${esc(r.name)}</span></td></tr>`).join('')}
+      </tbody></table>`;
+  }
+  const max = Math.max(...S.map(r=>r.total||0))||1;
+  const rows = S.map(r=>{
+    const p = r.rank<=5?`<span class="pz">${PRIZE[r.rank]||''}</span>`:'';
+    return `<tr class="${r.rank<=5?'prize':''} ${r.id===m.my_id?'you':''}">
+      <td class="rk">${r.rank??''}</td><td class="mv">${arrow(r.rank,r.last_rank)}</td>
+      <td class="mn"><span class="tm">${esc(r.team)}</span><span class="nm">${esc(r.name)}</span></td>
+      <td class="num gwp">${r.event_total??''}</td><td class="num"><b>${r.total??''}</b></td>
+      <td class="barcell"><span class="bar"><i style="width:${Math.round((r.total||0)/max*100)}%"></i></span></td>
+      <td class="pzcell">${p}</td></tr>`;
+  }).join('');
+  const gap = (S[0]?.total||0)-(S[1]?.total||0);
+  return `<div class="tiles">
+      <div class="tile"><div class="k">Leader</div><div class="v">${esc(S[0]?.team||'–')}</div><div class="d">${S[0]?.total??''} pts · ${esc(S[0]?.name||'')}</div></div>
+      <div class="tile"><div class="k">Gap 1st→2nd</div><div class="v">${gap}</div><div class="d">points</div></div>
+      <div class="tile"><div class="k">Top GW${m.gw}</div><div class="v">${Math.max(...S.map(r=>r.event_total||0))}</div><div class="d">this gameweek</div></div>
+      <div class="tile"><div class="k">Prize pool</div><div class="v">${esc(m.pool)}</div><div class="d">across 21 payouts</div></div>
+    </div>
+    <table class="std"><thead><tr><th class="rk">#</th><th></th><th>Manager</th>
+      <th class="num">GW${m.gw}</th><th class="num">Total</th><th>Form</th><th></th></tr></thead>
+      <tbody>${rows}</tbody></table>
+    <div class="foot">Top 5 (gold) take the overall prizes at GW38 · ▲▼ = league rank movement this gameweek</div>`;
+}
+
+function grpTable(g){
+  const rows=g.rows.map((r,i)=>`<tr class="${i<2?'adv':''}"><td class="mn2">${esc(r.team)}</td>
+    <td>${r.w}</td><td>${r.d}</td><td>${r.l}</td><td class="num"><b>${r.pts}</b></td></tr>`).join('');
+  return `<div class="grp"><div class="grphd">Group ${g.group}</div>
+    <table class="gtab"><thead><tr><th>Team</th><th>W</th><th>D</th><th>L</th><th>Pts</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+function tie(t,champ){
+  const aw=t.win&&t.win===t.a?'win':'', bw=t.win&&t.win===t.b?'win':'';
+  return `<div class="tie ${champ?'champtie':''}">
+    <div class="side ${aw}"><span>${esc(t.a)}</span><b>${t.sa??'–'}</b></div>
+    <div class="side ${bw}"><span>${esc(t.b)}</span><b>${t.sb??'–'}</b></div></div>`;
+}
+function viewMT(){
+  const list=DATA.mini_tournaments;
+  if(curMT===null){ curMT = (list.find(x=>x.status==='live')||list.find(x=>x.status==='complete')||list[0]).id; }
+  const sub=list.map(x=>`<button class="${x.id===curMT?'on':''}" data-mt="${x.id}">MT${x.id}</button>`).join('');
+  return `<div class="note">Top 24 of the overall table qualify for each Mini-Tournament (re-checked every time),
+    drawn into 6 balanced groups via a reproducible seeded pot draw. Group stage and knockouts show separately. Pick a tournament:</div>
+    <div class="mtsub" id="mtsub">${sub}</div>
+    <div id="mtbody">${mtBody(list.find(x=>x.id===curMT))}</div>`;
+}
+function mtBody(mt){
+  const badge=`<span class="st ${mt.status}">${mt.status}</span>`;
+  const head=`<div class="mthd"><div><span class="mttitle">Mini-Tournament ${mt.id}</span> ${badge}</div>
+    <div class="mtmeta">${esc(mt.window)} · ₹3,000 · group GW${mt.group_gws[0]}–${mt.group_gws[2]} · knockouts GW${mt.ko_gws[0]}–${mt.ko_gws[2]}</div></div>`;
+  if(mt.status==='upcoming'||!mt.groups){
+    return head+`<div class="locked">🔒 The top-24 draw for MT${mt.id} runs after GW${mt.group_gws[0]-1}. Balanced pot draw, then group + knockouts appear here.</div>`;
+  }
+  const groups=`<div class="grps">${mt.groups.map(grpTable).join('')}</div>`;
+  const gsNote = mt.status==='complete'?'Final group tables.':'Live — top 2 (●) per group advance.';
+  const gs=`<div class="phasehd">① Group Stage <span class="pl">GW${mt.group_gws[0]}–${mt.group_gws[2]}</span></div>
+    <div class="phsub">${gsNote}</div>${groups}`;
+  let ko;
+  if(mt.ko){
+    const qf=mt.ko.qf.map(t=>tie(t)).join('');
+    const sf=(mt.ko.sf||[]).map(t=>tie(t)).join('') || '<div class="locked">Awaiting quarterfinals</div>';
+    const fn=mt.ko.final?tie(mt.ko.final,true):'<div class="locked">Awaiting semifinals</div>';
+    const champ=mt.ko.champion?`<div class="champ2">🏆 <b>${esc(mt.ko.champion)}</b><span>Champion · ₹3,000</span></div>`:'';
+    ko=`<div class="phasehd">② Knockouts <span class="pl">GW${mt.ko_gws[0]}–${mt.ko_gws[2]}</span></div>
+      <div class="bracket"><div class="bcol"><div class="bclab">Quarterfinals</div>${qf}</div>
+      <div class="bcol"><div class="bclab">Semifinals</div>${sf}</div>
+      <div class="bcol"><div class="bclab">Final</div>${fn}${champ}</div></div>`;
+  } else {
+    ko=`<div class="phasehd">② Knockouts <span class="pl">GW${mt.ko_gws[0]}–${mt.ko_gws[2]}</span></div>
+      <div class="locked">🔒 The 8-team bracket (6 group winners + 2 best runners-up) seeds automatically once the group stage finishes at GW${mt.group_gws[2]}.</div>`;
+  }
+  return head+gs+ko;
+}
+function wireMT(){
+  const sub=$('#mtsub'); if(!sub) return;
+  sub.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+    curMT=+b.dataset.mt;
+    sub.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    $('#mtbody').innerHTML=mtBody(DATA.mini_tournaments.find(x=>x.id===curMT));});
+}
+
+function viewCup(){
+  return `<h2>FPL League Cup · ₹4,000</h2>
+    <div class="note">The <b>official FPL knockout cup</b> — pulled straight from the game's API. Single-elimination, final on GW38. FPL's own rules (including byes) decide every tie.</div>
+    <div class="locked">🔒 Cup fixtures appear here once FPL seeds the bracket (around GW17). Nothing to draw or maintain — fully automatic.</div>`;
+}
+function viewChips(){
+  const c=DATA.side.chips;
+  if(!c) return `<div class="locked">Chip returns appear once the season is underway.</div>`;
+  const icons={"Triple Captain":"©³","Bench Boost":"⛑","Wildcard":"🃏","Free Hit":"⚡"};
+  const cards=Object.entries(c).map(([k,v])=>{
+    if(!v) return `<div class="card chip"><div class="chiphd"><span class="ci">${icons[k]}</span>${k}</div>
+      <div class="chipbig">–</div><div class="chipsub">not played yet</div><div class="chipgw">₹3,000</div></div>`;
+    return `<div class="card chip"><div class="chiphd"><span class="ci">${icons[k]}</span>${k}</div>
+      <div class="chipbig">${v.score}<span>pts</span></div><div class="chipsub">${esc(v.team)} · ${esc(v.name)}</div>
+      <div class="chipgw">best haul · GW${v.gw} · ₹3,000</div></div>`;
+  }).join('');
+  return `<h2>Chip Kings — best single-gameweek haul per chip</h2><div class="cards">${cards}</div>
+    <div class="foot">Each chip pays ₹3,000 for the highest net score returned with it, across either half of the season.</div>`;
+}
+function viewSide(){
+  const s=DATA.side;
+  if(!DATA.meta.started||!s.captaincy) return `<div class="locked">Side-prize races begin once GW1 is scored.</div>`;
+  const cap=s.captaincy.map((o,i)=>mrow({...o,_i:i+1},'pts','pts')).join('');
+  const arr=s.arrows.map((o,i)=>mrow({...o,_i:i+1},'n','arrows')).join('');
+  const dd=s.diamond, pity=s.pity;
+  const cb = s.comeback
+    ? `<table class="std"><tbody>${s.comeback.map((o,i)=>mrow({...o,_i:i+1},'pts','pts')).join('')}</tbody></table>`
+    : `<div class="locked">🔒 Unlocks after GW19 — most points GW20–38 among the bottom 21 at the halfway mark.</div>`;
+  return `<div class="two">
+      <div><h2>Captaincy King · ₹3,000</h2><table class="std"><tbody>${cap}</tbody></table><div class="foot">Most total captain points (top-5 overall excluded)</div></div>
+      <div><h2>Green Arrow King · ₹3,000</h2><table class="std"><tbody>${arr}</tbody></table><div class="foot">Most gameweeks with an improved overall rank</div></div>
+    </div>
+    <h2>Differential Diamond · ₹3,000</h2>
+    ${dd?`<div class="card"><b>${esc(dd.player)}</b> — ${dd.haul} pts in GW${dd.gw}, owned ${dd.owned}%<div class="sub">${esc(dd.team)} · ${esc(dd.name)} · biggest sub-7.5%-owned starter haul · ownership snapshot, admin-confirmed</div></div>`:`<div class="locked">No qualifying differential yet.</div>`}
+    <h2>Pity the Living Dead · ₹2,000</h2>
+    ${pity?`<div class="card">Lowest valid gameweek score so far: <b>${pity.score} pts</b> (GW${pity.gw})<div class="sub">${esc(pity.team)} · ${esc(pity.name)} · hit taken: ${pity.hit} · pending admin validity check · tracked to GW30</div></div>`:`<div class="locked">No scores yet.</div>`}
+    <h2>The Comeback · ₹4,000</h2>${cb}`;
+}
+
+$('#nav').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  document.querySelectorAll('#nav>button').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('section').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');const el=document.getElementById(b.dataset.t);if(el)el.classList.add('on');window.scrollTo(0,0);});
+
+fetch('data.json?_='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render();})
+  .catch(e=>{$('#main').innerHTML='<div class="loading">Could not load data.json yet. If you just set this up, the first update run will create it shortly.</div>';});
+</script>
+</body>
+</html>
