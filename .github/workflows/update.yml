@@ -26,7 +26,7 @@ jobs:
 
       - name: Run the data engine
         run: |
-          export UPDATED_AT="$(date -u '+%d %b %Y, %H:%M UTC')"
+          export UPDATED_ISO="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
           python engine.py
 
       - name: Commit updated data
