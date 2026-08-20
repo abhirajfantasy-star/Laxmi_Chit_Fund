@@ -89,5 +89,10 @@ else hard-codes those values.
 | `fplapi.py` | the FPL API client |
 | `config.py` | league settings you can edit |
 | `draws/` | locked mini-tournament group draws |
+| `snapshots/` | player-ownership snapshots near each deadline (Differential Diamond) |
+| `cache/` | finalized-gameweek data, so the engine never refetches old weeks |
 | `.github/workflows/update.yml` | the every-2-hours auto-updater |
 | `tests/` | offline tests for the scoring logic |
+
+The dashboard has a tab per prize, a proper overall table, tap-a-manager profile
+cards with rank/points charts, and a light/dark toggle (◑, top-right).
