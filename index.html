@@ -39,8 +39,7 @@ header{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);
   border:1px solid rgba(255,220,120,.5)}
 .mark{width:38px;height:44px;flex:0 0 auto;display:grid;place-items:center;filter:drop-shadow(0 3px 8px rgba(240,180,41,.28))}
 .brandtxt{line-height:1.2}
-.brandtxt .t{font-weight:820;font-size:16.5px;letter-spacing:-.2px}
-.brandtxt .t b{color:var(--gold);font-weight:inherit}
+.brandtxt .t{font-weight:820;font-size:16.5px;letter-spacing:-.2px;color:var(--gold)}
 .s5{font-size:10px;font-weight:900;color:#3a2600;background:linear-gradient(135deg,#ffe27a,var(--gold));
   padding:2px 7px;border-radius:7px;letter-spacing:.3px;box-shadow:0 1px 3px rgba(224,133,14,.4)}
 .brandtxt .s{color:var(--mut);font-size:11.5px;margin-top:1px}
@@ -52,12 +51,11 @@ header{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);
 /* nav */
 nav{position:sticky;top:60px;z-index:25;background:color-mix(in srgb,var(--pg) 88%,transparent);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.navin{max-width:1120px;margin:0 auto;padding:9px 12px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
-.navin::-webkit-scrollbar{display:none}
-.navin>button{background:var(--s2);border:1px solid var(--line);color:var(--ts);font:inherit;font-size:12.5px;
-  font-weight:650;padding:8px 13px;cursor:pointer;white-space:nowrap;border-radius:999px;
-  display:inline-flex;align-items:center;gap:7px;transition:all .14s}
-.navin>button .ni{font-size:13px;line-height:1}
+.navin{max-width:1120px;margin:0 auto;padding:10px 12px;display:flex;flex-wrap:wrap;gap:6px}
+.navin>button{background:var(--s2);border:1px solid var(--line);color:var(--ts);font:inherit;font-size:12px;
+  font-weight:650;padding:6px 11px;cursor:pointer;white-space:nowrap;border-radius:999px;
+  display:inline-flex;align-items:center;gap:6px;transition:all .14s}
+.navin>button .ni{font-size:11.5px;line-height:1}
 .navin>button:hover{background:var(--s3);color:var(--tp);border-color:var(--mut)}
 .navin>button.on{background:linear-gradient(135deg,#ffe27a,var(--gold));color:#3a2600;
   border-color:transparent;box-shadow:0 3px 12px rgba(224,133,14,.35);font-weight:750}
@@ -179,6 +177,17 @@ tr.you-row{box-shadow:inset 3px 0 0 var(--bl)}
 .legend .li{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--ts)}
 .legend .sw{width:11px;height:3px;border-radius:2px}
 svg{display:block;width:100%;height:auto;overflow:visible}
+/* profiles tab */
+.search{width:100%;max-width:380px;background:var(--s1);border:1px solid var(--line);border-radius:11px;
+  padding:10px 14px;color:var(--tp);font:inherit;font-size:13px;margin-bottom:14px;outline:none}
+.search:focus{border-color:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 20%,transparent)}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px}
+.pcard{display:flex;align-items:center;gap:11px;background:var(--s1);border:1px solid var(--line);
+  border-radius:13px;padding:12px 13px;cursor:pointer;transition:transform .12s,border-color .12s,background .12s}
+.pcard:hover{border-color:var(--mut);background:var(--s2);transform:translateY(-2px)}
+.pcard .pn{font-weight:650;font-size:13px}
+.pcard .pt{color:var(--mut);font-size:11.5px}
+.pcard .prk{margin-left:auto;color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums;font-size:14px}
 /* modal */
 .overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(3px);z-index:60;display:none;
   align-items:flex-start;justify-content:center;padding:30px 14px;overflow:auto}
@@ -212,21 +221,22 @@ svg{display:block;width:100%;height:auto;overflow:visible}
       <path d="M40 3 L74 15 V44 C74 66 58 80 40 87 C22 80 6 66 6 44 V15 Z" fill="url(#sg)" stroke="#f0b429" stroke-width="3.2"/>
       <path d="M40 10 L68 20 V44 C68 62 55 74 40 80 C25 74 12 62 12 44 V20 Z" fill="none" stroke="#f0b429" stroke-width="1" opacity=".35"/>
       <text x="40" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="25" fill="#f0b429">LCF</text></svg></div>
-    <div class="brandtxt"><div class="t">Laxmi <b>Chit Fund</b> <span class="s5">S5</span></div>
+    <div class="brandtxt"><div class="t">Laxmi Chit Fund <span class="s5">S5</span></div>
     <div class="s">FPL 2026/27 · cash league</div></div></div>
   <div class="hpills" id="pills"></div>
   <button class="iconbtn" id="theme" title="Toggle theme">◑</button>
 </div></header>
 <nav><div class="navin" id="nav">
   <button class="on" data-t="overall"><span class="ni">🏆</span>Overall</button>
-  <button data-t="mt"><span class="ni">⚔️</span>Mini-Tournaments</button>
-  <button data-t="cup"><span class="ni">🥇</span>FPL Cup</button>
-  <button data-t="chips"><span class="ni">🃏</span>Chip Kings</button>
-  <button data-t="cap"><span class="ni">🧢</span>Captaincy King</button>
-  <button data-t="arrows"><span class="ni">📈</span>Green Arrow King</button>
-  <button data-t="diamond"><span class="ni">💎</span>Differential Diamond</button>
-  <button data-t="comeback"><span class="ni">🔥</span>The Comeback</button>
-  <button data-t="pity"><span class="ni">💀</span>Pity the Living Dead</button>
+  <button data-t="mt"><span class="ni">⚔️</span>Tournaments</button>
+  <button data-t="cup"><span class="ni">🥇</span>Cup</button>
+  <button data-t="chips"><span class="ni">🃏</span>Chips</button>
+  <button data-t="cap"><span class="ni">🧢</span>Captaincy</button>
+  <button data-t="arrows"><span class="ni">📈</span>Green Arrows</button>
+  <button data-t="diamond"><span class="ni">💎</span>Differentials</button>
+  <button data-t="comeback"><span class="ni">🔥</span>Comeback</button>
+  <button data-t="pity"><span class="ni">💀</span>Pity</button>
+  <button data-t="profiles"><span class="ni">👤</span>Profiles</button>
 </div></nav>
 <main id="main"><div class="locked" style="margin-top:40px">Loading dashboard…</div></main>
 <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
@@ -301,11 +311,12 @@ function render(){
   $('#pills').innerHTML=`${m.started?`<span class="pill">GW <b>${m.gw}</b></span>`:'<span class="pill"><b>Pre-season</b></span>'}
     <span class="pill">Pot <b>${esc(m.pool)}</b></span><span class="pill"><b>${m.managers}</b> mgrs</span>`;
   const views={overall:vOverall(),mt:vMT(),cup:vCup(),chips:vChips(),
-    cap:vBoard('cap'),arrows:vBoard('arrows'),diamond:vDiamond(),comeback:vBoard('comeback'),pity:vPity()};
-  const order=['overall','mt','cup','chips','cap','arrows','diamond','comeback','pity'];
+    cap:vBoard('cap'),arrows:vBoard('arrows'),diamond:vDiamond(),comeback:vBoard('comeback'),
+    pity:vPity(),profiles:vProfiles()};
+  const order=['overall','mt','cup','chips','cap','arrows','diamond','comeback','pity','profiles'];
   const cur=$('.navin button.on')?.dataset.t||'overall';
   $('#main').innerHTML=order.map(id=>`<section id="${id}" class="${id===cur?'on':''}">${views[id]}</section>`).join('');
-  wireMT();wireRows();
+  wireMT();wireRows();wireProfiles();
 }
 
 function vOverall(){
@@ -460,6 +471,24 @@ function vPity(){
     <div><div class="lab">Lowest valid score</div><div class="who">${esc(p.team)}</div>
     <div class="meta">${esc(p.name)} · GW${p.gw} · hit taken ${p.hit} · pending admin validity check</div></div>
     <div class="score"><div class="n">${p.score}</div><div class="u">points</div></div></div>`;
+}
+
+function vProfiles(){
+  const S=DATA.standings;
+  const cards=S.map(r=>`<div class="pcard" data-pid="${r.id}">${mono(r.team,r.id)}
+    <div><div class="pn">${esc(r.name)}</div><div class="pt">${esc(r.team)}</div></div>
+    <div class="prk">${r.rank?'#'+r.rank:'–'}</div></div>`).join('');
+  return `<div class="awardhd"><h1>Manager Profiles</h1></div>
+    <p class="awarddesc">Every manager's season card — points, rank-over-time, captain returns, chips and past seasons. Tap a card to open.</p>
+    <input class="search" id="psearch" placeholder="Search manager or team…" autocomplete="off">
+    <div class="pgrid" id="pgrid">${cards}</div>`;
+}
+function wireProfiles(){
+  const grid=$('#pgrid');if(!grid)return;
+  grid.addEventListener('click',e=>{const c=e.target.closest('.pcard');if(c)openProfile(+c.dataset.pid);});
+  const s=$('#psearch');
+  if(s)s.addEventListener('input',()=>{const q=s.value.toLowerCase();
+    grid.querySelectorAll('.pcard').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});});
 }
 
 /* ---------- profile modal ---------- */
