@@ -292,13 +292,19 @@ function render(){
 function vOverall(){
   const m=DATA.meta,S=DATA.standings;
   if(!m.started){
+    const prerows=S.map((r,i)=>`<tr data-id="${r.id}" class="${r.id===m.my_id?'you-row':''}">
+      <td class="rkcell">${i+1}</td><td class="c"><span class="mv-eq">–</span></td>
+      <td><div class="mcell">${mono(r.team,r.id)}<div class="nm">${esc(r.name)}</div></div></td>
+      <td class="teamcell hide">${esc(r.team)}</td>
+      <td class="r gw">0</td><td class="r big">0</td><td class="r"></td></tr>`).join('');
     return `<div class="hero"><div class="cd2">First deadline</div>
       <div class="big2">${fmtDeadline(m.next_deadline)}</div>
-      <div class="sub">The table goes live the moment GW1 is scored. ${m.managers} of ${m.expected} managers joined.</div></div>
-      <h2>Managers</h2><div class="card"><table class="tbl"><tbody>
-      ${S.map(r=>`<tr data-id="${r.id}" class="${r.id===m.my_id?'you-row':''}"><td><div class="mcell">${mono(r.team,r.id)}
-        <div><div class="nm">${esc(r.team)}</div><div class="sub">${esc(r.name)}</div></div></div></td></tr>`).join('')}
-      </tbody></table></div>`;
+      <div class="sub">The table goes live the moment GW1 is scored. Everyone starts on 0 · ${m.managers} of ${m.expected} managers joined.</div></div>
+      <div class="card"><table class="tbl"><thead><tr>
+        <th class="rkcell">#</th><th class="c"></th><th>Manager</th><th class="hide">Team</th>
+        <th class="r">GW1</th><th class="r">Total</th><th class="r">Prize</th></tr></thead>
+        <tbody>${prerows}</tbody></table></div>
+      <div class="foot">Tap any manager for their profile · ranks, scores and ▲▼ movement fill in from GW1</div>`;
   }
   const max=Math.max(...S.map(r=>r.total||0))||1;
   const rows=S.map(r=>{
