@@ -47,11 +47,14 @@ def _save(path, obj):
 def gw_state(boot):
     events = boot["events"]
     finished = [e["id"] for e in events if e["finished"] and e["data_checked"]]
-    current = next((e["id"] for e in events if e["is_current"]), None)
+    cur_ev = next((e for e in events if e["is_current"]), None)
+    current = cur_ev["id"] if cur_ev else None
     nxt = next((e for e in events if e["is_next"]), None)
     last_finished = max(finished) if finished else 0
+    # "live" = the current GW has kicked off but isn't fully finalized yet
+    live = current if (cur_ev and not cur_ev.get("finished")) else None
     return {"finished": finished, "last_finished": last_finished,
-            "current": current, "next_id": nxt["id"] if nxt else None,
+            "current": current, "live": live, "next_id": nxt["id"] if nxt else None,
             "next_deadline": nxt["deadline_time"] if nxt else None,
             "started": last_finished > 0}
 
@@ -90,13 +93,14 @@ def gw_bundle(gw, entries, is_final):
             return {int(k): v for k, v in cached.items()}
     live = fplapi.event_live(gw) or {"elements": []}
     pts = {e["id"]: e["stats"]["total_points"] for e in live["elements"]}
+    mins = {e["id"]: e["stats"].get("minutes", 0) for e in live["elements"]}
     bundle = {}
     for entry_id, _, _ in entries:
         picks = fplapi.entry_picks(entry_id, gw)
         if not picks:
             continue
         cap = next((p for p in picks.get("picks", []) if p.get("is_captain")), None)
-        starters = [[p["element"], pts.get(p["element"], 0)]
+        starters = [[p["element"], pts.get(p["element"], 0), mins.get(p["element"], 0)]
                     for p in picks.get("picks", []) if p.get("multiplier", 0) > 0]
         bundle[entry_id] = {
             "cap_el": cap["element"] if cap else None,
@@ -303,7 +307,7 @@ def differential(managers, finished_gws, elements, bundles):
             mb = b.get(m["id"])
             if not mb:
                 continue
-            for el, p in mb["starters"]:
+            for el, p, *_ in mb["starters"]:
                 if own.get(el, 100) >= C.DIFFERENTIAL_OWNERSHIP_MAX:
                     continue
                 if best is None or p > best["haul"]:
@@ -311,6 +315,27 @@ def differential(managers, finished_gws, elements, bundles):
                             "player": web.get(el, "?"), "owned": own.get(el),
                             "haul": p, "gw": gw}
     return best
+
+
+# ---- captain of the week ----------------------------------------------------
+
+def captain_of_week(bundle, web):
+    """Most-selected captain in the latest GW + how it returned."""
+    if not bundle:
+        return None
+    counts, ptsmap, total = {}, {}, 0
+    for b in bundle.values():
+        el = b.get("cap_el")
+        if not el:
+            continue
+        counts[el] = counts.get(el, 0) + 1
+        ptsmap[el] = b.get("cap_pts", 0)
+        total += 1
+    if not counts:
+        return None
+    el = max(counts, key=counts.get)
+    return {"player": web.get(el, "?"), "count": counts[el],
+            "pts": ptsmap.get(el, 0), "total": total}
 
 
 # ---- main -------------------------------------------------------------------
@@ -367,19 +392,36 @@ def main():
             "comeback": (compute.comeback(managers, C.COMEBACK_SPLIT_GW, lg)[:12]
                          if lg > C.COMEBACK_SPLIT_GW else None),
         }
+        # Pity auto-flag: how many of that manager's starters didn't play (0 min)
+        p = side.get("pity")
+        if p and p.get("id") in bundles.get(p["gw"], {}):
+            starters = bundles[p["gw"]][p["id"]]["starters"]
+            p["blanks"] = sum(1 for s in starters if len(s) > 2 and s[2] == 0)
+            p["starters"] = len(starters)
+
+    cap_week = captain_of_week(bundles.get(lg, {}), web) if gws["started"] else None
 
     out = {
         "meta": {"league": C.LEAGUE_NAME, "season": C.SEASON, "pool": C.PRIZE_POOL,
                  "entry_fee": C.ENTRY_FEE, "managers": len(entries),
                  "expected": C.EXPECTED_MANAGERS, "my_id": C.MY_ENTRY_ID,
-                 "gw": lg, "next_gw": gws["next_id"],
+                 "gw": lg, "next_gw": gws["next_id"], "live": gws["live"],
                  "next_deadline": gws["next_deadline"], "started": gws["started"],
-                 "updated": os.environ.get("UPDATED_AT", "")},
+                 "captain_week": cap_week,
+                 "updated": os.environ.get("UPDATED_AT", ""),
+                 "updated_iso": os.environ.get("UPDATED_ISO", "")},
         "standings": standings_out,
         "mini_tournaments": mts,
         "side": side,
         "overall_prizes": C.OVERALL_PRIZES,
     }
+
+    # Fail-safe: never overwrite good data with an obviously-incomplete pull.
+    complete = len(entries) >= 1 and (
+        not gws["started"] or sum(1 for m in managers if m["total"]) >= len(managers) * 0.8)
+    if not complete:
+        print("WARNING: pull looks incomplete — keeping the previous data.json")
+        return
     with open(OUT, "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"wrote {OUT}")

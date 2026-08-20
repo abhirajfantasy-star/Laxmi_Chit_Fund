@@ -24,8 +24,42 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--pg);color:var(--tp);
   font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:14px;line-height:1.45;
-  -webkit-font-smoothing:antialiased}
+  -webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(1100px 460px at 80% -140px,rgba(240,180,41,.10),transparent 60%),
+    radial-gradient(900px 420px at 4% -90px,rgba(57,135,229,.08),transparent 60%);
+  background-attachment:fixed}
+[data-theme="light"] body{background-image:radial-gradient(1100px 460px at 80% -160px,rgba(240,180,41,.14),transparent 60%),
+    radial-gradient(900px 420px at 4% -90px,rgba(57,135,229,.10),transparent 60%)}
 .tnum{font-variant-numeric:tabular-nums}
+/* flair */
+.sh{display:flex;align-items:center;gap:9px;margin:22px 0 12px;font-weight:800;font-size:15px}
+.sh::before{content:"";width:4px;height:16px;border-radius:3px;background:linear-gradient(180deg,var(--gold),#d9820c)}
+.recap{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:13px}
+.rc{position:relative;background:linear-gradient(150deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:13px;padding:11px 14px;overflow:hidden}
+.rc::after{content:"";position:absolute;right:-30px;top:-30px;width:90px;height:90px;border-radius:50%;opacity:.14;filter:blur(6px)}
+.rc.w::after{background:var(--gold)}.rc.r::after{background:var(--good)}.rc.c::after{background:var(--bl)}.rc.k2::after{background:var(--violet)}
+.rc.k2 .pill{color:var(--violet)}
+.rc .lb{color:var(--ts);font-size:11.5px;font-weight:650;text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:7px}
+.rc .big{font-size:17px;font-weight:820;margin-top:5px;letter-spacing:-.3px}
+.rc .rcm{color:var(--mut);font-size:11.5px;margin-top:1px}
+.rctop{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.rc .pill{font-size:15px;font-weight:850;font-variant-numeric:tabular-nums;white-space:nowrap}
+.rstrip{display:flex;align-items:center;gap:12px;background:linear-gradient(150deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:13px;padding:9px 15px;flex-wrap:wrap;margin-bottom:16px}
+.ri{display:flex;align-items:center;gap:10px;min-width:0}
+.ri .ic{font-size:16px;line-height:1}
+.ri .rl{color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:.4px;font-weight:650}
+.ri .rv{font-weight:750;font-size:13.5px;margin-top:1px}
+.ri .rv .up{color:var(--good)}.ri .rv .dn{color:var(--bad)}.ri .rv .pt{color:var(--ts);font-weight:600}
+.rsep{width:1px;align-self:stretch;background:var(--line);margin:3px 2px}
+@media(max-width:640px){.rsep{display:none}.ri{flex:1 1 42%}}
+.rc.w .pill{color:var(--gold)}.rc.r .pill{color:var(--good)}.rc.c .pill{color:var(--bl)}
+.medal{width:27px;height:27px;border-radius:50%;display:inline-grid;place-items:center;font-weight:900;font-size:12.5px;color:#1a1400}
+.m1{background:linear-gradient(135deg,#ffe27a,#f0b429);box-shadow:0 0 12px rgba(240,180,41,.5)}
+.m2{background:linear-gradient(135deg,#eaeaf0,#b4b4bf);color:#2a2a30}
+.m3{background:linear-gradient(135deg,#eaa96a,#c17e3f);color:#2a1500}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;color:var(--good);background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.3);padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.4px}
+.livedot{width:7px;height:7px;border-radius:50%;background:var(--good);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.5)}70%{box-shadow:0 0 0 7px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}
 a{color:inherit}
 /* header */
 header{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);
@@ -73,11 +107,12 @@ h2:first-child{margin-top:2px}
 .prizetag{font-size:12px;font-weight:800;color:#1a1400;background:linear-gradient(135deg,var(--gold),#e0850e);padding:3px 10px;border-radius:20px}
 .awarddesc{color:var(--ts);font-size:13px;margin:0 0 16px;max-width:70ch}
 /* tiles */
-.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px}
-.tile{background:var(--s1);border:1px solid var(--line);border-radius:14px;padding:15px 16px}
-.tile .k{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
-.tile .v{font-size:26px;font-weight:820;margin-top:6px;letter-spacing:-.5px}
-.tile .d{color:var(--ts);font-size:12px;margin-top:3px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.tile{background:var(--s1);border:1px solid var(--line);border-radius:12px;padding:10px 14px;position:relative;overflow:hidden}
+.tile::before{content:"";position:absolute;left:0;top:0;height:2px;width:100%;background:linear-gradient(90deg,var(--gold),transparent)}
+.tile .k{color:var(--mut);font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.tile .v{font-size:20px;font-weight:820;margin-top:2px;letter-spacing:-.4px}
+.tile .d{color:var(--ts);font-size:11.5px;margin-top:0}
 /* table */
 .tbl{width:100%;border-collapse:collapse}
 .tbl th{text-align:left;color:var(--ts);font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;
@@ -193,6 +228,21 @@ svg{display:block;width:100%;height:auto;overflow:visible}
 .prow .k{color:var(--ts)}
 .prow .v{font-weight:780;font-variant-numeric:tabular-nums}
 .prow .v small{color:var(--mut);font-weight:600;margin-left:4px}
+.pn2{font-weight:650}
+/* head-to-head */
+.h2sel{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.h2sel .search{max-width:none;flex:1 1 240px;margin:0}
+.vs{color:var(--mut);font-weight:800;font-size:12px}
+.h2wrap{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center}
+.h2col{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center}
+.h2col .mono{width:44px;height:44px;font-size:16px;border-radius:12px;margin:0 auto 8px}
+.h2nm{font-weight:780;font-size:15px}
+.h2big{font-size:30px;font-weight:850;margin-top:12px}
+.h2stats{display:flex;flex-direction:column;gap:3px;margin-top:12px;color:var(--ts);font-size:12px}
+.h2mid{text-align:center;min-width:110px}
+.h2rec{font-size:24px;font-weight:850;font-variant-numeric:tabular-nums}.h2rec span{color:var(--mut);margin:0 3px;font-size:16px}
+.h2gap{margin-top:10px;font-size:13px;font-weight:700;color:var(--gold)}
+@media(max-width:640px){.h2wrap{grid-template-columns:1fr;gap:10px}.h2mid{order:3}}
 /* modal */
 .overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(3px);z-index:60;display:none;
   align-items:flex-start;justify-content:center;padding:30px 14px;overflow:auto}
@@ -241,7 +291,9 @@ svg{display:block;width:100%;height:auto;overflow:visible}
   <button data-t="diamond"><span class="ni">💎</span>Differentials</button>
   <button data-t="comeback"><span class="ni">🔥</span>Comeback</button>
   <button data-t="pity"><span class="ni">💀</span>Pity</button>
+  <button data-t="prizes"><span class="ni">💰</span>Prizes</button>
   <button data-t="profiles"><span class="ni">👤</span>Profiles</button>
+  <button data-t="h2h"><span class="ni">⚔️</span>H2H</button>
 </div></nav>
 <main id="main"><div class="locked" style="margin-top:40px">Loading dashboard…</div></main>
 <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
@@ -264,6 +316,8 @@ function fmtDeadline(iso){if(!iso)return"";const d=new Date(iso);
   return d.toLocaleString('en-IN',{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',timeZone:'Asia/Kolkata'})+" IST";}
 function move(rank,last){if(!last||!rank||last===0)return'<span class="mv-eq">–</span>';
   if(rank<last)return`<span class="mv-up">▲${last-rank}</span>`;if(rank>last)return`<span class="mv-dn">▼${rank-last}</span>`;return'<span class="mv-eq">–</span>';}
+function medalCell(n){return (n>=1&&n<=3)?`<td class="rkcell"><span class="medal m${n}">${n}</span></td>`:`<td class="rkcell">${n||''}</td>`;}
+function ordinal(n){if(!n)return'';const s=["th","st","nd","rd"],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0]);}
 
 /* ---------- charts ---------- */
 function fmtK(v){v=Math.round(v);const a=Math.abs(v);
@@ -313,15 +367,16 @@ function colChart(points,{W=680,H=170,pad=[14,10,26,34],marks={}}={}){
 function render(){
   const m=DATA.meta;
   BYID={};DATA.standings.forEach(s=>BYID[s.id]=s);
-  $('#pills').innerHTML=`${m.started?`<span class="pill">GW <b>${m.gw}</b></span>`:'<span class="pill"><b>Pre-season</b></span>'}
+  $('#pills').innerHTML=`${m.live?`<span class="live"><span class="livedot"></span>Live · GW${m.live}</span>`:''}${m.started?`<span class="pill">GW <b>${m.gw}</b></span>`:'<span class="pill"><b>Pre-season</b></span>'}
     <span class="pill">Pot <b>${esc(m.pool)}</b></span><span class="pill"><b>${m.managers}</b> mgrs</span>`;
   const views={overall:vOverall(),mt:vMT(),cup:vCup(),chips:vChips(),
     cap:vBoard('cap'),arrows:vBoard('arrows'),diamond:vDiamond(),comeback:vBoard('comeback'),
-    pity:vPity(),profiles:vProfiles()};
-  const order=['overall','mt','cup','chips','cap','arrows','diamond','comeback','pity','profiles'];
+    pity:vPity(),prizes:vPrizes(),profiles:vProfiles(),h2h:vH2H()};
+  const order=['overall','mt','cup','chips','cap','arrows','diamond','comeback','pity','prizes','profiles','h2h'];
   const cur=$('.navin button.on')?.dataset.t||'overall';
   $('#main').innerHTML=order.map(id=>`<section id="${id}" class="${id===cur?'on':''}">${views[id]}</section>`).join('');
-  wireMT();wireRows();wireProfiles();
+  wireMT();wireRows();wireProfiles();wireH2H();
+  $('#main').insertAdjacentHTML('beforeend',freshLine());
 }
 
 function vOverall(){
@@ -345,7 +400,7 @@ function vOverall(){
   const rows=S.map(r=>{
     const chips=(r.chips_used||[]).length?`<span class="chipdots">${r.chips_used.map(()=>'<span class="cd" style="background:var(--violet)"></span>').join('')}</span>`:'';
     return`<tr data-id="${r.id}" class="${r.rank<=5?'prizerow':''} ${r.id===m.my_id?'you-row':''}">
-      <td class="rkcell">${r.rank??''}</td><td class="c">${move(r.rank,r.last_rank)}</td>
+      ${medalCell(r.rank)}<td class="c">${move(r.rank,r.last_rank)}</td>
       <td><div class="mcell">${mono(r.team,r.id)}<div class="nm">${esc(r.name)} ${chips}</div></div></td>
       <td class="teamcell hide">${esc(r.team)}</td>
       <td class="r gw">${r.event_total??''}</td><td class="r big">${r.total??''}</td></tr>`;
@@ -359,17 +414,30 @@ function vOverall(){
       <div class="chartttl">Points progression — top ${topN.length}</div>
       <div class="sub">Cumulative total by gameweek</div>${lineChart(ds,{yLabel:'Total pts',pad:[16,20,28,40],endLabels:false})}
       <div class="legend">${legend}</div></div>`:'';
-  return`<div class="tiles" style="margin-bottom:16px">
+  const byEvt=[...S].sort((a,b)=>(b.event_total||0)-(a.event_total||0));
+  const gww=byEvt[0];
+  const movers=S.filter(r=>r.last_rank&&r.rank);
+  const riser=[...movers].sort((a,b)=>(b.last_rank-b.rank)-(a.last_rank-a.rank))[0];
+  const faller=[...movers].sort((a,b)=>(b.rank-b.last_rank)-(a.rank-a.last_rank))[0];
+  const rup=riser?riser.last_rank-riser.rank:0, rdn=faller?faller.rank-faller.last_rank:0;
+  const recap=`<div class="sh">This Gameweek</div><div class="recap" style="margin-bottom:16px">
+    <div class="rc w"><div class="rctop"><div class="lb"><span>🏅</span>GW${m.gw} Winner</div><div class="pill">${gww?.event_total??'–'}</div></div><div class="big">${esc(gww?.team||'–')}</div><div class="rcm">${esc(gww?.name||'')}</div></div>
+    <div class="rc r"><div class="rctop"><div class="lb"><span>🚀</span>Biggest Riser</div><div class="pill">${rup>0?'▲'+rup:'–'}</div></div><div class="big">${esc(riser?.team||'–')}</div><div class="rcm">${rup>0?'now '+ordinal(riser.rank):'no movement yet'}</div></div>
+    <div class="rc c"><div class="rctop"><div class="lb"><span>📉</span>Biggest Faller</div><div class="pill">${rdn>0?'▼'+rdn:'–'}</div></div><div class="big">${esc(faller?.team||'–')}</div><div class="rcm">${rdn>0?'now '+ordinal(faller.rank):'no movement yet'}</div></div>
+    ${m.captain_week?`<div class="rc k2"><div class="rctop"><div class="lb"><span>🧢</span>Captain of the Week</div><div class="pill">${m.captain_week.pts}</div></div><div class="big">${esc(m.captain_week.player)}</div><div class="rcm">picked by ${m.captain_week.count} of ${m.captain_week.total}</div></div>`:''}
+  </div>`;
+  return`${recap}<div class="sh">Standings</div><div class="tiles" style="margin-bottom:16px">
       <div class="tile"><div class="k">Leader</div><div class="v">${esc(S[0]?.team||'–')}</div><div class="d">${S[0]?.total??''} pts · ${esc(S[0]?.name||'')}</div></div>
       <div class="tile"><div class="k">Lead margin</div><div class="v">${gap}</div><div class="d">1st over 2nd</div></div>
       <div class="tile"><div class="k">Top GW${m.gw}</div><div class="v">${Math.max(...S.map(r=>r.event_total||0))}</div><div class="d">best this week</div></div>
       <div class="tile"><div class="k">Prize pool</div><div class="v">${esc(m.pool)}</div><div class="d">21 payouts</div></div>
-    </div>${chart}
+    </div>
     <div class="card"><table class="tbl"><thead><tr>
       <th class="rkcell">#</th><th class="c"></th><th>Manager</th><th class="hide">Team</th>
       <th class="r">GW${m.gw}</th><th class="r">Total</th></tr></thead>
       <tbody>${rows}</tbody></table></div>
-    <div class="foot">Tap any manager for their season profile · top 5 (gold) hold the overall-prize places · ● chips played</div>`;
+    <div class="foot" style="margin-top:12px">Tap any manager for their season profile · top 5 (gold) hold the overall-prize places · ● chips played</div>
+    ${chart?`<div class="sh">Season trend</div>${chart}`:''}`;
 }
 
 /* mini-tournaments */
@@ -451,7 +519,7 @@ function vBoard(k){
   const winner=`<div class="winner" style="margin-bottom:16px">${mono(lead.team,lead.id)}
     <div><div class="lab">Current leader</div><div class="who">${esc(lead.team)}</div><div class="meta">${esc(lead.name)}</div></div>
     <div class="score"><div class="n">${lead[cfg.val]}</div><div class="u">${cfg.unit}</div></div></div>`;
-  const rows=arr.map((o,i)=>`<tr data-id="${o.id}"><td class="rkcell">${i+1}</td>
+  const rows=arr.map((o,i)=>`<tr data-id="${o.id}">${medalCell(i+1)}
     <td><div class="mcell">${mono(o.team,o.id)}<div><div class="nm">${esc(o.team)}</div><div class="sub">${esc(o.name)}</div></div></div></td>
     <td class="r big">${o[cfg.val]} <span class="sub">${cfg.unit}</span></td></tr>`).join('');
   return head+winner+`<div class="card"><table class="tbl"><tbody>${rows}</tbody></table></div>`;
@@ -472,9 +540,10 @@ function vPity(){
   const head=`<div class="awardhd"><h1>Pity the Living Dead</h1><span class="prizetag">₹2,000</span></div>
     <p class="awarddesc">The lowest valid gameweek score of the season (up to GW30). A score only counts with a full valid XI, no worse than a −8 hit, from an active manager — final say with the admins.</p>`;
   if(!p)return head+`<div class="locked">No scores yet.</div>`;
+  const flag=(p.blanks!=null&&p.blanks>0)?` · ⚠ ${p.blanks}/${p.starters} starters didn't play`:'';
   return head+`<div class="winner">${mono(p.team,0)}
     <div><div class="lab">Lowest valid score</div><div class="who">${esc(p.team)}</div>
-    <div class="meta">${esc(p.name)} · GW${p.gw} · hit taken ${p.hit} · pending admin validity check</div></div>
+    <div class="meta">${esc(p.name)} · GW${p.gw} · hit taken ${p.hit}${flag} · pending admin validity check</div></div>
     <div class="score"><div class="n">${p.score}</div><div class="u">points</div></div></div>`;
 }
 
@@ -501,6 +570,71 @@ function wireProfiles(){
   const s=$('#psearch');
   if(s)s.addEventListener('input',()=>{const q=s.value.toLowerCase();
     grid.querySelectorAll('.pcard').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});});
+}
+
+/* ---------- prizes ---------- */
+function vPrizes(){
+  const S=DATA.standings, side=DATA.side||{}, mts=DATA.mini_tournaments||[];
+  const tbd='<span class="sub">TBD</span>';
+  const row=(cat,prize,leader)=>`<tr><td class="pn2">${cat}</td><td class="r pz">${prize}</td><td class="r">${leader}</td></tr>`;
+  let rows='';
+  [1,2,3,4,5].forEach(r=>{const m=S.find(x=>x.rank===r);rows+=row(`Overall — ${ordinal(r)}`,PRIZE[r],m?esc(m.team):tbd);});
+  mts.forEach(mt=>{const c=(mt.ko&&mt.ko.champion)?esc(mt.ko.champion):(mt.status==='live'?'<span class="sub">in progress</span>':'<span class="sub">not started</span>');rows+=row(`Mini-Tournament ${mt.id}`,'₹3,000',c);});
+  rows+=row('League Cup','₹4,000','<span class="sub">from ~GW17</span>');
+  rows+=row('The Comeback','₹4,000',(side.comeback&&side.comeback[0])?esc(side.comeback[0].team):'<span class="sub">from GW20</span>');
+  ["Triple Captain","Bench Boost","Wildcard","Free Hit"].forEach(k=>{const v=(side.chips||{})[k];rows+=row(`Chip King — ${k}`,'₹3,000',v?esc(v.team):'<span class="sub">not played</span>');});
+  rows+=row('Captaincy King','₹3,000',(side.captaincy&&side.captaincy[0])?esc(side.captaincy[0].team):tbd);
+  rows+=row('Green Arrow King','₹3,000',(side.arrows&&side.arrows[0])?esc(side.arrows[0].team):tbd);
+  rows+=row('Differential Diamond','₹3,000',side.diamond?esc(side.diamond.team):tbd);
+  rows+=row('Pity the Living Dead','₹2,000',side.pity?esc(side.pity.team):tbd);
+  return `<div class="awardhd"><h1>Prize Board</h1><span class="prizetag">₹1,24,000</span></div>
+    <p class="awarddesc">Every one of the 21 payouts and who's currently in line for it. Leaders update as the season runs; final settlement is after GW38.</p>
+    <div class="card"><table class="tbl"><thead><tr><th>Category</th><th class="r">Prize</th><th class="r">Current leader</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+/* ---------- head-to-head ---------- */
+function vH2H(){
+  const S=DATA.standings;
+  const opts=S.map(r=>`<option value="${r.id}">${esc(r.team)} — ${esc(r.name)}</option>`).join('');
+  return `<div class="awardhd"><h1>Head-to-Head</h1></div>
+    <p class="awarddesc">Compare any two managers gameweek by gameweek — who won more weeks, and the season gap.</p>
+    <div class="h2sel"><select id="h2a" class="search">${opts}</select><span class="vs">vs</span><select id="h2b" class="search">${opts}</select></div>
+    <div id="h2out"></div>`;
+}
+function wireH2H(){
+  const a=$('#h2a'),b=$('#h2b');if(!a||!b)return;
+  if(DATA.standings[1])b.value=DATA.standings[1].id;
+  const upd=()=>{$('#h2out').innerHTML=h2render(+a.value,+b.value);};
+  a.onchange=upd;b.onchange=upd;upd();
+}
+function h2render(ida,idb){
+  const A=BYID[ida],B=BYID[idb];
+  if(!A||!B)return'';
+  if(ida===idb)return'<div class="locked">Pick two different managers to compare.</div>';
+  const sa=A.series||[],sb=B.series||[];
+  const gwset=sa.map(x=>x.gw).filter(g=>sb.some(y=>y.gw===g));
+  let wa=0,wb=0,dr=0;
+  gwset.forEach(g=>{const na=sa.find(x=>x.gw===g).net,nb=sb.find(y=>y.gw===g).net;if(na>nb)wa++;else if(nb>na)wb++;else dr++;});
+  const bestA=sa.length?Math.max(...sa.map(x=>x.net)):'–',bestB=sb.length?Math.max(...sb.map(x=>x.net)):'–';
+  const col=(m,wins,best,side)=>`<div class="h2col ${side}">${mono(m.team,m.id)}
+    <div class="h2nm">${esc(m.team)}</div><div class="sub">${esc(m.name)}</div>
+    <div class="h2big">${m.total??'–'}</div><div class="sub">total pts</div>
+    <div class="h2stats"><span>#${m.rank??'–'} rank</span><span>${best} best GW</span><span>${wins} GW wins</span></div></div>`;
+  const gap=Math.abs((A.total||0)-(B.total||0));
+  return `<div class="h2wrap">${col(A,wa,bestA,'a')}
+    <div class="h2mid"><div class="h2rec">${wa}<span>–</span>${dr}<span>–</span>${wb}</div><div class="sub">W–D–L (by GW)</div>
+      <div class="h2gap">${gap} pt gap</div></div>
+    ${col(B,wb,bestB,'b')}</div>
+    <div class="foot" style="margin-top:14px">${gwset.length} gameweeks compared · net-of-hits scores</div>`;
+}
+
+function freshLine(){
+  const m=DATA.meta;let rel='';
+  if(m.updated_iso){const diff=(Date.now()-new Date(m.updated_iso).getTime())/60000;
+    rel=diff<1?'just now':diff<60?Math.round(diff)+'m ago':Math.round(diff/60)+'h ago';}
+  else if(m.updated)rel=m.updated;
+  const stale=m.started&&m.updated_iso&&(Date.now()-new Date(m.updated_iso).getTime())>3*3600*1000;
+  return `<div class="foot" style="margin-top:22px">${m.started?'Live data':'Pre-season'}${rel?' · updated '+rel:''} · auto-refreshes every few minutes${stale?' · <span style="color:var(--bad);font-weight:700">⚠ data looks stale</span>':''}</div>`;
 }
 
 /* ---------- profile modal ---------- */
@@ -558,10 +692,16 @@ $('#theme').addEventListener('click',()=>{
   const cur=document.documentElement.getAttribute('data-theme');
   document.documentElement.setAttribute('data-theme',cur==='dark'?'light':'dark');});
 
-fetch('data.json?_='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render();
-  const m=d.meta;$('#main').insertAdjacentHTML('beforeend',
-    `<div class="foot">${m.started?('Live data'+(m.updated?' · updated '+esc(m.updated):'')):'Pre-season'} · auto-updates via GitHub Actions</div>`);})
-  .catch(()=>{$('#main').innerHTML='<div class="locked" style="margin-top:40px">Could not load data.json yet. If you just set this up, the first update run will create it shortly.</div>';});
+function load(initial){
+  return fetch('data.json?_='+Date.now()).then(r=>r.json()).then(d=>{
+    const changed=!DATA||DATA.meta.updated_iso!==d.meta.updated_iso;
+    DATA=d;
+    if(initial||changed)render();
+  }).catch(()=>{if(initial)$('#main').innerHTML='<div class="locked" style="margin-top:40px">Could not load data.json yet. If you just set this up, the first update run will create it shortly.</div>';});
+}
+load(true);
+setInterval(()=>load(false),180000);               // re-pull every 3 minutes
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)load(false);});
 </script>
 </body>
 </html>

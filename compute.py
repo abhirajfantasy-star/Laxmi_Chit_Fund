@@ -223,8 +223,8 @@ def pity(managers, last_gw, max_hit):
             if not h:
                 continue
             auto_ok = h["hit"] <= max_hit
-            row = {"team": m["team"], "name": m["name"], "score": h["net"],
-                   "gw": gw, "hit": h["hit"], "auto_ok": auto_ok}
+            row = {"id": m["id"], "team": m["team"], "name": m["name"],
+                   "score": h["net"], "gw": gw, "hit": h["hit"], "auto_ok": auto_ok}
             if auto_ok and (cand is None or h["net"] < cand["score"]):
                 cand = row
     return cand
