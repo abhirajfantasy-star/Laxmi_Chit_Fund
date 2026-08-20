@@ -497,7 +497,7 @@ function vProfiles(){
 }
 function wireProfiles(){
   const grid=$('#pgrid');if(!grid)return;
-  grid.addEventListener('click',e=>{const c=e.target.closest('.pcard');if(c)openProfile(+c.dataset.pid);});
+  grid.addEventListener('click',e=>{const c=e.target.closest('.pcard');if(c)openProfile(+c.dataset.pid,true);});
   const s=$('#psearch');
   if(s)s.addEventListener('input',()=>{const q=s.value.toLowerCase();
     grid.querySelectorAll('.pcard').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});});
@@ -508,7 +508,7 @@ function wireRows(){
   document.querySelectorAll('.tbl tbody tr[data-id]').forEach(tr=>
     tr.addEventListener('click',()=>openProfile(+tr.dataset.id)));
 }
-function openProfile(id){
+function openProfile(id,full){
   const m=BYID[id];if(!m)return;const s=m.series||[];
   const nets=s.map(p=>p.net);
   const best=nets.length?Math.max(...nets):null, worst=nets.length?Math.min(...nets):null;
@@ -535,10 +535,11 @@ function openProfile(id){
     <div class="rankbadge"><div class="n">${m.rank?'#'+m.rank:'–'}</div><div class="u">${move(m.rank,m.last_rank)} in league</div></div>
     <button class="mclose" id="mclose">✕</button></div>
     <div class="mbody">
-      <div class="ministat">${st('Total',m.total)}${st('Best GW',best)}${st('Worst GW',worst)}${st('Avg',avg)}${st('Captain pts',captot||0)}${st('Green arrows',arrows)}</div>
+      <div class="ministat">${st('Total',m.total)}${st('Best GW',best)}${st('Worst GW',worst)}${st('Avg',avg)}${st('Captain pts',captot||0)}${st('Green arrows',arrows)}${full?st('FPL seasons',car.seasons)+st('Best-ever finish',bestFin)+st('Overall rank',rk(car.overall_rank)):''}</div>
       <div class="chartwrap" style="margin-bottom:14px"><div class="chartttl">Overall rank over time</div><div class="sub">Higher is better</div>${rankChart}</div>
       ${ptsChart?`<div class="chartwrap" style="margin-bottom:14px"><div class="chartttl">Gameweek points</div><div class="sub">Gold = a chip was played that week</div>${ptsChart}</div>`:''}
       <div class="chartttl" style="margin-bottom:4px">Chips used</div><div class="chiplist">${chips}</div>
+      ${full?pastTbl:''}
     </div>`;
   $('#overlay').classList.add('on');document.body.style.overflow='hidden';
   $('#mclose').onclick=closeProfile;
