@@ -32,24 +32,35 @@ header{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);
   background:color-mix(in srgb,var(--pg) 82%,transparent);border-bottom:1px solid var(--line)}
 .hin{max-width:1120px;margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:14px}
 .brand{display:flex;align-items:center;gap:11px}
-.crest{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--gold),#e0850e);
-  display:grid;place-items:center;font-weight:900;color:#1a1400;font-size:15px;box-shadow:var(--shadow)}
-.brandtxt{line-height:1.15}
-.brandtxt .t{font-weight:800;font-size:15.5px;letter-spacing:.2px}
-.brandtxt .s{color:var(--mut);font-size:11.5px}
+.crest{width:40px;height:40px;border-radius:12px;
+  background:radial-gradient(120% 120% at 30% 20%,#ffe27a,#f0b429 42%,#d9820c);
+  display:grid;place-items:center;font-weight:900;color:#5a3a00;font-size:20px;
+  box-shadow:0 5px 16px rgba(224,133,14,.42),inset 0 1px 0 rgba(255,255,255,.65),inset 0 -2px 4px rgba(150,80,0,.35);
+  border:1px solid rgba(255,220,120,.5)}
+.mark{width:38px;height:44px;flex:0 0 auto;display:grid;place-items:center;filter:drop-shadow(0 3px 8px rgba(240,180,41,.28))}
+.brandtxt{line-height:1.2}
+.brandtxt .t{font-weight:820;font-size:16.5px;letter-spacing:-.2px}
+.brandtxt .t b{color:var(--gold);font-weight:inherit}
+.s5{font-size:10px;font-weight:900;color:#3a2600;background:linear-gradient(135deg,#ffe27a,var(--gold));
+  padding:2px 7px;border-radius:7px;letter-spacing:.3px;box-shadow:0 1px 3px rgba(224,133,14,.4)}
+.brandtxt .s{color:var(--mut);font-size:11.5px;margin-top:1px}
 .hpills{margin-left:auto;display:flex;gap:7px;align-items:center;flex-wrap:wrap}
 .pill{background:var(--s2);border:1px solid var(--line);border-radius:9px;padding:6px 11px;font-size:12px;color:var(--ts);white-space:nowrap}
 .pill b{color:var(--tp)}
 .iconbtn{background:var(--s2);border:1px solid var(--line);border-radius:9px;width:34px;height:34px;cursor:pointer;color:var(--ts);font-size:15px;display:grid;place-items:center}
 .iconbtn:hover{color:var(--tp)}
 /* nav */
-nav{position:sticky;top:60px;z-index:25;background:var(--pg);border-bottom:1px solid var(--line)}
-.navin{max-width:1120px;margin:0 auto;padding:0 12px;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav{position:sticky;top:60px;z-index:25;background:color-mix(in srgb,var(--pg) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{max-width:1120px;margin:0 auto;padding:9px 12px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
 .navin::-webkit-scrollbar{display:none}
-.navin>button{background:none;border:none;color:var(--ts);font:inherit;font-size:13px;font-weight:600;
-  padding:12px 13px;cursor:pointer;white-space:nowrap;border-bottom:2.5px solid transparent;position:relative}
-.navin>button:hover{color:var(--tp)}
-.navin>button.on{color:var(--tp);border-bottom-color:var(--gold)}
+.navin>button{background:var(--s2);border:1px solid var(--line);color:var(--ts);font:inherit;font-size:12.5px;
+  font-weight:650;padding:8px 13px;cursor:pointer;white-space:nowrap;border-radius:999px;
+  display:inline-flex;align-items:center;gap:7px;transition:all .14s}
+.navin>button .ni{font-size:13px;line-height:1}
+.navin>button:hover{background:var(--s3);color:var(--tp);border-color:var(--mut)}
+.navin>button.on{background:linear-gradient(135deg,#ffe27a,var(--gold));color:#3a2600;
+  border-color:transparent;box-shadow:0 3px 12px rgba(224,133,14,.35);font-weight:750}
 main{max-width:1120px;margin:0 auto;padding:22px 16px 70px}
 section{display:none;animation:fade .25s ease}section.on{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1}}
@@ -71,8 +82,9 @@ h2:first-child{margin-top:2px}
 .tile .d{color:var(--ts);font-size:12px;margin-top:3px}
 /* table */
 .tbl{width:100%;border-collapse:collapse}
-.tbl th{text-align:left;color:var(--mut);font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;
-  padding:11px 12px;font-weight:700;border-bottom:1px solid var(--line);position:sticky;background:var(--s1)}
+.tbl th{text-align:left;color:var(--ts);font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;
+  padding:12px 12px;font-weight:750;border-bottom:1px solid var(--line);position:sticky;
+  background:var(--s2)}
 .tbl th.r{text-align:right}.tbl th.c{text-align:center}
 .tbl td{padding:10px 12px;border-bottom:1px solid var(--hair)}
 .tbl tr:last-child td{border-bottom:none}
@@ -193,21 +205,28 @@ svg{display:block;width:100%;height:auto;overflow:visible}
 </head>
 <body>
 <header><div class="hin">
-  <div class="brand"><div class="crest">L</div>
-    <div class="brandtxt"><div class="t">Laxmi Chit Fund</div><div class="s">Season 5 · FPL 2026/27</div></div></div>
+  <div class="brand">
+    <div class="mark"><svg width="34" height="40" viewBox="0 0 80 90" aria-label="Laxmi Chit Fund crest">
+      <defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1d212b"/><stop offset="1" stop-color="#101319"/></linearGradient></defs>
+      <path d="M40 3 L74 15 V44 C74 66 58 80 40 87 C22 80 6 66 6 44 V15 Z" fill="url(#sg)" stroke="#f0b429" stroke-width="3.2"/>
+      <path d="M40 10 L68 20 V44 C68 62 55 74 40 80 C25 74 12 62 12 44 V20 Z" fill="none" stroke="#f0b429" stroke-width="1" opacity=".35"/>
+      <text x="40" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="25" fill="#f0b429">LCF</text></svg></div>
+    <div class="brandtxt"><div class="t">Laxmi <b>Chit Fund</b> <span class="s5">S5</span></div>
+    <div class="s">FPL 2026/27 · cash league</div></div></div>
   <div class="hpills" id="pills"></div>
   <button class="iconbtn" id="theme" title="Toggle theme">◑</button>
 </div></header>
 <nav><div class="navin" id="nav">
-  <button class="on" data-t="overall">Overall</button>
-  <button data-t="mt">Mini-Tournaments</button>
-  <button data-t="cup">FPL Cup</button>
-  <button data-t="chips">Chip Kings</button>
-  <button data-t="cap">Captaincy King</button>
-  <button data-t="arrows">Green Arrow King</button>
-  <button data-t="diamond">Differential Diamond</button>
-  <button data-t="comeback">The Comeback</button>
-  <button data-t="pity">Pity the Living Dead</button>
+  <button class="on" data-t="overall"><span class="ni">🏆</span>Overall</button>
+  <button data-t="mt"><span class="ni">⚔️</span>Mini-Tournaments</button>
+  <button data-t="cup"><span class="ni">🥇</span>FPL Cup</button>
+  <button data-t="chips"><span class="ni">🃏</span>Chip Kings</button>
+  <button data-t="cap"><span class="ni">🧢</span>Captaincy King</button>
+  <button data-t="arrows"><span class="ni">📈</span>Green Arrow King</button>
+  <button data-t="diamond"><span class="ni">💎</span>Differential Diamond</button>
+  <button data-t="comeback"><span class="ni">🔥</span>The Comeback</button>
+  <button data-t="pity"><span class="ni">💀</span>Pity the Living Dead</button>
 </div></nav>
 <main id="main"><div class="locked" style="margin-top:40px">Loading dashboard…</div></main>
 <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
@@ -296,13 +315,13 @@ function vOverall(){
       <td class="rkcell">${i+1}</td><td class="c"><span class="mv-eq">–</span></td>
       <td><div class="mcell">${mono(r.team,r.id)}<div class="nm">${esc(r.name)}</div></div></td>
       <td class="teamcell hide">${esc(r.team)}</td>
-      <td class="r gw">0</td><td class="r big">0</td><td class="r"></td></tr>`).join('');
+      <td class="r gw">0</td><td class="r big">0</td></tr>`).join('');
     return `<div class="hero"><div class="cd2">First deadline</div>
       <div class="big2">${fmtDeadline(m.next_deadline)}</div>
       <div class="sub">The table goes live the moment GW1 is scored. Everyone starts on 0 · ${m.managers} of ${m.expected} managers joined.</div></div>
       <div class="card"><table class="tbl"><thead><tr>
         <th class="rkcell">#</th><th class="c"></th><th>Manager</th><th class="hide">Team</th>
-        <th class="r">GW1</th><th class="r">Total</th><th class="r">Prize</th></tr></thead>
+        <th class="r">GW1</th><th class="r">Total</th></tr></thead>
         <tbody>${prerows}</tbody></table></div>
       <div class="foot">Tap any manager for their profile · ranks, scores and ▲▼ movement fill in from GW1</div>`;
   }
@@ -313,8 +332,7 @@ function vOverall(){
       <td class="rkcell">${r.rank??''}</td><td class="c">${move(r.rank,r.last_rank)}</td>
       <td><div class="mcell">${mono(r.team,r.id)}<div class="nm">${esc(r.name)} ${chips}</div></div></td>
       <td class="teamcell hide">${esc(r.team)}</td>
-      <td class="r gw">${r.event_total??''}</td><td class="r big">${r.total??''}</td>
-      <td class="r"><span class="pz">${r.rank<=5?PRIZE[r.rank]:''}</span></td></tr>`;
+      <td class="r gw">${r.event_total??''}</td><td class="r big">${r.total??''}</td></tr>`;
   }).join('');
   const gap=(S[0]?.total||0)-(S[1]?.total||0);
   const topN=S.slice(0,6);
@@ -333,9 +351,9 @@ function vOverall(){
     </div>${chart}
     <div class="card"><table class="tbl"><thead><tr>
       <th class="rkcell">#</th><th class="c"></th><th>Manager</th><th class="hide">Team</th>
-      <th class="r">GW${m.gw}</th><th class="r">Total</th><th class="r">Prize</th></tr></thead>
+      <th class="r">GW${m.gw}</th><th class="r">Total</th></tr></thead>
       <tbody>${rows}</tbody></table></div>
-    <div class="foot">Tap any manager for their season profile · top 5 (gold) win the overall prizes at GW38 · ● chips played</div>`;
+    <div class="foot">Tap any manager for their season profile · top 5 (gold) hold the overall-prize places · ● chips played</div>`;
 }
 
 /* mini-tournaments */
@@ -464,15 +482,23 @@ function openProfile(id){
   const chipNames={"3xc":"Triple Captain","bboost":"Bench Boost","wildcard":"Wildcard","freehit":"Free Hit"};
   const chips=(m.chips_used||[]).map(c=>`<span class="chipbadge">${chipNames[c]||c}</span>`).join('')||'<span class="sub">none yet</span>';
   const st=(k,v)=>`<div class="ms"><div class="k">${k}</div><div class="v">${v??'–'}</div></div>`;
+  const car=m.career||{};
+  const rk=n=>n?('#'+Number(n).toLocaleString('en-US')):'–';
+  const bestFin=car.best_finish?`${rk(car.best_finish)}`:'–';
+  const past=(car.past||[]).slice().reverse();
+  const pastTbl=past.length?`<div class="chartttl" style="margin:16px 0 4px">Past seasons</div>
+    <div class="card"><table class="tbl"><thead><tr><th>Season</th><th class="r">Points</th><th class="r">Overall rank</th></tr></thead>
+    <tbody>${past.map(p=>`<tr style="cursor:default"><td>${esc(p.s)}</td><td class="r gw">${p.pts?.toLocaleString?.('en-US')??'–'}</td><td class="r">${rk(p.rank)}</td></tr>`).join('')}</tbody></table></div>`:'';
   $('#modal').innerHTML=`<div class="mhd">${mono(m.team,m.id)}
-    <div><div class="who">${esc(m.team)}</div><div class="meta">${esc(m.name)}${m.id===DATA.meta.my_id?' · you':''}</div></div>
+    <div><div class="who">${esc(m.team)}</div><div class="meta">${esc(m.name)}${m.id===DATA.meta.my_id?' · you':''}${car.region?' · '+esc(car.region):''}</div></div>
     <div class="rankbadge"><div class="n">${m.rank?'#'+m.rank:'–'}</div><div class="u">${move(m.rank,m.last_rank)} in league</div></div>
     <button class="mclose" id="mclose">✕</button></div>
     <div class="mbody">
-      <div class="ministat">${st('Total',m.total)}${st('Best GW',best)}${st('Worst GW',worst)}${st('Avg',avg)}${st('Captain pts',captot||0)}${st('Green arrows',arrows)}</div>
+      <div class="ministat">${st('Total',m.total)}${st('Best GW',best)}${st('Worst GW',worst)}${st('Avg',avg)}${st('Captain pts',captot||0)}${st('Green arrows',arrows)}${st('FPL seasons',car.seasons)}${st('Best-ever finish',bestFin)}${st('Overall rank',rk(car.overall_rank))}</div>
       <div class="chartwrap" style="margin-bottom:14px"><div class="chartttl">Overall rank over time</div><div class="sub">Higher is better</div>${rankChart}</div>
       ${ptsChart?`<div class="chartwrap" style="margin-bottom:14px"><div class="chartttl">Gameweek points</div><div class="sub">Gold = a chip was played that week</div>${ptsChart}</div>`:''}
       <div class="chartttl" style="margin-bottom:4px">Chips used</div><div class="chiplist">${chips}</div>
+      ${pastTbl}
     </div>`;
   $('#overlay').classList.add('on');document.body.style.overflow='hidden';
   $('#mclose').onclick=closeProfile;

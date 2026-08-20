@@ -116,6 +116,7 @@ def build_manager(entry_id, team, name):
            "total": None, "rank": None, "last_rank": None, "event_total": None,
            "history": {}, "captain": {}, "series": []}
     hist = fplapi.entry_history(entry_id)
+    past = []
     if hist:
         chips_by_gw = {c["event"]: c["name"] for c in hist.get("chips", [])}
         for h in hist.get("current", []):
@@ -129,6 +130,20 @@ def build_manager(entry_id, team, name):
                 "chip": chips_by_gw.get(gw)}
         if hist.get("current"):
             rec["total"] = hist["current"][-1]["total_points"]
+        past = hist.get("past", [])
+    # career context (seasons played, best-ever finish, current overall rank)
+    summ = fplapi.entry_summary(entry_id) or {}
+    best = min((p["rank"] for p in past if p.get("rank")), default=None)
+    rec["career"] = {
+        "seasons": summ.get("years_active"),
+        "best_finish": best,
+        "best_season": next((p["season_name"] for p in past
+                             if p.get("rank") == best), None) if best else None,
+        "overall_rank": summ.get("summary_overall_rank"),
+        "region": summ.get("player_region_name"),
+        "past": [{"s": p.get("season_name"), "pts": p.get("total_points"),
+                  "rank": p.get("rank")} for p in past],
+    }
     return rec
 
 
@@ -331,7 +346,7 @@ def main():
         "rank": m["rank"], "last_rank": m["last_rank"], "id": m["id"],
         "team": m["team"], "name": m["name"], "total": m["total"],
         "event_total": m["event_total"], "prize": C.OVERALL_PRIZES.get(m["rank"] or 0),
-        "series": m["series"],
+        "series": m["series"], "career": m.get("career", {}),
         "chips_used": sorted({h["chip"] for h in m["history"].values() if h.get("chip")}),
     } for m in standings]
 

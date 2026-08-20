@@ -78,8 +78,13 @@ def all_league_entries(league_id):
     return out
 
 
+def entry_summary(entry_id):
+    """Top-level manager profile: years_active, current overall rank, region."""
+    return get_json(f"entry/{entry_id}/")
+
+
 def entry_history(entry_id):
-    """Per-GW history + chips for a manager. None before they've played."""
+    """Per-GW history + chips + past seasons for a manager."""
     return get_json(f"entry/{entry_id}/history/")
 
 
