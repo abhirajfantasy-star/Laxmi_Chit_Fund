@@ -181,13 +181,18 @@ svg{display:block;width:100%;height:auto;overflow:visible}
 .search{width:100%;max-width:380px;background:var(--s1);border:1px solid var(--line);border-radius:11px;
   padding:10px 14px;color:var(--tp);font:inherit;font-size:13px;margin-bottom:14px;outline:none}
 .search:focus{border-color:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 20%,transparent)}
-.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px}
-.pcard{display:flex;align-items:center;gap:11px;background:var(--s1);border:1px solid var(--line);
-  border-radius:13px;padding:12px 13px;cursor:pointer;transition:transform .12s,border-color .12s,background .12s}
-.pcard:hover{border-color:var(--mut);background:var(--s2);transform:translateY(-2px)}
-.pcard .pn{font-weight:650;font-size:13px}
-.pcard .pt{color:var(--mut);font-size:11.5px}
-.pcard .prk{margin-left:auto;color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums;font-size:14px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.pcard{background:var(--s1);border:1px solid var(--line);border-top:3px solid var(--gold);
+  border-radius:14px;overflow:hidden;cursor:pointer;transition:transform .12s,border-color .12s,box-shadow .12s}
+.pcard:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.35);border-color:var(--mut);border-top-color:var(--gold)}
+.pchd{padding:15px 17px 13px}
+.pchd .pn{font-weight:780;font-size:16px;letter-spacing:-.2px}
+.pchd .pt{color:var(--mut);font-size:12.5px;margin-top:1px}
+.prow{display:flex;justify-content:space-between;align-items:center;padding:10px 17px;
+  border-top:1px dashed var(--line);font-size:12.5px}
+.prow .k{color:var(--ts)}
+.prow .v{font-weight:780;font-variant-numeric:tabular-nums}
+.prow .v small{color:var(--mut);font-weight:600;margin-left:4px}
 /* modal */
 .overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(3px);z-index:60;display:none;
   align-items:flex-start;justify-content:center;padding:30px 14px;overflow:auto}
@@ -475,11 +480,18 @@ function vPity(){
 
 function vProfiles(){
   const S=DATA.standings;
-  const cards=S.map(r=>`<div class="pcard" data-pid="${r.id}">${mono(r.team,r.id)}
-    <div><div class="pn">${esc(r.name)}</div><div class="pt">${esc(r.team)}</div></div>
-    <div class="prk">${r.rank?'#'+r.rank:'–'}</div></div>`).join('');
+  const rk=n=>n?Number(n).toLocaleString('en-US'):'–';
+  const cards=S.map(r=>{
+    const c=r.career||{}, past=c.past||[], last=past.length?past[past.length-1]:null;
+    return `<div class="pcard" data-pid="${r.id}">
+      <div class="pchd"><div class="pn">${esc(r.name)}</div><div class="pt">${esc(r.team)}</div></div>
+      <div class="prow"><span class="k">This season (league)</span><span class="v">${r.rank?'#'+r.rank:'–'}</span></div>
+      <div class="prow"><span class="k">Seasons played</span><span class="v">${c.seasons??'–'}</span></div>
+      <div class="prow"><span class="k">Best overall rank</span><span class="v">${rk(c.best_finish)}${c.best_season?` <small>(${esc(c.best_season)})</small>`:''}</span></div>
+      <div class="prow"><span class="k">Last season rank</span><span class="v">${last?rk(last.rank):'–'}</span></div>
+    </div>`;}).join('');
   return `<div class="awardhd"><h1>Manager Profiles</h1></div>
-    <p class="awarddesc">Every manager's season card — points, rank-over-time, captain returns, chips and past seasons. Tap a card to open.</p>
+    <p class="awarddesc">Career snapshot pulled from each manager's FPL history — seasons played, best overall rank, and last season's finish. Tap a card for the full season detail.</p>
     <input class="search" id="psearch" placeholder="Search manager or team…" autocomplete="off">
     <div class="pgrid" id="pgrid">${cards}</div>`;
 }
@@ -523,11 +535,10 @@ function openProfile(id){
     <div class="rankbadge"><div class="n">${m.rank?'#'+m.rank:'–'}</div><div class="u">${move(m.rank,m.last_rank)} in league</div></div>
     <button class="mclose" id="mclose">✕</button></div>
     <div class="mbody">
-      <div class="ministat">${st('Total',m.total)}${st('Best GW',best)}${st('Worst GW',worst)}${st('Avg',avg)}${st('Captain pts',captot||0)}${st('Green arrows',arrows)}${st('FPL seasons',car.seasons)}${st('Best-ever finish',bestFin)}${st('Overall rank',rk(car.overall_rank))}</div>
+      <div class="ministat">${st('Total',m.total)}${st('Best GW',best)}${st('Worst GW',worst)}${st('Avg',avg)}${st('Captain pts',captot||0)}${st('Green arrows',arrows)}</div>
       <div class="chartwrap" style="margin-bottom:14px"><div class="chartttl">Overall rank over time</div><div class="sub">Higher is better</div>${rankChart}</div>
       ${ptsChart?`<div class="chartwrap" style="margin-bottom:14px"><div class="chartttl">Gameweek points</div><div class="sub">Gold = a chip was played that week</div>${ptsChart}</div>`:''}
       <div class="chartttl" style="margin-bottom:4px">Chips used</div><div class="chiplist">${chips}</div>
-      ${pastTbl}
     </div>`;
   $('#overlay').classList.add('on');document.body.style.overflow='hidden';
   $('#mclose').onclick=closeProfile;
