@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-03T20:15:33Z"
+  "updated_iso": "2026-09-03T22:15:33Z"
  },
  "standings": [
   {
@@ -208,6 +208,100 @@
       "s": "2025/26",
       "pts": 2287,
       "rank": 240451
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost"
+   ]
+  },
+  {
+   "rank": 3,
+   "last_rank": 6,
+   "id": 20569,
+   "team": "Captn Magnifico",
+   "name": "Naman Agrawal",
+   "total": 177,
+   "event_total": 111,
+   "prize": "₹12,500",
+   "series": [
+    {
+     "gw": 1,
+     "net": 66,
+     "total": 66,
+     "orank": 893714,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 111,
+     "total": 177,
+     "orank": 255722,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 22
+    }
+   ],
+   "career": {
+    "seasons": 10,
+    "best_finish": 15136,
+    "best_season": "2021/22",
+    "overall_rank": 255722,
+    "region": "India",
+    "past": [
+     {
+      "s": "2016/17",
+      "pts": 1284,
+      "rank": 3979663
+     },
+     {
+      "s": "2017/18",
+      "pts": 1873,
+      "rank": 2234690
+     },
+     {
+      "s": "2018/19",
+      "pts": 1938,
+      "rank": 2639305
+     },
+     {
+      "s": "2019/20",
+      "pts": 2215,
+      "rank": 236838
+     },
+     {
+      "s": "2020/21",
+      "pts": 2463,
+      "rank": 22264
+     },
+     {
+      "s": "2021/22",
+      "pts": 2609,
+      "rank": 15136
+     },
+     {
+      "s": "2022/23",
+      "pts": 2458,
+      "rank": 329247
+     },
+     {
+      "s": "2023/24",
+      "pts": 2540,
+      "rank": 29202
+     },
+     {
+      "s": "2024/25",
+      "pts": 2447,
+      "rank": 306974
+     },
+     {
+      "s": "2025/26",
+      "pts": 2355,
+      "rank": 45077
      }
     ]
    },
@@ -411,100 +505,6 @@
       "s": "2025/26",
       "pts": 2287,
       "rank": 239490
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost"
-   ]
-  },
-  {
-   "rank": 3,
-   "last_rank": 6,
-   "id": 20569,
-   "team": "Captn Magnifico",
-   "name": "Naman Agrawal",
-   "total": 177,
-   "event_total": 111,
-   "prize": "₹12,500",
-   "series": [
-    {
-     "gw": 1,
-     "net": 66,
-     "total": 66,
-     "orank": 893714,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 111,
-     "total": 177,
-     "orank": 255722,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 22
-    }
-   ],
-   "career": {
-    "seasons": 10,
-    "best_finish": 15136,
-    "best_season": "2021/22",
-    "overall_rank": 255722,
-    "region": "India",
-    "past": [
-     {
-      "s": "2016/17",
-      "pts": 1284,
-      "rank": 3979663
-     },
-     {
-      "s": "2017/18",
-      "pts": 1873,
-      "rank": 2234690
-     },
-     {
-      "s": "2018/19",
-      "pts": 1938,
-      "rank": 2639305
-     },
-     {
-      "s": "2019/20",
-      "pts": 2215,
-      "rank": 236838
-     },
-     {
-      "s": "2020/21",
-      "pts": 2463,
-      "rank": 22264
-     },
-     {
-      "s": "2021/22",
-      "pts": 2609,
-      "rank": 15136
-     },
-     {
-      "s": "2022/23",
-      "pts": 2458,
-      "rank": 329247
-     },
-     {
-      "s": "2023/24",
-      "pts": 2540,
-      "rank": 29202
-     },
-     {
-      "s": "2024/25",
-      "pts": 2447,
-      "rank": 306974
-     },
-     {
-      "s": "2025/26",
-      "pts": 2355,
-      "rank": 45077
      }
     ]
    },
@@ -861,6 +861,95 @@
   },
   {
    "rank": 10,
+   "last_rank": 11,
+   "id": 374875,
+   "team": "Fluente in Football",
+   "name": "Yash Beohar",
+   "total": 168,
+   "event_total": 107,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 61,
+     "total": 61,
+     "orank": 1605173,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 107,
+     "total": 168,
+     "orank": 570762,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 17
+    }
+   ],
+   "career": {
+    "seasons": 10,
+    "best_finish": 30971,
+    "best_season": "2018/19",
+    "overall_rank": 570762,
+    "region": "India",
+    "past": [
+     {
+      "s": "2016/17",
+      "pts": 2212,
+      "rank": 56692
+     },
+     {
+      "s": "2017/18",
+      "pts": 1990,
+      "rank": 1261857
+     },
+     {
+      "s": "2018/19",
+      "pts": 2334,
+      "rank": 30971
+     },
+     {
+      "s": "2019/20",
+      "pts": 2136,
+      "rank": 644143
+     },
+     {
+      "s": "2020/21",
+      "pts": 2125,
+      "rank": 1484555
+     },
+     {
+      "s": "2021/22",
+      "pts": 2399,
+      "rank": 311695
+     },
+     {
+      "s": "2022/23",
+      "pts": 2331,
+      "rank": 1219740
+     },
+     {
+      "s": "2024/25",
+      "pts": 2238,
+      "rank": 2314112
+     },
+     {
+      "s": "2025/26",
+      "pts": 2347,
+      "rank": 58227
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost"
+   ]
+  },
+  {
+   "rank": 10,
    "last_rank": 19,
    "id": 4795345,
    "team": "Malisahi Randuas",
@@ -960,95 +1049,6 @@
     ]
    },
    "chips_used": []
-  },
-  {
-   "rank": 10,
-   "last_rank": 11,
-   "id": 374875,
-   "team": "Fluente in Football",
-   "name": "Yash Beohar",
-   "total": 168,
-   "event_total": 107,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 61,
-     "total": 61,
-     "orank": 1605173,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 107,
-     "total": 168,
-     "orank": 570762,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 17
-    }
-   ],
-   "career": {
-    "seasons": 10,
-    "best_finish": 30971,
-    "best_season": "2018/19",
-    "overall_rank": 570762,
-    "region": "India",
-    "past": [
-     {
-      "s": "2016/17",
-      "pts": 2212,
-      "rank": 56692
-     },
-     {
-      "s": "2017/18",
-      "pts": 1990,
-      "rank": 1261857
-     },
-     {
-      "s": "2018/19",
-      "pts": 2334,
-      "rank": 30971
-     },
-     {
-      "s": "2019/20",
-      "pts": 2136,
-      "rank": 644143
-     },
-     {
-      "s": "2020/21",
-      "pts": 2125,
-      "rank": 1484555
-     },
-     {
-      "s": "2021/22",
-      "pts": 2399,
-      "rank": 311695
-     },
-     {
-      "s": "2022/23",
-      "pts": 2331,
-      "rank": 1219740
-     },
-     {
-      "s": "2024/25",
-      "pts": 2238,
-      "rank": 2314112
-     },
-     {
-      "s": "2025/26",
-      "pts": 2347,
-      "rank": 58227
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost"
-   ]
   },
   {
    "rank": 12,
@@ -1568,73 +1568,6 @@
   },
   {
    "rank": 18,
-   "last_rank": 15,
-   "id": 5582398,
-   "team": "Southall United",
-   "name": "Rohan Agrawal",
-   "total": 155,
-   "event_total": 102,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 53,
-     "total": 53,
-     "orank": 3482299,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 3
-    },
-    {
-     "gw": 2,
-     "net": 102,
-     "total": 155,
-     "orank": 1534195,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 4
-    }
-   ],
-   "career": {
-    "seasons": 8,
-    "best_finish": 1320699,
-    "best_season": "2020/21",
-    "overall_rank": 1534195,
-    "region": "India",
-    "past": [
-     {
-      "s": "2018/19",
-      "pts": 2038,
-      "rank": 1443723
-     },
-     {
-      "s": "2019/20",
-      "pts": 1755,
-      "rank": 4772470
-     },
-     {
-      "s": "2020/21",
-      "pts": 2145,
-      "rank": 1320699
-     },
-     {
-      "s": "2022/23",
-      "pts": 2172,
-      "rank": 3054890
-     },
-     {
-      "s": "2024/25",
-      "pts": 2271,
-      "rank": 1861933
-     }
-    ]
-   },
-   "chips_used": []
-  },
-  {
-   "rank": 18,
    "last_rank": 12,
    "id": 3181909,
    "team": "Mishra's 13",
@@ -1710,6 +1643,73 @@
       "s": "2025/26",
       "pts": 2075,
       "rank": 2691725
+     }
+    ]
+   },
+   "chips_used": []
+  },
+  {
+   "rank": 18,
+   "last_rank": 15,
+   "id": 5582398,
+   "team": "Southall United",
+   "name": "Rohan Agrawal",
+   "total": 155,
+   "event_total": 102,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 53,
+     "total": 53,
+     "orank": 3482299,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 3
+    },
+    {
+     "gw": 2,
+     "net": 102,
+     "total": 155,
+     "orank": 1534195,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 4
+    }
+   ],
+   "career": {
+    "seasons": 8,
+    "best_finish": 1320699,
+    "best_season": "2020/21",
+    "overall_rank": 1534195,
+    "region": "India",
+    "past": [
+     {
+      "s": "2018/19",
+      "pts": 2038,
+      "rank": 1443723
+     },
+     {
+      "s": "2019/20",
+      "pts": 1755,
+      "rank": 4772470
+     },
+     {
+      "s": "2020/21",
+      "pts": 2145,
+      "rank": 1320699
+     },
+     {
+      "s": "2022/23",
+      "pts": 2172,
+      "rank": 3054890
+     },
+     {
+      "s": "2024/25",
+      "pts": 2271,
+      "rank": 1861933
      }
     ]
    },
@@ -3088,15 +3088,15 @@
     "pts": 50
    },
    {
-    "id": 4795345,
-    "team": "Malisahi Randuas",
-    "name": "Parakh Tripathy",
-    "pts": 50
-   },
-   {
     "id": 374875,
     "team": "Fluente in Football",
     "name": "Yash Beohar",
+    "pts": 50
+   },
+   {
+    "id": 4795345,
+    "team": "Malisahi Randuas",
+    "name": "Parakh Tripathy",
     "pts": 50
    },
    {
@@ -3256,8 +3256,8 @@
    "starters": 11
   },
   "diamond": {
-   "team": "KingOfKings Fc",
-   "name": "Abhiraj Singh",
+   "team": "Captn Magnifico",
+   "name": "Naman Agrawal",
    "player": "White",
    "owned": 7.3,
    "haul": 11,
