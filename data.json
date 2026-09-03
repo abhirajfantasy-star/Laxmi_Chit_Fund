@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-03T18:19:08Z"
+  "updated_iso": "2026-09-03T20:15:33Z"
  },
  "standings": [
   {
@@ -217,6 +217,115 @@
   },
   {
    "rank": 3,
+   "last_rank": 1,
+   "id": 5926399,
+   "team": "BattleBorn",
+   "name": "Aquib Razack",
+   "total": 177,
+   "event_total": 103,
+   "prize": "₹12,500",
+   "series": [
+    {
+     "gw": 1,
+     "net": 74,
+     "total": 74,
+     "orank": 279827,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 103,
+     "total": 177,
+     "orank": 255722,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 23
+    }
+   ],
+   "career": {
+    "seasons": 13,
+    "best_finish": 71857,
+    "best_season": "2020/21",
+    "overall_rank": 255722,
+    "region": "India",
+    "past": [
+     {
+      "s": "2012/13",
+      "pts": 248,
+      "rank": 2595509
+     },
+     {
+      "s": "2013/14",
+      "pts": 158,
+      "rank": 3199537
+     },
+     {
+      "s": "2014/15",
+      "pts": 1874,
+      "rank": 717909
+     },
+     {
+      "s": "2015/16",
+      "pts": 1788,
+      "rank": 1845961
+     },
+     {
+      "s": "2016/17",
+      "pts": 1633,
+      "rank": 2896780
+     },
+     {
+      "s": "2017/18",
+      "pts": 1910,
+      "rank": 1929447
+     },
+     {
+      "s": "2018/19",
+      "pts": 2106,
+      "rank": 794176
+     },
+     {
+      "s": "2020/21",
+      "pts": 2410,
+      "rank": 71857
+     },
+     {
+      "s": "2021/22",
+      "pts": 1981,
+      "rank": 2969974
+     },
+     {
+      "s": "2022/23",
+      "pts": 2238,
+      "rank": 2228040
+     },
+     {
+      "s": "2023/24",
+      "pts": 2483,
+      "rank": 105370
+     },
+     {
+      "s": "2024/25",
+      "pts": 2006,
+      "rank": 5429054
+     },
+     {
+      "s": "2025/26",
+      "pts": 2275,
+      "rank": 297407
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost"
+   ]
+  },
+  {
+   "rank": 3,
    "last_rank": 3,
    "id": 427154,
    "team": "KingOfKings Fc",
@@ -396,115 +505,6 @@
       "s": "2025/26",
       "pts": 2355,
       "rank": 45077
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost"
-   ]
-  },
-  {
-   "rank": 3,
-   "last_rank": 1,
-   "id": 5926399,
-   "team": "BattleBorn",
-   "name": "Aquib Razack",
-   "total": 177,
-   "event_total": 103,
-   "prize": "₹12,500",
-   "series": [
-    {
-     "gw": 1,
-     "net": 74,
-     "total": 74,
-     "orank": 279827,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 103,
-     "total": 177,
-     "orank": 255722,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 23
-    }
-   ],
-   "career": {
-    "seasons": 13,
-    "best_finish": 71857,
-    "best_season": "2020/21",
-    "overall_rank": 255722,
-    "region": "India",
-    "past": [
-     {
-      "s": "2012/13",
-      "pts": 248,
-      "rank": 2595509
-     },
-     {
-      "s": "2013/14",
-      "pts": 158,
-      "rank": 3199537
-     },
-     {
-      "s": "2014/15",
-      "pts": 1874,
-      "rank": 717909
-     },
-     {
-      "s": "2015/16",
-      "pts": 1788,
-      "rank": 1845961
-     },
-     {
-      "s": "2016/17",
-      "pts": 1633,
-      "rank": 2896780
-     },
-     {
-      "s": "2017/18",
-      "pts": 1910,
-      "rank": 1929447
-     },
-     {
-      "s": "2018/19",
-      "pts": 2106,
-      "rank": 794176
-     },
-     {
-      "s": "2020/21",
-      "pts": 2410,
-      "rank": 71857
-     },
-     {
-      "s": "2021/22",
-      "pts": 1981,
-      "rank": 2969974
-     },
-     {
-      "s": "2022/23",
-      "pts": 2238,
-      "rank": 2228040
-     },
-     {
-      "s": "2023/24",
-      "pts": 2483,
-      "rank": 105370
-     },
-     {
-      "s": "2024/25",
-      "pts": 2006,
-      "rank": 5429054
-     },
-     {
-      "s": "2025/26",
-      "pts": 2275,
-      "rank": 297407
      }
     ]
    },
