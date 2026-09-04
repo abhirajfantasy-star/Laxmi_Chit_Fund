@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-04T00:24:14Z"
+  "updated_iso": "2026-09-04T02:16:08Z"
  },
  "standings": [
   {
@@ -1568,73 +1568,6 @@
   },
   {
    "rank": 18,
-   "last_rank": 15,
-   "id": 5582398,
-   "team": "Southall United",
-   "name": "Rohan Agrawal",
-   "total": 155,
-   "event_total": 102,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 53,
-     "total": 53,
-     "orank": 3482299,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 3
-    },
-    {
-     "gw": 2,
-     "net": 102,
-     "total": 155,
-     "orank": 1534195,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 4
-    }
-   ],
-   "career": {
-    "seasons": 8,
-    "best_finish": 1320699,
-    "best_season": "2020/21",
-    "overall_rank": 1534195,
-    "region": "India",
-    "past": [
-     {
-      "s": "2018/19",
-      "pts": 2038,
-      "rank": 1443723
-     },
-     {
-      "s": "2019/20",
-      "pts": 1755,
-      "rank": 4772470
-     },
-     {
-      "s": "2020/21",
-      "pts": 2145,
-      "rank": 1320699
-     },
-     {
-      "s": "2022/23",
-      "pts": 2172,
-      "rank": 3054890
-     },
-     {
-      "s": "2024/25",
-      "pts": 2271,
-      "rank": 1861933
-     }
-    ]
-   },
-   "chips_used": []
-  },
-  {
-   "rank": 18,
    "last_rank": 12,
    "id": 3181909,
    "team": "Mishra's 13",
@@ -1710,6 +1643,73 @@
       "s": "2025/26",
       "pts": 2075,
       "rank": 2691725
+     }
+    ]
+   },
+   "chips_used": []
+  },
+  {
+   "rank": 18,
+   "last_rank": 15,
+   "id": 5582398,
+   "team": "Southall United",
+   "name": "Rohan Agrawal",
+   "total": 155,
+   "event_total": 102,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 53,
+     "total": 53,
+     "orank": 3482299,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 3
+    },
+    {
+     "gw": 2,
+     "net": 102,
+     "total": 155,
+     "orank": 1534195,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 4
+    }
+   ],
+   "career": {
+    "seasons": 8,
+    "best_finish": 1320699,
+    "best_season": "2020/21",
+    "overall_rank": 1534195,
+    "region": "India",
+    "past": [
+     {
+      "s": "2018/19",
+      "pts": 2038,
+      "rank": 1443723
+     },
+     {
+      "s": "2019/20",
+      "pts": 1755,
+      "rank": 4772470
+     },
+     {
+      "s": "2020/21",
+      "pts": 2145,
+      "rank": 1320699
+     },
+     {
+      "s": "2022/23",
+      "pts": 2172,
+      "rank": 3054890
+     },
+     {
+      "s": "2024/25",
+      "pts": 2271,
+      "rank": 1861933
      }
     ]
    },
