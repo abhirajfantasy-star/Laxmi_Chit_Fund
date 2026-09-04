@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-04T02:16:08Z"
+  "updated_iso": "2026-09-04T04:16:16Z"
  },
  "standings": [
   {
@@ -217,19 +217,19 @@
   },
   {
    "rank": 3,
-   "last_rank": 6,
-   "id": 20569,
-   "team": "Captn Magnifico",
-   "name": "Naman Agrawal",
+   "last_rank": 3,
+   "id": 427154,
+   "team": "KingOfKings Fc",
+   "name": "Abhiraj Singh",
    "total": 177,
-   "event_total": 111,
+   "event_total": 104,
    "prize": "₹12,500",
    "series": [
     {
      "gw": 1,
-     "net": 66,
-     "total": 66,
-     "orank": 893714,
+     "net": 73,
+     "total": 73,
+     "orank": 344108,
      "chip": "bboost",
      "cap_pts": 4,
      "cap": "B.Fernandes",
@@ -237,71 +237,71 @@
     },
     {
      "gw": 2,
-     "net": 111,
+     "net": 104,
      "total": 177,
      "orank": 255722,
      "chip": null,
      "cap_pts": 46,
      "cap": "B.Fernandes",
-     "bench": 22
+     "bench": 11
     }
    ],
    "career": {
-    "seasons": 10,
-    "best_finish": 15136,
+    "seasons": 12,
+    "best_finish": 28582,
     "best_season": "2021/22",
     "overall_rank": 255722,
     "region": "India",
     "past": [
      {
+      "s": "2014/15",
+      "pts": 1697,
+      "rank": 1638621
+     },
+     {
+      "s": "2015/16",
+      "pts": 1283,
+      "rank": 3422233
+     },
+     {
       "s": "2016/17",
-      "pts": 1284,
-      "rank": 3979663
+      "pts": 1923,
+      "rank": 1025504
      },
      {
       "s": "2017/18",
-      "pts": 1873,
-      "rank": 2234690
+      "pts": 2161,
+      "rank": 230034
      },
      {
       "s": "2018/19",
-      "pts": 1938,
-      "rank": 2639305
+      "pts": 2230,
+      "rank": 179752
      },
      {
       "s": "2019/20",
-      "pts": 2215,
-      "rank": 236838
+      "pts": 2152,
+      "rank": 539134
      },
      {
       "s": "2020/21",
-      "pts": 2463,
-      "rank": 22264
+      "pts": 2271,
+      "rank": 494654
      },
      {
       "s": "2021/22",
-      "pts": 2609,
-      "rank": 15136
-     },
-     {
-      "s": "2022/23",
-      "pts": 2458,
-      "rank": 329247
-     },
-     {
-      "s": "2023/24",
-      "pts": 2540,
-      "rank": 29202
+      "pts": 2580,
+      "rank": 28582
      },
      {
       "s": "2024/25",
-      "pts": 2447,
-      "rank": 306974
+      "pts": 2346,
+      "rank": 1015877
      },
      {
       "s": "2025/26",
-      "pts": 2355,
-      "rank": 45077
+      "pts": 2287,
+      "rank": 239490
      }
     ]
    },
@@ -420,19 +420,19 @@
   },
   {
    "rank": 3,
-   "last_rank": 3,
-   "id": 427154,
-   "team": "KingOfKings Fc",
-   "name": "Abhiraj Singh",
+   "last_rank": 6,
+   "id": 20569,
+   "team": "Captn Magnifico",
+   "name": "Naman Agrawal",
    "total": 177,
-   "event_total": 104,
+   "event_total": 111,
    "prize": "₹12,500",
    "series": [
     {
      "gw": 1,
-     "net": 73,
-     "total": 73,
-     "orank": 344108,
+     "net": 66,
+     "total": 66,
+     "orank": 893714,
      "chip": "bboost",
      "cap_pts": 4,
      "cap": "B.Fernandes",
@@ -440,71 +440,71 @@
     },
     {
      "gw": 2,
-     "net": 104,
+     "net": 111,
      "total": 177,
      "orank": 255722,
      "chip": null,
      "cap_pts": 46,
      "cap": "B.Fernandes",
-     "bench": 11
+     "bench": 22
     }
    ],
    "career": {
-    "seasons": 12,
-    "best_finish": 28582,
+    "seasons": 10,
+    "best_finish": 15136,
     "best_season": "2021/22",
     "overall_rank": 255722,
     "region": "India",
     "past": [
      {
-      "s": "2014/15",
-      "pts": 1697,
-      "rank": 1638621
-     },
-     {
-      "s": "2015/16",
-      "pts": 1283,
-      "rank": 3422233
-     },
-     {
       "s": "2016/17",
-      "pts": 1923,
-      "rank": 1025504
+      "pts": 1284,
+      "rank": 3979663
      },
      {
       "s": "2017/18",
-      "pts": 2161,
-      "rank": 230034
+      "pts": 1873,
+      "rank": 2234690
      },
      {
       "s": "2018/19",
-      "pts": 2230,
-      "rank": 179752
+      "pts": 1938,
+      "rank": 2639305
      },
      {
       "s": "2019/20",
-      "pts": 2152,
-      "rank": 539134
+      "pts": 2215,
+      "rank": 236838
      },
      {
       "s": "2020/21",
-      "pts": 2271,
-      "rank": 494654
+      "pts": 2463,
+      "rank": 22264
      },
      {
       "s": "2021/22",
-      "pts": 2580,
-      "rank": 28582
+      "pts": 2609,
+      "rank": 15136
+     },
+     {
+      "s": "2022/23",
+      "pts": 2458,
+      "rank": 329247
+     },
+     {
+      "s": "2023/24",
+      "pts": 2540,
+      "rank": 29202
      },
      {
       "s": "2024/25",
-      "pts": 2346,
-      "rank": 1015877
+      "pts": 2447,
+      "rank": 306974
      },
      {
       "s": "2025/26",
-      "pts": 2287,
-      "rank": 239490
+      "pts": 2355,
+      "rank": 45077
      }
     ]
    },
@@ -3256,8 +3256,8 @@
    "starters": 11
   },
   "diamond": {
-   "team": "Captn Magnifico",
-   "name": "Naman Agrawal",
+   "team": "KingOfKings Fc",
+   "name": "Abhiraj Singh",
    "player": "White",
    "owned": 7.2,
    "haul": 11,
