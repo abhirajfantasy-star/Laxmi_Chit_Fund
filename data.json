@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-04T04:16:16Z"
+  "updated_iso": "2026-09-04T06:20:48Z"
  },
  "standings": [
   {
@@ -861,95 +861,6 @@
   },
   {
    "rank": 10,
-   "last_rank": 11,
-   "id": 374875,
-   "team": "Fluente in Football",
-   "name": "Yash Beohar",
-   "total": 168,
-   "event_total": 107,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 61,
-     "total": 61,
-     "orank": 1605173,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 107,
-     "total": 168,
-     "orank": 570762,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 17
-    }
-   ],
-   "career": {
-    "seasons": 10,
-    "best_finish": 30971,
-    "best_season": "2018/19",
-    "overall_rank": 570762,
-    "region": "India",
-    "past": [
-     {
-      "s": "2016/17",
-      "pts": 2212,
-      "rank": 56692
-     },
-     {
-      "s": "2017/18",
-      "pts": 1990,
-      "rank": 1261857
-     },
-     {
-      "s": "2018/19",
-      "pts": 2334,
-      "rank": 30971
-     },
-     {
-      "s": "2019/20",
-      "pts": 2136,
-      "rank": 644143
-     },
-     {
-      "s": "2020/21",
-      "pts": 2125,
-      "rank": 1484555
-     },
-     {
-      "s": "2021/22",
-      "pts": 2399,
-      "rank": 311695
-     },
-     {
-      "s": "2022/23",
-      "pts": 2331,
-      "rank": 1219740
-     },
-     {
-      "s": "2024/25",
-      "pts": 2238,
-      "rank": 2314112
-     },
-     {
-      "s": "2025/26",
-      "pts": 2347,
-      "rank": 58227
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost"
-   ]
-  },
-  {
-   "rank": 10,
    "last_rank": 19,
    "id": 4795345,
    "team": "Malisahi Randuas",
@@ -1049,6 +960,95 @@
     ]
    },
    "chips_used": []
+  },
+  {
+   "rank": 10,
+   "last_rank": 11,
+   "id": 374875,
+   "team": "Fluente in Football",
+   "name": "Yash Beohar",
+   "total": 168,
+   "event_total": 107,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 61,
+     "total": 61,
+     "orank": 1605173,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 107,
+     "total": 168,
+     "orank": 570762,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 17
+    }
+   ],
+   "career": {
+    "seasons": 10,
+    "best_finish": 30971,
+    "best_season": "2018/19",
+    "overall_rank": 570762,
+    "region": "India",
+    "past": [
+     {
+      "s": "2016/17",
+      "pts": 2212,
+      "rank": 56692
+     },
+     {
+      "s": "2017/18",
+      "pts": 1990,
+      "rank": 1261857
+     },
+     {
+      "s": "2018/19",
+      "pts": 2334,
+      "rank": 30971
+     },
+     {
+      "s": "2019/20",
+      "pts": 2136,
+      "rank": 644143
+     },
+     {
+      "s": "2020/21",
+      "pts": 2125,
+      "rank": 1484555
+     },
+     {
+      "s": "2021/22",
+      "pts": 2399,
+      "rank": 311695
+     },
+     {
+      "s": "2022/23",
+      "pts": 2331,
+      "rank": 1219740
+     },
+     {
+      "s": "2024/25",
+      "pts": 2238,
+      "rank": 2314112
+     },
+     {
+      "s": "2025/26",
+      "pts": 2347,
+      "rank": 58227
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost"
+   ]
   },
   {
    "rank": 12,
@@ -3088,15 +3088,15 @@
     "pts": 50
    },
    {
-    "id": 374875,
-    "team": "Fluente in Football",
-    "name": "Yash Beohar",
-    "pts": 50
-   },
-   {
     "id": 4795345,
     "team": "Malisahi Randuas",
     "name": "Parakh Tripathy",
+    "pts": 50
+   },
+   {
+    "id": 374875,
+    "team": "Fluente in Football",
+    "name": "Yash Beohar",
     "pts": 50
    },
    {
