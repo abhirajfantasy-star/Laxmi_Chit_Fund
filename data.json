@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-05T04:15:43Z"
+  "updated_iso": "2026-09-05T06:19:29Z"
  },
  "standings": [
   {
@@ -363,6 +363,111 @@
   {
    "rank": 4,
    "last_rank": 3,
+   "id": 427154,
+   "team": "KingOfKings Fc",
+   "name": "Abhiraj Singh",
+   "total": 180,
+   "event_total": 3,
+   "prize": "₹7,500",
+   "series": [
+    {
+     "gw": 1,
+     "net": 73,
+     "total": 73,
+     "orank": 344108,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 104,
+     "total": 177,
+     "orank": 255722,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 11
+    },
+    {
+     "gw": 3,
+     "net": 3,
+     "total": 180,
+     "orank": 380620,
+     "chip": "wildcard",
+     "cap_pts": 0,
+     "cap": "Haaland",
+     "bench": 0
+    }
+   ],
+   "career": {
+    "seasons": 12,
+    "best_finish": 28582,
+    "best_season": "2021/22",
+    "overall_rank": 380850,
+    "region": "India",
+    "past": [
+     {
+      "s": "2014/15",
+      "pts": 1697,
+      "rank": 1638621
+     },
+     {
+      "s": "2015/16",
+      "pts": 1283,
+      "rank": 3422233
+     },
+     {
+      "s": "2016/17",
+      "pts": 1923,
+      "rank": 1025504
+     },
+     {
+      "s": "2017/18",
+      "pts": 2161,
+      "rank": 230034
+     },
+     {
+      "s": "2018/19",
+      "pts": 2230,
+      "rank": 179752
+     },
+     {
+      "s": "2019/20",
+      "pts": 2152,
+      "rank": 539134
+     },
+     {
+      "s": "2020/21",
+      "pts": 2271,
+      "rank": 494654
+     },
+     {
+      "s": "2021/22",
+      "pts": 2580,
+      "rank": 28582
+     },
+     {
+      "s": "2024/25",
+      "pts": 2346,
+      "rank": 1015877
+     },
+     {
+      "s": "2025/26",
+      "pts": 2287,
+      "rank": 239490
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 4,
+   "last_rank": 3,
    "id": 5926399,
    "team": "BattleBorn",
    "name": "Aquib Razack",
@@ -472,111 +577,6 @@
       "s": "2025/26",
       "pts": 2275,
       "rank": 297407
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 4,
-   "last_rank": 3,
-   "id": 427154,
-   "team": "KingOfKings Fc",
-   "name": "Abhiraj Singh",
-   "total": 180,
-   "event_total": 3,
-   "prize": "₹7,500",
-   "series": [
-    {
-     "gw": 1,
-     "net": 73,
-     "total": 73,
-     "orank": 344108,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 104,
-     "total": 177,
-     "orank": 255722,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 11
-    },
-    {
-     "gw": 3,
-     "net": 3,
-     "total": 180,
-     "orank": 380620,
-     "chip": "wildcard",
-     "cap_pts": 0,
-     "cap": "Haaland",
-     "bench": 0
-    }
-   ],
-   "career": {
-    "seasons": 12,
-    "best_finish": 28582,
-    "best_season": "2021/22",
-    "overall_rank": 380850,
-    "region": "India",
-    "past": [
-     {
-      "s": "2014/15",
-      "pts": 1697,
-      "rank": 1638621
-     },
-     {
-      "s": "2015/16",
-      "pts": 1283,
-      "rank": 3422233
-     },
-     {
-      "s": "2016/17",
-      "pts": 1923,
-      "rank": 1025504
-     },
-     {
-      "s": "2017/18",
-      "pts": 2161,
-      "rank": 230034
-     },
-     {
-      "s": "2018/19",
-      "pts": 2230,
-      "rank": 179752
-     },
-     {
-      "s": "2019/20",
-      "pts": 2152,
-      "rank": 539134
-     },
-     {
-      "s": "2020/21",
-      "pts": 2271,
-      "rank": 494654
-     },
-     {
-      "s": "2021/22",
-      "pts": 2580,
-      "rank": 28582
-     },
-     {
-      "s": "2024/25",
-      "pts": 2346,
-      "rank": 1015877
-     },
-     {
-      "s": "2025/26",
-      "pts": 2287,
-      "rank": 239490
      }
     ]
    },
@@ -2089,7 +2089,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 3018840,
+    "overall_rank": 3018841,
     "region": "India",
     "past": [
      {
@@ -2178,7 +2178,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 3218198,
+    "overall_rank": 3218199,
     "region": "India",
     "past": [
      {
@@ -2297,7 +2297,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 3761804,
+    "overall_rank": 3761805,
     "region": "India",
     "past": [
      {
@@ -2406,7 +2406,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 4156392,
+    "overall_rank": 4156393,
     "region": "India",
     "past": [
      {
@@ -2423,91 +2423,6 @@
    },
    "chips_used": [
     "3xc"
-   ]
-  },
-  {
-   "rank": 25,
-   "last_rank": 25,
-   "id": 4837220,
-   "team": "FC Teetotallers",
-   "name": "Rajit Das",
-   "total": 135,
-   "event_total": 0,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 46,
-     "total": 46,
-     "orank": 5572584,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 89,
-     "total": 135,
-     "orank": 3976662,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 3,
-     "net": 0,
-     "total": 135,
-     "orank": 4795255,
-     "chip": "3xc",
-     "cap_pts": 0,
-     "cap": "Haaland",
-     "bench": 0
-    }
-   ],
-   "career": {
-    "seasons": 6,
-    "best_finish": 1615102,
-    "best_season": "2024/25",
-    "overall_rank": 4797209,
-    "region": "India",
-    "past": [
-     {
-      "s": "2020/21",
-      "pts": 1965,
-      "rank": 2955183
-     },
-     {
-      "s": "2021/22",
-      "pts": 1969,
-      "rank": 3085546
-     },
-     {
-      "s": "2022/23",
-      "pts": 1795,
-      "rank": 7584452
-     },
-     {
-      "s": "2023/24",
-      "pts": 2058,
-      "rank": 4074975
-     },
-     {
-      "s": "2024/25",
-      "pts": 2291,
-      "rank": 1615102
-     },
-     {
-      "s": "2025/26",
-      "pts": 1890,
-      "rank": 6092784
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "bboost"
    ]
   },
   {
@@ -2617,6 +2532,91 @@
    },
    "chips_used": [
     "3xc"
+   ]
+  },
+  {
+   "rank": 25,
+   "last_rank": 25,
+   "id": 4837220,
+   "team": "FC Teetotallers",
+   "name": "Rajit Das",
+   "total": 135,
+   "event_total": 0,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 46,
+     "total": 46,
+     "orank": 5572584,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 89,
+     "total": 135,
+     "orank": 3976662,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 3,
+     "net": 0,
+     "total": 135,
+     "orank": 4795255,
+     "chip": "3xc",
+     "cap_pts": 0,
+     "cap": "Haaland",
+     "bench": 0
+    }
+   ],
+   "career": {
+    "seasons": 6,
+    "best_finish": 1615102,
+    "best_season": "2024/25",
+    "overall_rank": 4797209,
+    "region": "India",
+    "past": [
+     {
+      "s": "2020/21",
+      "pts": 1965,
+      "rank": 2955183
+     },
+     {
+      "s": "2021/22",
+      "pts": 1969,
+      "rank": 3085546
+     },
+     {
+      "s": "2022/23",
+      "pts": 1795,
+      "rank": 7584452
+     },
+     {
+      "s": "2023/24",
+      "pts": 2058,
+      "rank": 4074975
+     },
+     {
+      "s": "2024/25",
+      "pts": 2291,
+      "rank": 1615102
+     },
+     {
+      "s": "2025/26",
+      "pts": 1890,
+      "rank": 6092784
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "bboost"
    ]
   },
   {
@@ -2838,7 +2838,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6491737,
+    "overall_rank": 6491736,
     "region": "England",
     "past": [
      {
@@ -2910,7 +2910,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 8448494,
+    "overall_rank": 8448491,
     "region": "India",
     "past": [
      {
@@ -2969,7 +2969,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8733786,
+    "overall_rank": 8733782,
     "region": "USA",
     "past": []
    },
