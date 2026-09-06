@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-06T06:19:58Z"
+  "updated_iso": "2026-09-06T08:17:28Z"
  },
  "standings": [
   {
@@ -547,6 +547,100 @@
   },
   {
    "rank": 6,
+   "last_rank": 8,
+   "id": 1362641,
+   "team": "Carrick Janta Party",
+   "name": "Pranshul Jain",
+   "total": 213,
+   "event_total": 42,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 53,
+     "total": 53,
+     "orank": 3482299,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 8
+    },
+    {
+     "gw": 2,
+     "net": 118,
+     "total": 171,
+     "orank": 442465,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 3
+    },
+    {
+     "gw": 3,
+     "net": 41,
+     "total": 212,
+     "orank": 481069,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 4
+    }
+   ],
+   "career": {
+    "seasons": 9,
+    "best_finish": 182900,
+    "best_season": "2025/26",
+    "overall_rank": 449770,
+    "region": "India",
+    "past": [
+     {
+      "s": "2017/18",
+      "pts": 2009,
+      "rank": 1103808
+     },
+     {
+      "s": "2019/20",
+      "pts": 2164,
+      "rank": 470042
+     },
+     {
+      "s": "2020/21",
+      "pts": 2172,
+      "rank": 1108467
+     },
+     {
+      "s": "2021/22",
+      "pts": 1852,
+      "rank": 4263681
+     },
+     {
+      "s": "2022/23",
+      "pts": 2397,
+      "rank": 672575
+     },
+     {
+      "s": "2023/24",
+      "pts": 1836,
+      "rank": 6778662
+     },
+     {
+      "s": "2024/25",
+      "pts": 2245,
+      "rank": 2211766
+     },
+     {
+      "s": "2025/26",
+      "pts": 2300,
+      "rank": 182900
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc"
+   ]
+  },
+  {
+   "rank": 6,
    "last_rank": 9,
    "id": 1086057,
    "team": "ShakeNBake",
@@ -673,100 +767,6 @@
    "chips_used": [
     "3xc",
     "bboost"
-   ]
-  },
-  {
-   "rank": 6,
-   "last_rank": 8,
-   "id": 1362641,
-   "team": "Carrick Janta Party",
-   "name": "Pranshul Jain",
-   "total": 213,
-   "event_total": 42,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 53,
-     "total": 53,
-     "orank": 3482299,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 8
-    },
-    {
-     "gw": 2,
-     "net": 118,
-     "total": 171,
-     "orank": 442465,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 3
-    },
-    {
-     "gw": 3,
-     "net": 41,
-     "total": 212,
-     "orank": 481069,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 4
-    }
-   ],
-   "career": {
-    "seasons": 9,
-    "best_finish": 182900,
-    "best_season": "2025/26",
-    "overall_rank": 449770,
-    "region": "India",
-    "past": [
-     {
-      "s": "2017/18",
-      "pts": 2009,
-      "rank": 1103808
-     },
-     {
-      "s": "2019/20",
-      "pts": 2164,
-      "rank": 470042
-     },
-     {
-      "s": "2020/21",
-      "pts": 2172,
-      "rank": 1108467
-     },
-     {
-      "s": "2021/22",
-      "pts": 1852,
-      "rank": 4263681
-     },
-     {
-      "s": "2022/23",
-      "pts": 2397,
-      "rank": 672575
-     },
-     {
-      "s": "2023/24",
-      "pts": 1836,
-      "rank": 6778662
-     },
-     {
-      "s": "2024/25",
-      "pts": 2245,
-      "rank": 2211766
-     },
-     {
-      "s": "2025/26",
-      "pts": 2300,
-      "rank": 182900
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc"
    ]
   },
   {
@@ -1786,7 +1786,7 @@
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 1782870,
+    "overall_rank": 1782871,
     "region": "India",
     "past": [
      {
@@ -1885,7 +1885,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2013827,
+    "overall_rank": 2013828,
     "region": "India",
     "past": [
      {
@@ -1962,7 +1962,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 2215704,
+    "overall_rank": 2215705,
     "region": "India",
     "past": [
      {
@@ -2026,7 +2026,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 2332151,
+    "overall_rank": 2332152,
     "region": "India",
     "past": [
      {
@@ -2135,7 +2135,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 2603992,
+    "overall_rank": 2603993,
     "region": "India",
     "past": [
      {
@@ -2838,7 +2838,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 7315881,
+    "overall_rank": 7315879,
     "region": "England",
     "past": [
      {
@@ -2910,7 +2910,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 8572517,
+    "overall_rank": 8572514,
     "region": "India",
     "past": [
      {
@@ -2969,7 +2969,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8702573,
+    "overall_rank": 8702569,
     "region": "USA",
     "past": []
    },
