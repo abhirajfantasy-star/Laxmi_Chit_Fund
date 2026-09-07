@@ -7,19 +7,19 @@
   "managers": 31,
   "expected": 31,
   "my_id": 427154,
-  "gw": 2,
+  "gw": 3,
   "next_gw": 4,
-  "live": 3,
+  "live": null,
   "next_deadline": "2026-09-12T12:30:00Z",
   "started": true,
   "captain_week": {
-   "player": "B.Fernandes",
-   "count": 14,
-   "pts": 23,
+   "player": "Haaland",
+   "count": 27,
+   "pts": 9,
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-07T12:22:39Z"
+  "updated_iso": "2026-09-07T14:16:52Z"
  },
  "standings": [
   {
@@ -3485,8 +3485,50 @@
     "id": 3323226,
     "team": "ItDzntMata",
     "name": "Danish Javed",
-    "n": 1,
-    "improvement": 5881370
+    "n": 2,
+    "improvement": 6028906
+   },
+   {
+    "id": 3909562,
+    "team": "Goal Diggers FC",
+    "name": "Varun Khurana",
+    "n": 2,
+    "improvement": 4515209
+   },
+   {
+    "id": 3330149,
+    "team": "Amad Aura",
+    "name": "Karan Khanna",
+    "n": 2,
+    "improvement": 4321737
+   },
+   {
+    "id": 9695,
+    "team": "His Name is Diogo",
+    "name": "Aditya Vaidya",
+    "n": 2,
+    "improvement": 4175193
+   },
+   {
+    "id": 1301167,
+    "team": "Cment_mixers",
+    "name": "Deepankar Sachdeva",
+    "n": 2,
+    "improvement": 3989110
+   },
+   {
+    "id": 1362641,
+    "team": "Carrick Janta Party",
+    "name": "Pranshul Jain",
+    "n": 2,
+    "improvement": 3073383
+   },
+   {
+    "id": 5419891,
+    "team": "Onside Offside",
+    "name": "Ajith Thomas Kuthukatt George",
+    "n": 2,
+    "improvement": 1551526
    },
    {
     "id": 2003955,
@@ -3503,25 +3545,11 @@
     "improvement": 4399137
    },
    {
-    "id": 3909562,
-    "team": "Goal Diggers FC",
-    "name": "Varun Khurana",
-    "n": 1,
-    "improvement": 4185865
-   },
-   {
     "id": 6023506,
     "team": "sakalaka",
     "name": "prateek gupta",
     "n": 1,
     "improvement": 3963132
-   },
-   {
-    "id": 1301167,
-    "team": "Cment_mixers",
-    "name": "Deepankar Sachdeva",
-    "n": 1,
-    "improvement": 3048395
    },
    {
     "id": 5340498,
@@ -3531,39 +3559,11 @@
     "improvement": 3046343
    },
    {
-    "id": 1362641,
-    "team": "Carrick Janta Party",
-    "name": "Pranshul Jain",
-    "n": 1,
-    "improvement": 3039834
-   },
-   {
-    "id": 3330149,
-    "team": "Amad Aura",
-    "name": "Karan Khanna",
-    "n": 1,
-    "improvement": 3009015
-   },
-   {
     "id": 46711,
     "team": "Xa bing chilling",
     "name": "Satweek Nayak",
     "n": 1,
     "improvement": 2735246
-   },
-   {
-    "id": 5582398,
-    "team": "Southall United",
-    "name": "Rohan Agrawal",
-    "n": 1,
-    "improvement": 1948104
-   },
-   {
-    "id": 4837220,
-    "team": "FC Teetotallers",
-    "name": "Rajit Das",
-    "n": 1,
-    "improvement": 1595922
    }
   ],
   "chips": {
@@ -3607,7 +3607,7 @@
    "team": "Totally Szobo",
    "name": "Abhinav Premsekhar",
    "player": "Schade",
-   "owned": 4.1,
+   "owned": 4.0,
    "haul": 10,
    "gw": 2
   },
