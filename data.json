@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-08T12:22:37Z"
+  "updated_iso": "2026-09-08T14:18:55Z"
  },
  "standings": [
   {
@@ -67,7 +67,7 @@
     "seasons": 9,
     "best_finish": 38561,
     "best_season": "2018/19",
-    "overall_rank": 2897,
+    "overall_rank": 2896,
     "region": "India",
     "past": [
      {
@@ -172,7 +172,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 110721,
+    "overall_rank": 110718,
     "region": "India",
     "past": [
      {
@@ -233,6 +233,116 @@
   },
   {
    "rank": 3,
+   "last_rank": 2,
+   "id": 79306,
+   "team": "Totally Szobo",
+   "name": "Abhinav Premsekhar",
+   "total": 229,
+   "event_total": 51,
+   "prize": "₹12,500",
+   "series": [
+    {
+     "gw": 1,
+     "net": 72,
+     "total": 72,
+     "orank": 398656,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 106,
+     "total": 178,
+     "orank": 231905,
+     "chip": null,
+     "cap_pts": 22,
+     "cap": "Mbeumo",
+     "bench": 8
+    },
+    {
+     "gw": 3,
+     "net": 51,
+     "total": 229,
+     "orank": 314091,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 15
+    }
+   ],
+   "career": {
+    "seasons": 15,
+    "best_finish": 27153,
+    "best_season": "2022/23",
+    "overall_rank": 314080,
+    "region": "India",
+    "past": [
+     {
+      "s": "2011/12",
+      "pts": 1718,
+      "rank": 1170435
+     },
+     {
+      "s": "2012/13",
+      "pts": 1722,
+      "rank": 1344910
+     },
+     {
+      "s": "2015/16",
+      "pts": 2002,
+      "rank": 635310
+     },
+     {
+      "s": "2017/18",
+      "pts": 1928,
+      "rank": 1780658
+     },
+     {
+      "s": "2019/20",
+      "pts": 2199,
+      "rank": 298786
+     },
+     {
+      "s": "2020/21",
+      "pts": 2377,
+      "rank": 128006
+     },
+     {
+      "s": "2021/22",
+      "pts": 2331,
+      "rank": 531514
+     },
+     {
+      "s": "2022/23",
+      "pts": 2577,
+      "rank": 27153
+     },
+     {
+      "s": "2023/24",
+      "pts": 2397,
+      "rank": 374767
+     },
+     {
+      "s": "2024/25",
+      "pts": 2495,
+      "rank": 138202
+     },
+     {
+      "s": "2025/26",
+      "pts": 2287,
+      "rank": 240451
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "bboost"
+   ]
+  },
+  {
+   "rank": 3,
    "last_rank": 9,
    "id": 1086057,
    "team": "ShakeNBake",
@@ -276,7 +386,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 314091,
+    "overall_rank": 314080,
     "region": "India",
     "past": [
      {
@@ -362,116 +472,6 @@
    ]
   },
   {
-   "rank": 3,
-   "last_rank": 2,
-   "id": 79306,
-   "team": "Totally Szobo",
-   "name": "Abhinav Premsekhar",
-   "total": 229,
-   "event_total": 51,
-   "prize": "₹12,500",
-   "series": [
-    {
-     "gw": 1,
-     "net": 72,
-     "total": 72,
-     "orank": 398656,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 106,
-     "total": 178,
-     "orank": 231905,
-     "chip": null,
-     "cap_pts": 22,
-     "cap": "Mbeumo",
-     "bench": 8
-    },
-    {
-     "gw": 3,
-     "net": 51,
-     "total": 229,
-     "orank": 314091,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 15
-    }
-   ],
-   "career": {
-    "seasons": 15,
-    "best_finish": 27153,
-    "best_season": "2022/23",
-    "overall_rank": 314091,
-    "region": "India",
-    "past": [
-     {
-      "s": "2011/12",
-      "pts": 1718,
-      "rank": 1170435
-     },
-     {
-      "s": "2012/13",
-      "pts": 1722,
-      "rank": 1344910
-     },
-     {
-      "s": "2015/16",
-      "pts": 2002,
-      "rank": 635310
-     },
-     {
-      "s": "2017/18",
-      "pts": 1928,
-      "rank": 1780658
-     },
-     {
-      "s": "2019/20",
-      "pts": 2199,
-      "rank": 298786
-     },
-     {
-      "s": "2020/21",
-      "pts": 2377,
-      "rank": 128006
-     },
-     {
-      "s": "2021/22",
-      "pts": 2331,
-      "rank": 531514
-     },
-     {
-      "s": "2022/23",
-      "pts": 2577,
-      "rank": 27153
-     },
-     {
-      "s": "2023/24",
-      "pts": 2397,
-      "rank": 374767
-     },
-     {
-      "s": "2024/25",
-      "pts": 2495,
-      "rank": 138202
-     },
-     {
-      "s": "2025/26",
-      "pts": 2287,
-      "rank": 240451
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "bboost"
-   ]
-  },
-  {
    "rank": 5,
    "last_rank": 6,
    "id": 2424090,
@@ -516,7 +516,7 @@
     "seasons": 6,
     "best_finish": 31543,
     "best_season": "2022/23",
-    "overall_rank": 375042,
+    "overall_rank": 375031,
     "region": "USA",
     "past": [
      {
@@ -600,7 +600,7 @@
     "seasons": 9,
     "best_finish": 182900,
     "best_season": "2025/26",
-    "overall_rank": 408916,
+    "overall_rank": 408905,
     "region": "India",
     "past": [
      {
@@ -694,7 +694,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 544926,
+    "overall_rank": 544912,
     "region": "India",
     "past": [
      {
@@ -814,7 +814,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 717233,
+    "overall_rank": 717214,
     "region": "India",
     "past": [
      {
@@ -898,7 +898,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 743639,
+    "overall_rank": 743620,
     "region": "India",
     "past": [
      {
@@ -1027,7 +1027,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 801253,
+    "overall_rank": 801233,
     "region": "India",
     "past": [
      {
@@ -1139,7 +1139,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 961038,
+    "overall_rank": 961019,
     "region": "India",
     "past": [
      {
@@ -1228,7 +1228,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 994664,
+    "overall_rank": 994645,
     "region": "India",
     "past": [
      {
@@ -1333,7 +1333,7 @@
     "seasons": 5,
     "best_finish": 273503,
     "best_season": "2024/25",
-    "overall_rank": 1065607,
+    "overall_rank": 1065587,
     "region": "India",
     "past": [
      {
@@ -1412,7 +1412,7 @@
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 1322832,
+    "overall_rank": 1322807,
     "region": "India",
     "past": [
      {
@@ -1499,7 +1499,7 @@
     "seasons": 2,
     "best_finish": 545267,
     "best_season": "2025/26",
-    "overall_rank": 1384256,
+    "overall_rank": 1384231,
     "region": "England",
     "past": [
      {
@@ -1561,7 +1561,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 1472197,
+    "overall_rank": 1472171,
     "region": "India",
     "past": [
      {
@@ -1661,7 +1661,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 1496797,
+    "overall_rank": 1496771,
     "region": "India",
     "past": [
      {
@@ -1786,7 +1786,7 @@
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 1516623,
+    "overall_rank": 1516597,
     "region": "India",
     "past": [
      {
@@ -1885,7 +1885,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 1609623,
+    "overall_rank": 1609593,
     "region": "India",
     "past": [
      {
@@ -2009,7 +2009,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2279669,
+    "overall_rank": 2279625,
     "region": "India",
     "past": [
      {
@@ -2086,7 +2086,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 2393668,
+    "overall_rank": 2393623,
     "region": "India",
     "past": [
      {
@@ -2150,7 +2150,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 2700348,
+    "overall_rank": 2700299,
     "region": "India",
     "past": [
      {
@@ -2259,7 +2259,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 3198740,
+    "overall_rank": 3198677,
     "region": "India",
     "past": [
      {
@@ -2351,7 +2351,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 4044609,
+    "overall_rank": 4044537,
     "region": "India",
     "past": [
      {
@@ -2460,7 +2460,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 4175402,
+    "overall_rank": 4175325,
     "region": "India",
     "past": [
      {
@@ -2579,7 +2579,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 4237077,
+    "overall_rank": 4236998,
     "region": "India",
     "past": [
      {
@@ -2664,7 +2664,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 5141432,
+    "overall_rank": 5141333,
     "region": "India",
     "past": [
      {
@@ -2736,7 +2736,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 5267500,
+    "overall_rank": 5267397,
     "region": "India",
     "past": [
      {
@@ -2838,7 +2838,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 7314824,
+    "overall_rank": 7314649,
     "region": "England",
     "past": [
      {
@@ -2910,7 +2910,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 8329115,
+    "overall_rank": 8328909,
     "region": "India",
     "past": [
      {
@@ -2969,7 +2969,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8835495,
+    "overall_rank": 8835271,
     "region": "USA",
     "past": []
    },
@@ -3568,8 +3568,8 @@
   ],
   "chips": {
    "Triple Captain": {
-    "team": "ShakeNBake",
-    "name": "Arshaq Razack",
+    "team": "Totally Szobo",
+    "name": "Abhinav Premsekhar",
     "score": 27,
     "gw": 3
    },
