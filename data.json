@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-11T18:19:21Z"
+  "updated_iso": "2026-09-11T20:16:56Z"
  },
  "standings": [
   {
@@ -233,6 +233,136 @@
   },
   {
    "rank": 3,
+   "last_rank": 9,
+   "id": 1086057,
+   "team": "ShakeNBake",
+   "name": "Arshaq Razack",
+   "total": 229,
+   "event_total": 60,
+   "prize": "₹12,500",
+   "series": [
+    {
+     "gw": 1,
+     "net": 64,
+     "total": 64,
+     "orank": 1142767,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 105,
+     "total": 169,
+     "orank": 525349,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 3,
+     "net": 60,
+     "total": 229,
+     "orank": 314091,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 10
+    }
+   ],
+   "career": {
+    "seasons": 15,
+    "best_finish": 6474,
+    "best_season": "2025/26",
+    "overall_rank": 314071,
+    "region": "India",
+    "past": [
+     {
+      "s": "2011/12",
+      "pts": 1573,
+      "rank": 1748106
+     },
+     {
+      "s": "2012/13",
+      "pts": 1696,
+      "rank": 1454033
+     },
+     {
+      "s": "2013/14",
+      "pts": 2058,
+      "rank": 812184
+     },
+     {
+      "s": "2014/15",
+      "pts": 1698,
+      "rank": 1633820
+     },
+     {
+      "s": "2015/16",
+      "pts": 2025,
+      "rank": 520183
+     },
+     {
+      "s": "2016/17",
+      "pts": 2203,
+      "rank": 64978
+     },
+     {
+      "s": "2017/18",
+      "pts": 2179,
+      "rank": 176058
+     },
+     {
+      "s": "2018/19",
+      "pts": 2037,
+      "rank": 1456048
+     },
+     {
+      "s": "2019/20",
+      "pts": 2237,
+      "rank": 168365
+     },
+     {
+      "s": "2020/21",
+      "pts": 2206,
+      "rank": 870005
+     },
+     {
+      "s": "2021/22",
+      "pts": 2444,
+      "rank": 204027
+     },
+     {
+      "s": "2022/23",
+      "pts": 2592,
+      "rank": 16642
+     },
+     {
+      "s": "2023/24",
+      "pts": 1746,
+      "rank": 7819582
+     },
+     {
+      "s": "2024/25",
+      "pts": 2380,
+      "rank": 714717
+     },
+     {
+      "s": "2025/26",
+      "pts": 2409,
+      "rank": 6474
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "bboost"
+   ]
+  },
+  {
+   "rank": 3,
    "last_rank": 2,
    "id": 79306,
    "team": "Totally Szobo",
@@ -333,136 +463,6 @@
       "s": "2025/26",
       "pts": 2287,
       "rank": 240451
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "bboost"
-   ]
-  },
-  {
-   "rank": 3,
-   "last_rank": 9,
-   "id": 1086057,
-   "team": "ShakeNBake",
-   "name": "Arshaq Razack",
-   "total": 229,
-   "event_total": 60,
-   "prize": "₹12,500",
-   "series": [
-    {
-     "gw": 1,
-     "net": 64,
-     "total": 64,
-     "orank": 1142767,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 105,
-     "total": 169,
-     "orank": 525349,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 3,
-     "net": 60,
-     "total": 229,
-     "orank": 314091,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 10
-    }
-   ],
-   "career": {
-    "seasons": 15,
-    "best_finish": 6474,
-    "best_season": "2025/26",
-    "overall_rank": 314073,
-    "region": "India",
-    "past": [
-     {
-      "s": "2011/12",
-      "pts": 1573,
-      "rank": 1748106
-     },
-     {
-      "s": "2012/13",
-      "pts": 1696,
-      "rank": 1454033
-     },
-     {
-      "s": "2013/14",
-      "pts": 2058,
-      "rank": 812184
-     },
-     {
-      "s": "2014/15",
-      "pts": 1698,
-      "rank": 1633820
-     },
-     {
-      "s": "2015/16",
-      "pts": 2025,
-      "rank": 520183
-     },
-     {
-      "s": "2016/17",
-      "pts": 2203,
-      "rank": 64978
-     },
-     {
-      "s": "2017/18",
-      "pts": 2179,
-      "rank": 176058
-     },
-     {
-      "s": "2018/19",
-      "pts": 2037,
-      "rank": 1456048
-     },
-     {
-      "s": "2019/20",
-      "pts": 2237,
-      "rank": 168365
-     },
-     {
-      "s": "2020/21",
-      "pts": 2206,
-      "rank": 870005
-     },
-     {
-      "s": "2021/22",
-      "pts": 2444,
-      "rank": 204027
-     },
-     {
-      "s": "2022/23",
-      "pts": 2592,
-      "rank": 16642
-     },
-     {
-      "s": "2023/24",
-      "pts": 1746,
-      "rank": 7819582
-     },
-     {
-      "s": "2024/25",
-      "pts": 2380,
-      "rank": 714717
-     },
-     {
-      "s": "2025/26",
-      "pts": 2409,
-      "rank": 6474
      }
     ]
    },
@@ -694,7 +694,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 544906,
+    "overall_rank": 544904,
     "region": "India",
     "past": [
      {
@@ -1139,7 +1139,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 961001,
+    "overall_rank": 960999,
     "region": "India",
     "past": [
      {
@@ -1661,7 +1661,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 1496738,
+    "overall_rank": 1496737,
     "region": "India",
     "past": [
      {
@@ -1885,7 +1885,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 1609557,
+    "overall_rank": 1609555,
     "region": "India",
     "past": [
      {
@@ -2086,7 +2086,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 2393561,
+    "overall_rank": 2393559,
     "region": "India",
     "past": [
      {
@@ -2351,7 +2351,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 4044435,
+    "overall_rank": 4044434,
     "region": "India",
     "past": [
      {
@@ -3568,8 +3568,8 @@
   ],
   "chips": {
    "Triple Captain": {
-    "team": "Totally Szobo",
-    "name": "Abhinav Premsekhar",
+    "team": "ShakeNBake",
+    "name": "Arshaq Razack",
     "score": 27,
     "gw": 3
    },
