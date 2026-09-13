@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-13T06:24:54Z"
+  "updated_iso": "2026-09-13T08:16:50Z"
  },
  "standings": [
   {
@@ -1661,7 +1661,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 1195339,
+    "overall_rank": 1195338,
     "region": "India",
     "past": [
      {
@@ -1796,7 +1796,7 @@
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 1367484,
+    "overall_rank": 1367483,
     "region": "India",
     "past": [
      {
@@ -1895,7 +1895,7 @@
     "seasons": 5,
     "best_finish": 273503,
     "best_season": "2024/25",
-    "overall_rank": 1503281,
+    "overall_rank": 1503280,
     "region": "India",
     "past": [
      {
@@ -1985,7 +1985,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 1756743,
+    "overall_rank": 1756742,
     "region": "India",
     "past": [
      {
@@ -2120,7 +2120,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 1756743,
+    "overall_rank": 1756742,
     "region": "India",
     "past": [
      {
@@ -2220,7 +2220,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 2125062,
+    "overall_rank": 2125061,
     "region": "India",
     "past": [
      {
@@ -2339,7 +2339,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 2403907,
+    "overall_rank": 2403906,
     "region": "India",
     "past": [
      {
@@ -2414,7 +2414,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2598157,
+    "overall_rank": 2598156,
     "region": "India",
     "past": [
      {
@@ -2503,7 +2503,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 3082933,
+    "overall_rank": 3082932,
     "region": "India",
     "past": [
      {
@@ -2605,7 +2605,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 4272699,
+    "overall_rank": 4272697,
     "region": "India",
     "past": [
      {
@@ -2734,7 +2734,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 4490437,
+    "overall_rank": 4490435,
     "region": "India",
     "past": [
      {
@@ -2848,7 +2848,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 4729719,
+    "overall_rank": 4729717,
     "region": "England",
     "past": [
      {
@@ -2870,90 +2870,6 @@
       "s": "2025/26",
       "pts": 2222,
       "rank": 676529
-     }
-    ]
-   },
-   "chips_used": [
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 27,
-   "last_rank": 27,
-   "id": 6023506,
-   "team": "sakalaka",
-   "name": "prateek gupta",
-   "total": 222,
-   "event_total": 44,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 29,
-     "total": 29,
-     "orank": 8566706,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 8
-    },
-    {
-     "gw": 2,
-     "net": 101,
-     "total": 130,
-     "orank": 4603574,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 16
-    },
-    {
-     "gw": 3,
-     "net": 48,
-     "total": 178,
-     "orank": 5141430,
-     "chip": null,
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 11
-    },
-    {
-     "gw": 4,
-     "net": 44,
-     "total": 222,
-     "orank": 4818275,
-     "chip": "wildcard",
-     "cap_pts": 10,
-     "cap": "Palmer",
-     "bench": 2
-    }
-   ],
-   "career": {
-    "seasons": 5,
-    "best_finish": 117338,
-    "best_season": "2025/26",
-    "overall_rank": 4810756,
-    "region": "India",
-    "past": [
-     {
-      "s": "2021/22",
-      "pts": 1711,
-      "rank": 5696751
-     },
-     {
-      "s": "2023/24",
-      "pts": 1858,
-      "rank": 6514040
-     },
-     {
-      "s": "2024/25",
-      "pts": 1911,
-      "rank": 6411589
-     },
-     {
-      "s": "2025/26",
-      "pts": 2320,
-      "rank": 117338
      }
     ]
    },
@@ -3016,7 +2932,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 4810756,
+    "overall_rank": 4810754,
     "region": "India",
     "past": [
      {
@@ -3054,6 +2970,90 @@
    "chips_used": [
     "3xc",
     "bboost",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 27,
+   "last_rank": 27,
+   "id": 6023506,
+   "team": "sakalaka",
+   "name": "prateek gupta",
+   "total": 222,
+   "event_total": 44,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 29,
+     "total": 29,
+     "orank": 8566706,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 8
+    },
+    {
+     "gw": 2,
+     "net": 101,
+     "total": 130,
+     "orank": 4603574,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 16
+    },
+    {
+     "gw": 3,
+     "net": 48,
+     "total": 178,
+     "orank": 5141430,
+     "chip": null,
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 11
+    },
+    {
+     "gw": 4,
+     "net": 44,
+     "total": 222,
+     "orank": 4818275,
+     "chip": "wildcard",
+     "cap_pts": 10,
+     "cap": "Palmer",
+     "bench": 2
+    }
+   ],
+   "career": {
+    "seasons": 5,
+    "best_finish": 117338,
+    "best_season": "2025/26",
+    "overall_rank": 4810754,
+    "region": "India",
+    "past": [
+     {
+      "s": "2021/22",
+      "pts": 1711,
+      "rank": 5696751
+     },
+     {
+      "s": "2023/24",
+      "pts": 1858,
+      "rank": 6514040
+     },
+     {
+      "s": "2024/25",
+      "pts": 1911,
+      "rank": 6411589
+     },
+     {
+      "s": "2025/26",
+      "pts": 2320,
+      "rank": 117338
+     }
+    ]
+   },
+   "chips_used": [
     "wildcard"
    ]
   },
@@ -3112,7 +3112,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 5020037,
+    "overall_rank": 5020035,
     "region": "India",
     "past": [
      {
@@ -3231,7 +3231,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 7430709,
+    "overall_rank": 7430705,
     "region": "India",
     "past": [
      {
@@ -3300,7 +3300,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8378043,
+    "overall_rank": 8378035,
     "region": "USA",
     "past": []
    },
@@ -3938,7 +3938,7 @@
    "team": "Captn Magnifico",
    "name": "Naman Agrawal",
    "player": "White",
-   "owned": 7.4,
+   "owned": 7.3,
    "haul": 11,
    "gw": 1
   },
