@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-14T12:22:36Z"
+  "updated_iso": "2026-09-14T14:18:53Z"
  },
  "standings": [
   {
@@ -193,7 +193,7 @@
     "seasons": 2,
     "best_finish": 545267,
     "best_season": "2025/26",
-    "overall_rank": 177742,
+    "overall_rank": 177741,
     "region": "England",
     "past": [
      {
@@ -265,7 +265,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 225359,
+    "overall_rank": 225358,
     "region": "India",
     "past": [
      {
@@ -395,7 +395,7 @@
     "seasons": 15,
     "best_finish": 27153,
     "best_season": "2022/23",
-    "overall_rank": 254291,
+    "overall_rank": 254290,
     "region": "India",
     "past": [
      {
@@ -515,7 +515,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 397356,
+    "overall_rank": 397355,
     "region": "India",
     "past": [
      {
@@ -650,7 +650,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 397356,
+    "overall_rank": 397355,
     "region": "India",
     "past": [
      {
@@ -790,7 +790,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 437893,
+    "overall_rank": 437892,
     "region": "India",
     "past": [
      {
@@ -905,7 +905,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 555708,
+    "overall_rank": 555707,
     "region": "India",
     "past": [
      {
@@ -1020,7 +1020,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 580468,
+    "overall_rank": 580467,
     "region": "India",
     "past": [
      {
@@ -1585,6 +1585,101 @@
   },
   {
    "rank": 15,
+   "last_rank": 5,
+   "id": 2424090,
+   "team": "Cold Palmer",
+   "name": "Shivanshu Madan",
+   "total": 284,
+   "event_total": 57,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 62,
+     "total": 62,
+     "orank": 1436683,
+     "chip": null,
+     "cap_pts": 22,
+     "cap": "João Pedro",
+     "bench": 11
+    },
+    {
+     "gw": 2,
+     "net": 111,
+     "total": 173,
+     "orank": 370271,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 22
+    },
+    {
+     "gw": 3,
+     "net": 54,
+     "total": 227,
+     "orank": 375042,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 14
+    },
+    {
+     "gw": 4,
+     "net": 56,
+     "total": 283,
+     "orank": 1327109,
+     "chip": "wildcard",
+     "cap_pts": 10,
+     "cap": "Palmer",
+     "bench": 11
+    }
+   ],
+   "career": {
+    "seasons": 6,
+    "best_finish": 31543,
+    "best_season": "2022/23",
+    "overall_rank": 1339226,
+    "region": "USA",
+    "past": [
+     {
+      "s": "2020/21",
+      "pts": 2345,
+      "rank": 207314
+     },
+     {
+      "s": "2021/22",
+      "pts": 2479,
+      "rank": 138325
+     },
+     {
+      "s": "2022/23",
+      "pts": 2572,
+      "rank": 31543
+     },
+     {
+      "s": "2023/24",
+      "pts": 2322,
+      "rank": 848717
+     },
+     {
+      "s": "2024/25",
+      "pts": 2256,
+      "rank": 2060506
+     },
+     {
+      "s": "2025/26",
+      "pts": 2141,
+      "rank": 1637750
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 15,
    "last_rank": 11,
    "id": 3330149,
    "team": "Amad Aura",
@@ -1681,101 +1776,6 @@
    "chips_used": [
     "3xc",
     "freehit"
-   ]
-  },
-  {
-   "rank": 15,
-   "last_rank": 5,
-   "id": 2424090,
-   "team": "Cold Palmer",
-   "name": "Shivanshu Madan",
-   "total": 284,
-   "event_total": 57,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 62,
-     "total": 62,
-     "orank": 1436683,
-     "chip": null,
-     "cap_pts": 22,
-     "cap": "João Pedro",
-     "bench": 11
-    },
-    {
-     "gw": 2,
-     "net": 111,
-     "total": 173,
-     "orank": 370271,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 22
-    },
-    {
-     "gw": 3,
-     "net": 54,
-     "total": 227,
-     "orank": 375042,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 14
-    },
-    {
-     "gw": 4,
-     "net": 56,
-     "total": 283,
-     "orank": 1327109,
-     "chip": "wildcard",
-     "cap_pts": 10,
-     "cap": "Palmer",
-     "bench": 11
-    }
-   ],
-   "career": {
-    "seasons": 6,
-    "best_finish": 31543,
-    "best_season": "2022/23",
-    "overall_rank": 1339226,
-    "region": "USA",
-    "past": [
-     {
-      "s": "2020/21",
-      "pts": 2345,
-      "rank": 207314
-     },
-     {
-      "s": "2021/22",
-      "pts": 2479,
-      "rank": 138325
-     },
-     {
-      "s": "2022/23",
-      "pts": 2572,
-      "rank": 31543
-     },
-     {
-      "s": "2023/24",
-      "pts": 2322,
-      "rank": 848717
-     },
-     {
-      "s": "2024/25",
-      "pts": 2256,
-      "rank": 2060506
-     },
-     {
-      "s": "2025/26",
-      "pts": 2141,
-      "rank": 1637750
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "wildcard"
    ]
   },
   {
@@ -2634,7 +2634,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 2777153,
+    "overall_rank": 2777152,
     "region": "India",
     "past": [
      {
@@ -2753,7 +2753,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 3337656,
+    "overall_rank": 3337653,
     "region": "India",
     "past": [
      {
@@ -2842,7 +2842,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 3408582,
+    "overall_rank": 3408579,
     "region": "India",
     "past": [
      {
@@ -2961,7 +2961,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 3602421,
+    "overall_rank": 3602418,
     "region": "India",
     "past": [
      {
@@ -3063,7 +3063,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 4772529,
+    "overall_rank": 4772523,
     "region": "India",
     "past": [
      {
@@ -3147,7 +3147,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6660230,
+    "overall_rank": 6660221,
     "region": "England",
     "past": [
      {
@@ -3231,7 +3231,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 7335220,
+    "overall_rank": 7335209,
     "region": "India",
     "past": [
      {
@@ -3300,7 +3300,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8787782,
+    "overall_rank": 8787765,
     "region": "USA",
     "past": []
    },
@@ -3938,7 +3938,7 @@
    "team": "KingOfKings Fc",
    "name": "Abhiraj Singh",
    "player": "White",
-   "owned": 7.0,
+   "owned": 6.9,
    "haul": 11,
    "gw": 1
   },
