@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-14T10:16:57Z"
+  "updated_iso": "2026-09-14T12:22:36Z"
  },
  "standings": [
   {
@@ -462,6 +462,141 @@
   },
   {
    "rank": 5,
+   "last_rank": 17,
+   "id": 256447,
+   "team": "Fiery Raiders",
+   "name": "Anish Joshi",
+   "total": 305,
+   "event_total": 101,
+   "prize": "₹5,000",
+   "series": [
+    {
+     "gw": 1,
+     "net": 62,
+     "total": 62,
+     "orank": 1436683,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 103,
+     "total": 165,
+     "orank": 765925,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 3,
+     "net": 43,
+     "total": 208,
+     "orank": 1496797,
+     "chip": "wildcard",
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 13
+    },
+    {
+     "gw": 4,
+     "net": 96,
+     "total": 304,
+     "orank": 394418,
+     "chip": null,
+     "cap_pts": 24,
+     "cap": "João Pedro",
+     "bench": 19
+    }
+   ],
+   "career": {
+    "seasons": 14,
+    "best_finish": 281617,
+    "best_season": "2019/20",
+    "overall_rank": 397356,
+    "region": "India",
+    "past": [
+     {
+      "s": "2012/13",
+      "pts": 1704,
+      "rank": 1419082
+     },
+     {
+      "s": "2013/14",
+      "pts": 1894,
+      "rank": 1428373
+     },
+     {
+      "s": "2014/15",
+      "pts": 1945,
+      "rank": 391919
+     },
+     {
+      "s": "2015/16",
+      "pts": 1914,
+      "rank": 1145102
+     },
+     {
+      "s": "2016/17",
+      "pts": 1921,
+      "rank": 1036750
+     },
+     {
+      "s": "2017/18",
+      "pts": 1922,
+      "rank": 1832327
+     },
+     {
+      "s": "2018/19",
+      "pts": 2077,
+      "rank": 1046143
+     },
+     {
+      "s": "2019/20",
+      "pts": 2203,
+      "rank": 281617
+     },
+     {
+      "s": "2020/21",
+      "pts": 2308,
+      "rank": 330625
+     },
+     {
+      "s": "2021/22",
+      "pts": 2306,
+      "rank": 632323
+     },
+     {
+      "s": "2022/23",
+      "pts": 2395,
+      "rank": 687559
+     },
+     {
+      "s": "2023/24",
+      "pts": 2351,
+      "rank": 631642
+     },
+     {
+      "s": "2024/25",
+      "pts": 2205,
+      "rank": 2778514
+     },
+     {
+      "s": "2025/26",
+      "pts": 2184,
+      "rank": 1076546
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 5,
    "last_rank": 3,
    "id": 1086057,
    "team": "ShakeNBake",
@@ -598,141 +733,6 @@
    "chips_used": [
     "3xc",
     "bboost"
-   ]
-  },
-  {
-   "rank": 5,
-   "last_rank": 17,
-   "id": 256447,
-   "team": "Fiery Raiders",
-   "name": "Anish Joshi",
-   "total": 305,
-   "event_total": 101,
-   "prize": "₹5,000",
-   "series": [
-    {
-     "gw": 1,
-     "net": 62,
-     "total": 62,
-     "orank": 1436683,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 103,
-     "total": 165,
-     "orank": 765925,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 3,
-     "net": 43,
-     "total": 208,
-     "orank": 1496797,
-     "chip": "wildcard",
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 13
-    },
-    {
-     "gw": 4,
-     "net": 96,
-     "total": 304,
-     "orank": 394418,
-     "chip": null,
-     "cap_pts": 24,
-     "cap": "João Pedro",
-     "bench": 19
-    }
-   ],
-   "career": {
-    "seasons": 14,
-    "best_finish": 281617,
-    "best_season": "2019/20",
-    "overall_rank": 397356,
-    "region": "India",
-    "past": [
-     {
-      "s": "2012/13",
-      "pts": 1704,
-      "rank": 1419082
-     },
-     {
-      "s": "2013/14",
-      "pts": 1894,
-      "rank": 1428373
-     },
-     {
-      "s": "2014/15",
-      "pts": 1945,
-      "rank": 391919
-     },
-     {
-      "s": "2015/16",
-      "pts": 1914,
-      "rank": 1145102
-     },
-     {
-      "s": "2016/17",
-      "pts": 1921,
-      "rank": 1036750
-     },
-     {
-      "s": "2017/18",
-      "pts": 1922,
-      "rank": 1832327
-     },
-     {
-      "s": "2018/19",
-      "pts": 2077,
-      "rank": 1046143
-     },
-     {
-      "s": "2019/20",
-      "pts": 2203,
-      "rank": 281617
-     },
-     {
-      "s": "2020/21",
-      "pts": 2308,
-      "rank": 330625
-     },
-     {
-      "s": "2021/22",
-      "pts": 2306,
-      "rank": 632323
-     },
-     {
-      "s": "2022/23",
-      "pts": 2395,
-      "rank": 687559
-     },
-     {
-      "s": "2023/24",
-      "pts": 2351,
-      "rank": 631642
-     },
-     {
-      "s": "2024/25",
-      "pts": 2205,
-      "rank": 2778514
-     },
-     {
-      "s": "2025/26",
-      "pts": 2184,
-      "rank": 1076546
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost",
-    "wildcard"
    ]
   },
   {
@@ -2961,7 +2961,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 3602422,
+    "overall_rank": 3602421,
     "region": "India",
     "past": [
      {
@@ -3063,7 +3063,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 4772530,
+    "overall_rank": 4772529,
     "region": "India",
     "past": [
      {
@@ -3147,7 +3147,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6660236,
+    "overall_rank": 6660230,
     "region": "England",
     "past": [
      {
@@ -3231,7 +3231,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 7335226,
+    "overall_rank": 7335220,
     "region": "India",
     "past": [
      {
@@ -3300,7 +3300,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8787798,
+    "overall_rank": 8787782,
     "region": "USA",
     "past": []
    },
@@ -3855,6 +3855,13 @@
     "improvement": 3073383
    },
    {
+    "id": 1086057,
+    "team": "ShakeNBake",
+    "name": "Arshaq Razack",
+    "n": 2,
+    "improvement": 828676
+   },
+   {
     "id": 20569,
     "team": "Captn Magnifico",
     "name": "Naman Agrawal",
@@ -3888,13 +3895,6 @@
     "name": "Sid Shaurya",
     "n": 1,
     "improvement": 3046343
-   },
-   {
-    "id": 46711,
-    "team": "Xa bing chilling",
-    "name": "Satweek Nayak",
-    "n": 1,
-    "improvement": 2735246
    }
   ],
   "chips": {
