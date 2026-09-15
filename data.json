@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-15T06:22:59Z"
+  "updated_iso": "2026-09-15T08:19:25Z"
  },
  "standings": [
   {
@@ -265,7 +265,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 258868,
+    "overall_rank": 258869,
     "region": "India",
     "past": [
      {
@@ -400,7 +400,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 269557,
+    "overall_rank": 269558,
     "region": "India",
     "past": [
      {
@@ -530,7 +530,7 @@
     "seasons": 15,
     "best_finish": 27153,
     "best_season": "2022/23",
-    "overall_rank": 301917,
+    "overall_rank": 301918,
     "region": "India",
     "past": [
      {
@@ -650,7 +650,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 510594,
+    "overall_rank": 510595,
     "region": "India",
     "past": [
      {
@@ -765,7 +765,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 530347,
+    "overall_rank": 530348,
     "region": "India",
     "past": [
      {
@@ -905,7 +905,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 719730,
+    "overall_rank": 719731,
     "region": "India",
     "past": [
      {
@@ -1020,7 +1020,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 747827,
+    "overall_rank": 747828,
     "region": "India",
     "past": [
      {
@@ -1130,7 +1130,7 @@
     "seasons": 9,
     "best_finish": 182900,
     "best_season": "2025/26",
-    "overall_rank": 836185,
+    "overall_rank": 836186,
     "region": "India",
     "past": [
      {
@@ -1235,7 +1235,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 1050933,
+    "overall_rank": 1050934,
     "region": "India",
     "past": [
      {
@@ -2538,7 +2538,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2769654,
+    "overall_rank": 2769653,
     "region": "India",
     "past": [
      {
@@ -2634,7 +2634,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 2949016,
+    "overall_rank": 2949015,
     "region": "India",
     "past": [
      {
@@ -2736,7 +2736,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2973572,
+    "overall_rank": 2973571,
     "region": "India",
     "past": [
      {
@@ -2825,7 +2825,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 3064184,
+    "overall_rank": 3064183,
     "region": "India",
     "past": [
      {
@@ -3147,7 +3147,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6223251,
+    "overall_rank": 6223250,
     "region": "India",
     "past": [
      {
@@ -3216,7 +3216,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6606736,
+    "overall_rank": 6606735,
     "region": "England",
     "past": [
      {
@@ -3300,7 +3300,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8850720,
+    "overall_rank": 8850710,
     "region": "USA",
     "past": []
    },
