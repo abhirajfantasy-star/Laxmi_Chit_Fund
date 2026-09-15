@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-14T22:16:27Z"
+  "updated_iso": "2026-09-15T00:24:26Z"
  },
  "standings": [
   {
@@ -64,9 +64,9 @@
     },
     {
      "gw": 4,
-     "net": 76,
-     "total": 339,
-     "orank": 9993,
+     "net": 81,
+     "total": 344,
+     "orank": 9971,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -180,9 +180,9 @@
     },
     {
      "gw": 4,
-     "net": 105,
-     "total": 314,
-     "orank": 176788,
+     "net": 116,
+     "total": 325,
+     "orank": 105685,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -252,9 +252,9 @@
     },
     {
      "gw": 4,
-     "net": 96,
-     "total": 304,
-     "orank": 394418,
+     "net": 107,
+     "total": 315,
+     "orank": 258869,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -387,9 +387,9 @@
     },
     {
      "gw": 4,
-     "net": 89,
-     "total": 311,
-     "orank": 223959,
+     "net": 92,
+     "total": 314,
+     "orank": 269558,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
@@ -517,9 +517,9 @@
     },
     {
      "gw": 4,
-     "net": 81,
-     "total": 310,
-     "orank": 252786,
+     "net": 84,
+     "total": 313,
+     "orank": 301918,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -637,9 +637,9 @@
     },
     {
      "gw": 4,
-     "net": 88,
-     "total": 302,
-     "orank": 434425,
+     "net": 91,
+     "total": 305,
+     "orank": 510595,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
@@ -752,13 +752,13 @@
     },
     {
      "gw": 4,
-     "net": 75,
-     "total": 304,
-     "orank": 394418,
+     "net": 76,
+     "total": 305,
+     "orank": 530348,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
-     "bench": 22
+     "bench": 32
     }
    ],
    "career": {
@@ -894,11 +894,11 @@
      "gw": 4,
      "net": 62,
      "total": 300,
-     "orank": 516440,
+     "orank": 719732,
      "chip": "3xc",
      "cap_pts": 15,
      "cap": "Palmer",
-     "bench": 3
+     "bench": 13
     }
    ],
    "career": {
@@ -1007,13 +1007,13 @@
     },
     {
      "gw": 4,
-     "net": 90,
-     "total": 298,
-     "orank": 575726,
+     "net": 91,
+     "total": 299,
+     "orank": 747829,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
-     "bench": 2
+     "bench": 4
     }
    ],
    "career": {
@@ -1117,9 +1117,9 @@
     },
     {
      "gw": 4,
-     "net": 66,
-     "total": 292,
-     "orank": 831682,
+     "net": 71,
+     "total": 297,
+     "orank": 836186,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1130,7 +1130,7 @@
     "seasons": 9,
     "best_finish": 182900,
     "best_season": "2025/26",
-    "overall_rank": 836186,
+    "overall_rank": 836187,
     "region": "India",
     "past": [
      {
@@ -1222,9 +1222,9 @@
     },
     {
      "gw": 4,
-     "net": 65,
-     "total": 282,
-     "orank": 1411981,
+     "net": 76,
+     "total": 293,
+     "orank": 1050933,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1235,7 +1235,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 1050933,
+    "overall_rank": 1050934,
     "region": "India",
     "past": [
      {
@@ -1344,9 +1344,9 @@
     },
     {
      "gw": 4,
-     "net": 62,
-     "total": 281,
-     "orank": 1458203,
+     "net": 70,
+     "total": 289,
+     "orank": 1258971,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1357,7 +1357,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 1258971,
+    "overall_rank": 1258970,
     "region": "India",
     "past": [
      {
@@ -1439,9 +1439,9 @@
     },
     {
      "gw": 4,
-     "net": 74,
-     "total": 284,
-     "orank": 1257108,
+     "net": 77,
+     "total": 287,
+     "orank": 1374667,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1452,7 +1452,7 @@
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 1374667,
+    "overall_rank": 1374666,
     "region": "India",
     "past": [
      {
@@ -1540,7 +1540,7 @@
      "gw": 4,
      "net": 69,
      "total": 287,
-     "orank": 1088487,
+     "orank": 1382146,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1551,7 +1551,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 1382146,
+    "overall_rank": 1382145,
     "region": "India",
     "past": [
      {
@@ -1677,9 +1677,9 @@
     },
     {
      "gw": 4,
-     "net": 86,
-     "total": 286,
-     "orank": 1163981,
+     "net": 87,
+     "total": 287,
+     "orank": 1402141,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1752,9 +1752,9 @@
     },
     {
      "gw": 4,
-     "net": 56,
-     "total": 283,
-     "orank": 1327109,
+     "net": 58,
+     "total": 285,
+     "orank": 1512514,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -1847,13 +1847,13 @@
     },
     {
      "gw": 4,
-     "net": 69,
-     "total": 282,
-     "orank": 1375721,
+     "net": 71,
+     "total": 284,
+     "orank": 1563918,
      "chip": "wildcard",
      "cap_pts": 18,
      "cap": "Haaland",
-     "bench": 8
+     "bench": 10
     }
    ],
    "career": {
@@ -1939,11 +1939,11 @@
      "gw": 4,
      "net": 69,
      "total": 284,
-     "orank": 1264459,
+     "orank": 1580919,
      "chip": "freehit",
      "cap_pts": 22,
      "cap": "De Cuyper",
-     "bench": 3
+     "bench": 4
     }
    ],
    "career": {
@@ -2037,9 +2037,9 @@
     },
     {
      "gw": 4,
-     "net": 74,
-     "total": 282,
-     "orank": 1391545,
+     "net": 75,
+     "total": 283,
+     "orank": 1650086,
      "chip": "wildcard",
      "cap_pts": 4,
      "cap": "Isak",
@@ -2147,9 +2147,9 @@
     },
     {
      "gw": 4,
-     "net": 72,
-     "total": 279,
-     "orank": 1595374,
+     "net": 73,
+     "total": 280,
+     "orank": 1867826,
      "chip": "freehit",
      "cap_pts": 4,
      "cap": "Isak",
@@ -2160,7 +2160,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 1867826,
+    "overall_rank": 1867823,
     "region": "India",
     "past": [
      {
@@ -2282,9 +2282,9 @@
     },
     {
      "gw": 4,
-     "net": 87,
-     "total": 272,
-     "orank": 2129786,
+     "net": 90,
+     "total": 275,
+     "orank": 2260007,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
@@ -2295,7 +2295,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 2260007,
+    "overall_rank": 2260003,
     "region": "India",
     "past": [
      {
@@ -2411,20 +2411,20 @@
     },
     {
      "gw": 4,
-     "net": 92,
-     "total": 269,
-     "orank": 2381160,
+     "net": 93,
+     "total": 270,
+     "orank": 2682180,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
-     "bench": 9
+     "bench": 16
     }
    ],
    "career": {
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 2682180,
+    "overall_rank": 2682176,
     "region": "India",
     "past": [
      {
@@ -2525,9 +2525,9 @@
     },
     {
      "gw": 4,
-     "net": 83,
-     "total": 268,
-     "orank": 2467563,
+     "net": 84,
+     "total": 269,
+     "orank": 2769665,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -2538,7 +2538,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2769665,
+    "overall_rank": 2769661,
     "region": "India",
     "past": [
      {
@@ -2621,9 +2621,9 @@
     },
     {
      "gw": 4,
-     "net": 63,
-     "total": 256,
-     "orank": 3583946,
+     "net": 74,
+     "total": 267,
+     "orank": 2949027,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -2634,7 +2634,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 2949027,
+    "overall_rank": 2949023,
     "region": "India",
     "past": [
      {
@@ -2723,9 +2723,9 @@
     },
     {
      "gw": 4,
-     "net": 58,
-     "total": 259,
-     "orank": 3318900,
+     "net": 66,
+     "total": 267,
+     "orank": 2973583,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -2736,7 +2736,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2973583,
+    "overall_rank": 2973579,
     "region": "India",
     "past": [
      {
@@ -2812,9 +2812,9 @@
     },
     {
      "gw": 4,
-     "net": 68,
-     "total": 265,
-     "orank": 2758639,
+     "net": 69,
+     "total": 266,
+     "orank": 3064196,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -2825,7 +2825,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 3064196,
+    "overall_rank": 3064192,
     "region": "India",
     "past": [
      {
@@ -2931,9 +2931,9 @@
     },
     {
      "gw": 4,
-     "net": 72,
-     "total": 258,
-     "orank": 3390269,
+     "net": 77,
+     "total": 263,
+     "orank": 3317256,
      "chip": null,
      "cap_pts": 10,
      "cap": "Palmer",
@@ -2944,7 +2944,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 3317256,
+    "overall_rank": 3317250,
     "region": "India",
     "past": [
      {
@@ -3050,9 +3050,9 @@
     },
     {
      "gw": 4,
-     "net": 66,
-     "total": 244,
-     "orank": 4757632,
+     "net": 69,
+     "total": 247,
+     "orank": 4839833,
      "chip": "wildcard",
      "cap_pts": 10,
      "cap": "Palmer",
@@ -3063,7 +3063,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 4839834,
+    "overall_rank": 4839826,
     "region": "India",
     "past": [
      {
@@ -3134,9 +3134,9 @@
     },
     {
      "gw": 4,
-     "net": 71,
-     "total": 214,
-     "orank": 7330374,
+     "net": 89,
+     "total": 232,
+     "orank": 6223274,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -3147,7 +3147,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6223275,
+    "overall_rank": 6223264,
     "region": "India",
     "past": [
      {
@@ -3203,9 +3203,9 @@
     },
     {
      "gw": 4,
-     "net": 66,
-     "total": 224,
-     "orank": 6572720,
+     "net": 69,
+     "total": 227,
+     "orank": 6606759,
      "chip": "wildcard",
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -3216,7 +3216,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6606760,
+    "overall_rank": 6606749,
     "region": "England",
     "past": [
      {
@@ -3289,7 +3289,7 @@
      "gw": 4,
      "net": 55,
      "total": 187,
-     "orank": 8752145,
+     "orank": 8850751,
      "chip": null,
      "cap_pts": 24,
      "cap": "João Pedro",
@@ -3300,7 +3300,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8850753,
+    "overall_rank": 8850739,
     "region": "USA",
     "past": []
    },
@@ -3333,7 +3333,7 @@
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 114,
+       "gf": 125,
        "hits": 0,
        "played": 2,
        "team": "Malisahi Randuas",
@@ -3345,7 +3345,7 @@
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 134,
+       "gf": 137,
        "hits": 0,
        "played": 2,
        "team": "BattleBorn",
@@ -3369,7 +3369,7 @@
        "d": 0,
        "l": 2,
        "pts": 0,
-       "gf": 104,
+       "gf": 112,
        "hits": 4,
        "played": 2,
        "team": "Southall United",
@@ -3386,7 +3386,7 @@
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 139,
+       "gf": 144,
        "hits": 0,
        "played": 2,
        "team": "115 FC",
@@ -3398,7 +3398,7 @@
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 128,
+       "gf": 129,
        "hits": 0,
        "played": 2,
        "team": "Goal Diggers FC",
@@ -3410,7 +3410,7 @@
        "d": 0,
        "l": 2,
        "pts": 0,
-       "gf": 126,
+       "gf": 127,
        "hits": 0,
        "played": 2,
        "team": "Loading...",
@@ -3422,7 +3422,7 @@
        "d": 0,
        "l": 2,
        "pts": 0,
-       "gf": 121,
+       "gf": 126,
        "hits": 0,
        "played": 2,
        "team": "Carrick Janta Party",
@@ -3439,7 +3439,7 @@
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 137,
+       "gf": 140,
        "hits": 0,
        "played": 2,
        "team": "Xa bing chilling",
@@ -3451,7 +3451,7 @@
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 135,
+       "gf": 136,
        "hits": 0,
        "played": 2,
        "team": "ShakeNBake",
@@ -3463,7 +3463,7 @@
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 101,
+       "gf": 112,
        "hits": 0,
        "played": 2,
        "team": "Mishra's 13",
@@ -3475,7 +3475,7 @@
        "d": 0,
        "l": 2,
        "pts": 0,
-       "gf": 110,
+       "gf": 112,
        "hits": 0,
        "played": 2,
        "team": "Cold Palmer",
@@ -3492,7 +3492,7 @@
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 159,
+       "gf": 170,
        "hits": 0,
        "played": 2,
        "team": "Onside Offside",
@@ -3511,28 +3511,28 @@
        "name": "Naman Agrawal"
       },
       {
-       "id": 5340498,
-       "w": 1,
-       "d": 0,
-       "l": 1,
-       "pts": 3,
-       "gf": 119,
-       "hits": 0,
-       "played": 2,
-       "team": "Old Reijnders Nagar",
-       "name": "Sid Shaurya"
-      },
-      {
        "id": 5970777,
        "w": 0,
-       "d": 0,
-       "l": 2,
-       "pts": 0,
-       "gf": 119,
+       "d": 1,
+       "l": 1,
+       "pts": 1,
+       "gf": 124,
        "hits": 0,
        "played": 2,
        "team": "fpl_26_27",
        "name": "Karan Chopra"
+      },
+      {
+       "id": 5340498,
+       "w": 0,
+       "d": 1,
+       "l": 1,
+       "pts": 1,
+       "gf": 122,
+       "hits": 0,
+       "played": 2,
+       "team": "Old Reijnders Nagar",
+       "name": "Sid Shaurya"
       }
      ]
     },
@@ -3545,7 +3545,7 @@
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 132,
+       "gf": 135,
        "hits": 0,
        "played": 2,
        "team": "Totally Szobo",
@@ -3557,7 +3557,7 @@
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 146,
+       "gf": 147,
        "hits": 0,
        "played": 2,
        "team": "Cment_mixers",
@@ -3569,7 +3569,7 @@
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 130,
+       "gf": 131,
        "hits": 0,
        "played": 2,
        "team": "Fluente in Football",
@@ -3581,7 +3581,7 @@
        "d": 0,
        "l": 2,
        "pts": 0,
-       "gf": 124,
+       "gf": 126,
        "hits": 0,
        "played": 2,
        "team": "ItDzntMata",
@@ -3593,16 +3593,16 @@
      "group": "F",
      "rows": [
       {
-       "id": 3330149,
+       "id": 2354537,
        "w": 2,
        "d": 0,
        "l": 0,
        "pts": 6,
-       "gf": 136,
+       "gf": 117,
        "hits": 0,
        "played": 2,
-       "team": "Amad Aura",
-       "name": "Karan Khanna"
+       "team": "MaSalah",
+       "name": "Raveesh Kalra"
       },
       {
        "id": 256447,
@@ -3610,23 +3610,23 @@
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 139,
+       "gf": 150,
        "hits": 4,
        "played": 2,
        "team": "Fiery Raiders",
        "name": "Anish Joshi"
       },
       {
-       "id": 2354537,
+       "id": 3330149,
        "w": 1,
        "d": 0,
        "l": 1,
        "pts": 3,
-       "gf": 109,
+       "gf": 136,
        "hits": 0,
        "played": 2,
-       "team": "MaSalah",
-       "name": "Raveesh Kalra"
+       "team": "Amad Aura",
+       "name": "Karan Khanna"
       },
       {
        "id": 427154,
@@ -3634,7 +3634,7 @@
        "d": 0,
        "l": 2,
        "pts": 0,
-       "gf": 125,
+       "gf": 128,
        "hits": 0,
        "played": 2,
        "team": "KingOfKings Fc",
@@ -3913,13 +3913,13 @@
    "Wildcard": {
     "team": "Pole Calmer �",
     "name": "Ashwin Jose",
-    "score": 92,
+    "score": 93,
     "gw": 4
    },
    "Free Hit": {
     "team": "Goal Diggers FC",
     "name": "Varun Khurana",
-    "score": 72,
+    "score": 73,
     "gw": 4
    }
   },
@@ -3938,7 +3938,7 @@
    "team": "KingOfKings Fc",
    "name": "Abhiraj Singh",
    "player": "White",
-   "owned": 6.9,
+   "owned": 6.8,
    "haul": 11,
    "gw": 1
   },
