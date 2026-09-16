@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-15T22:16:13Z"
+  "updated_iso": "2026-09-16T00:22:38Z"
  },
  "standings": [
   {
@@ -2371,6 +2371,108 @@
   },
   {
    "rank": 22,
+   "last_rank": 23,
+   "id": 3181909,
+   "team": "Mishra's 13",
+   "name": "Aparnesh Mishra",
+   "total": 270,
+   "event_total": 77,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 59,
+     "total": 59,
+     "orank": 1987556,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 13
+    },
+    {
+     "gw": 2,
+     "net": 96,
+     "total": 155,
+     "orank": 1534195,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 3,
+     "net": 38,
+     "total": 193,
+     "orank": 3198740,
+     "chip": null,
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 4,
+     "net": 77,
+     "total": 270,
+     "orank": 2778338,
+     "chip": null,
+     "cap_pts": 24,
+     "cap": "João Pedro",
+     "bench": 8
+    }
+   ],
+   "career": {
+    "seasons": 9,
+    "best_finish": 334016,
+    "best_season": "2020/21",
+    "overall_rank": 2778322,
+    "region": "India",
+    "past": [
+     {
+      "s": "2017/18",
+      "pts": 2038,
+      "rank": 882859
+     },
+     {
+      "s": "2018/19",
+      "pts": 2091,
+      "rank": 918709
+     },
+     {
+      "s": "2019/20",
+      "pts": 2018,
+      "rank": 1698145
+     },
+     {
+      "s": "2020/21",
+      "pts": 2307,
+      "rank": 334016
+     },
+     {
+      "s": "2021/22",
+      "pts": 2096,
+      "rank": 1956759
+     },
+     {
+      "s": "2022/23",
+      "pts": 2247,
+      "rank": 2124977
+     },
+     {
+      "s": "2023/24",
+      "pts": 1847,
+      "rank": 6645839
+     },
+     {
+      "s": "2025/26",
+      "pts": 2075,
+      "rank": 2691725
+     }
+    ]
+   },
+   "chips_used": []
+  },
+  {
+   "rank": 22,
    "last_rank": 28,
    "id": 5008941,
    "team": "Pole Calmer �",
@@ -2482,108 +2584,6 @@
    "chips_used": [
     "wildcard"
    ]
-  },
-  {
-   "rank": 22,
-   "last_rank": 23,
-   "id": 3181909,
-   "team": "Mishra's 13",
-   "name": "Aparnesh Mishra",
-   "total": 270,
-   "event_total": 77,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 59,
-     "total": 59,
-     "orank": 1987556,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 13
-    },
-    {
-     "gw": 2,
-     "net": 96,
-     "total": 155,
-     "orank": 1534195,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 3,
-     "net": 38,
-     "total": 193,
-     "orank": 3198740,
-     "chip": null,
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 4,
-     "net": 77,
-     "total": 270,
-     "orank": 2778338,
-     "chip": null,
-     "cap_pts": 24,
-     "cap": "João Pedro",
-     "bench": 8
-    }
-   ],
-   "career": {
-    "seasons": 9,
-    "best_finish": 334016,
-    "best_season": "2020/21",
-    "overall_rank": 2778322,
-    "region": "India",
-    "past": [
-     {
-      "s": "2017/18",
-      "pts": 2038,
-      "rank": 882859
-     },
-     {
-      "s": "2018/19",
-      "pts": 2091,
-      "rank": 918709
-     },
-     {
-      "s": "2019/20",
-      "pts": 2018,
-      "rank": 1698145
-     },
-     {
-      "s": "2020/21",
-      "pts": 2307,
-      "rank": 334016
-     },
-     {
-      "s": "2021/22",
-      "pts": 2096,
-      "rank": 1956759
-     },
-     {
-      "s": "2022/23",
-      "pts": 2247,
-      "rank": 2124977
-     },
-     {
-      "s": "2023/24",
-      "pts": 1847,
-      "rank": 6645839
-     },
-     {
-      "s": "2025/26",
-      "pts": 2075,
-      "rank": 2691725
-     }
-    ]
-   },
-   "chips_used": []
   },
   {
    "rank": 24,
@@ -2944,7 +2944,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 3430059,
+    "overall_rank": 3430060,
     "region": "India",
     "past": [
      {
@@ -3063,7 +3063,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 4982860,
+    "overall_rank": 4982861,
     "region": "India",
     "past": [
      {
@@ -3147,7 +3147,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6376779,
+    "overall_rank": 6376777,
     "region": "India",
     "past": [
      {
@@ -3216,7 +3216,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6761689,
+    "overall_rank": 6761687,
     "region": "England",
     "past": [
      {
@@ -3300,7 +3300,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8951413,
+    "overall_rank": 8951410,
     "region": "USA",
     "past": []
    },
