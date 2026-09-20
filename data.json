@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-20T00:02:03Z"
+  "updated_iso": "2026-09-20T07:40:21Z"
  },
  "standings": [
   {
@@ -944,7 +944,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 625782,
+    "overall_rank": 625783,
     "region": "India",
     "past": [
      {
@@ -1055,7 +1055,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 733975,
+    "overall_rank": 733976,
     "region": "India",
     "past": [
      {
@@ -1195,7 +1195,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 816578,
+    "overall_rank": 816579,
     "region": "India",
     "past": [
      {
@@ -1315,7 +1315,7 @@
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 903315,
+    "overall_rank": 903316,
     "region": "India",
     "past": [
      {
@@ -1435,7 +1435,7 @@
     "seasons": 5,
     "best_finish": 273503,
     "best_season": "2024/25",
-    "overall_rank": 991113,
+    "overall_rank": 991114,
     "region": "India",
     "past": [
      {
@@ -1535,7 +1535,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 996797,
+    "overall_rank": 996798,
     "region": "India",
     "past": [
      {
@@ -1681,7 +1681,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 1093345,
+    "overall_rank": 1093346,
     "region": "India",
     "past": [
      {
@@ -1806,7 +1806,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 1303256,
+    "overall_rank": 1303257,
     "region": "India",
     "past": [
      {
@@ -1843,111 +1843,6 @@
    },
    "chips_used": [
     "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 16,
-   "last_rank": 17,
-   "id": 2424090,
-   "team": "Cold Palmer",
-   "name": "Shivanshu Madan",
-   "total": 309,
-   "event_total": 24,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 62,
-     "total": 62,
-     "orank": 1436683,
-     "chip": null,
-     "cap_pts": 22,
-     "cap": "João Pedro",
-     "bench": 11
-    },
-    {
-     "gw": 2,
-     "net": 111,
-     "total": 173,
-     "orank": 370271,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 22
-    },
-    {
-     "gw": 3,
-     "net": 54,
-     "total": 227,
-     "orank": 375042,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 14
-    },
-    {
-     "gw": 4,
-     "net": 58,
-     "total": 285,
-     "orank": 1569102,
-     "chip": "wildcard",
-     "cap_pts": 10,
-     "cap": "Palmer",
-     "bench": 11
-    },
-    {
-     "gw": 5,
-     "net": 24,
-     "total": 309,
-     "orank": 1356982,
-     "chip": null,
-     "cap_pts": 0,
-     "cap": "Haaland",
-     "bench": 10
-    }
-   ],
-   "career": {
-    "seasons": 6,
-    "best_finish": 31543,
-    "best_season": "2022/23",
-    "overall_rank": 1359286,
-    "region": "USA",
-    "past": [
-     {
-      "s": "2020/21",
-      "pts": 2345,
-      "rank": 207314
-     },
-     {
-      "s": "2021/22",
-      "pts": 2479,
-      "rank": 138325
-     },
-     {
-      "s": "2022/23",
-      "pts": 2572,
-      "rank": 31543
-     },
-     {
-      "s": "2023/24",
-      "pts": 2322,
-      "rank": 848717
-     },
-     {
-      "s": "2024/25",
-      "pts": 2256,
-      "rank": 2060506
-     },
-     {
-      "s": "2025/26",
-      "pts": 2141,
-      "rank": 1637750
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
     "wildcard"
    ]
   },
@@ -2016,7 +1911,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 1359286,
+    "overall_rank": 1359287,
     "region": "India",
     "past": [
      {
@@ -2101,6 +1996,111 @@
    ]
   },
   {
+   "rank": 16,
+   "last_rank": 17,
+   "id": 2424090,
+   "team": "Cold Palmer",
+   "name": "Shivanshu Madan",
+   "total": 309,
+   "event_total": 24,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 62,
+     "total": 62,
+     "orank": 1436683,
+     "chip": null,
+     "cap_pts": 22,
+     "cap": "João Pedro",
+     "bench": 11
+    },
+    {
+     "gw": 2,
+     "net": 111,
+     "total": 173,
+     "orank": 370271,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 22
+    },
+    {
+     "gw": 3,
+     "net": 54,
+     "total": 227,
+     "orank": 375042,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 14
+    },
+    {
+     "gw": 4,
+     "net": 58,
+     "total": 285,
+     "orank": 1569102,
+     "chip": "wildcard",
+     "cap_pts": 10,
+     "cap": "Palmer",
+     "bench": 11
+    },
+    {
+     "gw": 5,
+     "net": 24,
+     "total": 309,
+     "orank": 1356982,
+     "chip": null,
+     "cap_pts": 0,
+     "cap": "Haaland",
+     "bench": 10
+    }
+   ],
+   "career": {
+    "seasons": 6,
+    "best_finish": 31543,
+    "best_season": "2022/23",
+    "overall_rank": 1359287,
+    "region": "USA",
+    "past": [
+     {
+      "s": "2020/21",
+      "pts": 2345,
+      "rank": 207314
+     },
+     {
+      "s": "2021/22",
+      "pts": 2479,
+      "rank": 138325
+     },
+     {
+      "s": "2022/23",
+      "pts": 2572,
+      "rank": 31543
+     },
+     {
+      "s": "2023/24",
+      "pts": 2322,
+      "rank": 848717
+     },
+     {
+      "s": "2024/25",
+      "pts": 2256,
+      "rank": 2060506
+     },
+     {
+      "s": "2025/26",
+      "pts": 2141,
+      "rank": 1637750
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "wildcard"
+   ]
+  },
+  {
    "rank": 18,
    "last_rank": 8,
    "id": 20569,
@@ -2165,7 +2165,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 1368819,
+    "overall_rank": 1368820,
     "region": "India",
     "past": [
      {
@@ -2290,7 +2290,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 1686851,
+    "overall_rank": 1686853,
     "region": "India",
     "past": [
      {
@@ -2422,7 +2422,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 1865019,
+    "overall_rank": 1865018,
     "region": "India",
     "past": [
      {
@@ -2876,7 +2876,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2637841,
+    "overall_rank": 2637842,
     "region": "India",
     "past": [
      {
@@ -3087,7 +3087,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 3071040,
+    "overall_rank": 3071039,
     "region": "India",
     "past": [
      {
@@ -3216,7 +3216,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 3446970,
+    "overall_rank": 3446965,
     "region": "India",
     "past": [
      {
@@ -3345,7 +3345,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 4302618,
+    "overall_rank": 4302609,
     "region": "India",
     "past": [
      {
@@ -3439,7 +3439,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 5428073,
+    "overall_rank": 5428059,
     "region": "India",
     "past": [
      {
@@ -3518,7 +3518,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 7143391,
+    "overall_rank": 7143373,
     "region": "England",
     "past": [
      {
@@ -3612,7 +3612,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 9243588,
+    "overall_rank": 9243560,
     "region": "USA",
     "past": []
    },
