@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-09-26T12:56:31Z"
+  "updated_iso": "2026-09-26T17:42:14Z"
  },
  "standings": [
   {
@@ -580,7 +580,7 @@
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 686540,
+    "overall_rank": 686541,
     "region": "India",
     "past": [
      {
@@ -689,7 +689,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 706145,
+    "overall_rank": 706146,
     "region": "India",
     "past": [
      {
@@ -839,7 +839,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 812330,
+    "overall_rank": 812331,
     "region": "India",
     "past": [
      {
@@ -964,7 +964,7 @@
     "seasons": 9,
     "best_finish": 182900,
     "best_season": "2025/26",
-    "overall_rank": 953302,
+    "overall_rank": 953303,
     "region": "India",
     "past": [
      {
@@ -1079,7 +1079,7 @@
     "seasons": 15,
     "best_finish": 27153,
     "best_season": "2022/23",
-    "overall_rank": 976033,
+    "overall_rank": 976034,
     "region": "India",
     "past": [
      {
@@ -1209,7 +1209,7 @@
     "seasons": 5,
     "best_finish": 273503,
     "best_season": "2024/25",
-    "overall_rank": 996160,
+    "overall_rank": 996161,
     "region": "India",
     "past": [
      {
@@ -1309,7 +1309,7 @@
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 1003045,
+    "overall_rank": 1003046,
     "region": "India",
     "past": [
      {
@@ -1429,7 +1429,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 1054692,
+    "overall_rank": 1054693,
     "region": "India",
     "past": [
      {
@@ -1549,7 +1549,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 1218315,
+    "overall_rank": 1218316,
     "region": "India",
     "past": [
      {
@@ -1586,117 +1586,6 @@
    },
    "chips_used": [
     "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 14,
-   "last_rank": 16,
-   "id": 3330149,
-   "team": "Amad Aura",
-   "name": "Karan Khanna",
-   "total": 337,
-   "event_total": 51,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 47,
-     "total": 47,
-     "orank": 5282775,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Mbeumo",
-     "bench": 6
-    },
-    {
-     "gw": 2,
-     "net": 101,
-     "total": 148,
-     "orank": 2273760,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 3
-    },
-    {
-     "gw": 3,
-     "net": 67,
-     "total": 215,
-     "orank": 961038,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 14
-    },
-    {
-     "gw": 4,
-     "net": 71,
-     "total": 286,
-     "orank": 1501110,
-     "chip": "freehit",
-     "cap_pts": 22,
-     "cap": "De Cuyper",
-     "bench": 2
-    },
-    {
-     "gw": 5,
-     "net": 51,
-     "total": 337,
-     "orank": 1396886,
-     "chip": "wildcard",
-     "cap_pts": 4,
-     "cap": "Gibbs-White",
-     "bench": 16
-    }
-   ],
-   "career": {
-    "seasons": 7,
-    "best_finish": 453230,
-    "best_season": "2019/20",
-    "overall_rank": 1396853,
-    "region": "India",
-    "past": [
-     {
-      "s": "2019/20",
-      "pts": 2167,
-      "rank": 453230
-     },
-     {
-      "s": "2020/21",
-      "pts": 2240,
-      "rank": 657867
-     },
-     {
-      "s": "2021/22",
-      "pts": 1726,
-      "rank": 5550822
-     },
-     {
-      "s": "2022/23",
-      "pts": 2021,
-      "rank": 4987516
-     },
-     {
-      "s": "2023/24",
-      "pts": 1650,
-      "rank": 8704574
-     },
-     {
-      "s": "2024/25",
-      "pts": 1508,
-      "rank": 9841343
-     },
-     {
-      "s": "2025/26",
-      "pts": 1765,
-      "rank": 8188106
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "freehit",
     "wildcard"
    ]
   },
@@ -1765,7 +1654,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 1396853,
+    "overall_rank": 1396854,
     "region": "India",
     "past": [
      {
@@ -1850,6 +1739,117 @@
    ]
   },
   {
+   "rank": 14,
+   "last_rank": 16,
+   "id": 3330149,
+   "team": "Amad Aura",
+   "name": "Karan Khanna",
+   "total": 337,
+   "event_total": 51,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 47,
+     "total": 47,
+     "orank": 5282775,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Mbeumo",
+     "bench": 6
+    },
+    {
+     "gw": 2,
+     "net": 101,
+     "total": 148,
+     "orank": 2273760,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 3
+    },
+    {
+     "gw": 3,
+     "net": 67,
+     "total": 215,
+     "orank": 961038,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 14
+    },
+    {
+     "gw": 4,
+     "net": 71,
+     "total": 286,
+     "orank": 1501110,
+     "chip": "freehit",
+     "cap_pts": 22,
+     "cap": "De Cuyper",
+     "bench": 2
+    },
+    {
+     "gw": 5,
+     "net": 51,
+     "total": 337,
+     "orank": 1396886,
+     "chip": "wildcard",
+     "cap_pts": 4,
+     "cap": "Gibbs-White",
+     "bench": 16
+    }
+   ],
+   "career": {
+    "seasons": 7,
+    "best_finish": 453230,
+    "best_season": "2019/20",
+    "overall_rank": 1396854,
+    "region": "India",
+    "past": [
+     {
+      "s": "2019/20",
+      "pts": 2167,
+      "rank": 453230
+     },
+     {
+      "s": "2020/21",
+      "pts": 2240,
+      "rank": 657867
+     },
+     {
+      "s": "2021/22",
+      "pts": 1726,
+      "rank": 5550822
+     },
+     {
+      "s": "2022/23",
+      "pts": 2021,
+      "rank": 4987516
+     },
+     {
+      "s": "2023/24",
+      "pts": 1650,
+      "rank": 8704574
+     },
+     {
+      "s": "2024/25",
+      "pts": 1508,
+      "rank": 9841343
+     },
+     {
+      "s": "2025/26",
+      "pts": 1765,
+      "rank": 8188106
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "freehit",
+    "wildcard"
+   ]
+  },
+  {
    "rank": 16,
    "last_rank": 17,
    "id": 2424090,
@@ -1914,7 +1914,7 @@
     "seasons": 6,
     "best_finish": 31543,
     "best_season": "2022/23",
-    "overall_rank": 1589019,
+    "overall_rank": 1589020,
     "region": "USA",
     "past": [
      {
@@ -2019,7 +2019,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 1724505,
+    "overall_rank": 1724506,
     "region": "India",
     "past": [
      {
@@ -2165,7 +2165,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 2098987,
+    "overall_rank": 2098988,
     "region": "India",
     "past": [
      {
@@ -2290,7 +2290,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 2297236,
+    "overall_rank": 2297237,
     "region": "India",
     "past": [
      {
@@ -2375,7 +2375,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 2516229,
+    "overall_rank": 2516230,
     "region": "India",
     "past": [
      {
@@ -2507,7 +2507,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 2598653,
+    "overall_rank": 2598654,
     "region": "India",
     "past": [
      {
@@ -2636,7 +2636,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 2648208,
+    "overall_rank": 2648209,
     "region": "India",
     "past": [
      {
@@ -2775,7 +2775,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 2745112,
+    "overall_rank": 2745113,
     "region": "India",
     "past": [
      {
@@ -2899,7 +2899,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 2831075,
+    "overall_rank": 2831076,
     "region": "India",
     "past": [
      {
@@ -3011,7 +3011,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2963156,
+    "overall_rank": 2963157,
     "region": "India",
     "past": [
      {
@@ -3110,7 +3110,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 3181437,
+    "overall_rank": 3181438,
     "region": "India",
     "past": [
      {
@@ -3216,7 +3216,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 3440206,
+    "overall_rank": 3440208,
     "region": "India",
     "past": [
      {
@@ -3345,7 +3345,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 5109080,
+    "overall_rank": 5109081,
     "region": "India",
     "past": [
      {
@@ -3612,7 +3612,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8883058,
+    "overall_rank": 8883051,
     "region": "USA",
     "past": []
    },
