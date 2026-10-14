@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-10-14T07:25:32Z"
+  "updated_iso": "2026-10-14T13:34:24Z"
  },
  "standings": [
   {
@@ -157,6 +157,98 @@
     "freehit",
     "wildcard"
    ]
+  },
+  {
+   "rank": 2,
+   "last_rank": 2,
+   "id": 5419891,
+   "team": "Onside Offside",
+   "name": "Ajith Thomas Kuthukatt George",
+   "total": 444,
+   "event_total": 61,
+   "prize": "₹20,000",
+   "series": [
+    {
+     "gw": 1,
+     "net": 55,
+     "total": 55,
+     "orank": 2935782,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 8
+    },
+    {
+     "gw": 2,
+     "net": 100,
+     "total": 155,
+     "orank": 1474311,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 19
+    },
+    {
+     "gw": 3,
+     "net": 54,
+     "total": 209,
+     "orank": 1384256,
+     "chip": null,
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 8
+    },
+    {
+     "gw": 4,
+     "net": 116,
+     "total": 325,
+     "orank": 109108,
+     "chip": null,
+     "cap_pts": 24,
+     "cap": "João Pedro",
+     "bench": 4
+    },
+    {
+     "gw": 5,
+     "net": 58,
+     "total": 383,
+     "orank": 56391,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 3
+    },
+    {
+     "gw": 6,
+     "net": 61,
+     "total": 444,
+     "orank": 161939,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 18
+    }
+   ],
+   "career": {
+    "seasons": 2,
+    "best_finish": 545267,
+    "best_season": "2025/26",
+    "overall_rank": 161939,
+    "region": "England",
+    "past": [
+     {
+      "s": "2024/25",
+      "pts": 2387,
+      "rank": 664600
+     },
+     {
+      "s": "2025/26",
+      "pts": 2238,
+      "rank": 545267
+     }
+    ]
+   },
+   "chips_used": []
   },
   {
    "rank": 2,
@@ -312,98 +404,6 @@
     "bboost",
     "wildcard"
    ]
-  },
-  {
-   "rank": 2,
-   "last_rank": 2,
-   "id": 5419891,
-   "team": "Onside Offside",
-   "name": "Ajith Thomas Kuthukatt George",
-   "total": 444,
-   "event_total": 61,
-   "prize": "₹20,000",
-   "series": [
-    {
-     "gw": 1,
-     "net": 55,
-     "total": 55,
-     "orank": 2935782,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 8
-    },
-    {
-     "gw": 2,
-     "net": 100,
-     "total": 155,
-     "orank": 1474311,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 19
-    },
-    {
-     "gw": 3,
-     "net": 54,
-     "total": 209,
-     "orank": 1384256,
-     "chip": null,
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 8
-    },
-    {
-     "gw": 4,
-     "net": 116,
-     "total": 325,
-     "orank": 109108,
-     "chip": null,
-     "cap_pts": 24,
-     "cap": "João Pedro",
-     "bench": 4
-    },
-    {
-     "gw": 5,
-     "net": 58,
-     "total": 383,
-     "orank": 56391,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 3
-    },
-    {
-     "gw": 6,
-     "net": 61,
-     "total": 444,
-     "orank": 161939,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 18
-    }
-   ],
-   "career": {
-    "seasons": 2,
-    "best_finish": 545267,
-    "best_season": "2025/26",
-    "overall_rank": 161939,
-    "region": "England",
-    "past": [
-     {
-      "s": "2024/25",
-      "pts": 2387,
-      "rank": 664600
-     },
-     {
-      "s": "2025/26",
-      "pts": 2238,
-      "rank": 545267
-     }
-    ]
-   },
-   "chips_used": []
   },
   {
    "rank": 4,
@@ -1078,136 +1078,6 @@
   },
   {
    "rank": 9,
-   "last_rank": 12,
-   "id": 374875,
-   "team": "Fluente in Football",
-   "name": "Yash Beohar",
-   "total": 412,
-   "event_total": 69,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 61,
-     "total": 61,
-     "orank": 1605173,
-     "chip": "bboost",
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 0
-    },
-    {
-     "gw": 2,
-     "net": 107,
-     "total": 168,
-     "orank": 570762,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 17
-    },
-    {
-     "gw": 3,
-     "net": 40,
-     "total": 208,
-     "orank": 1472197,
-     "chip": "wildcard",
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 3
-    },
-    {
-     "gw": 4,
-     "net": 91,
-     "total": 299,
-     "orank": 774645,
-     "chip": null,
-     "cap_pts": 10,
-     "cap": "Palmer",
-     "bench": 4
-    },
-    {
-     "gw": 5,
-     "net": 44,
-     "total": 343,
-     "orank": 1054718,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 1
-    },
-    {
-     "gw": 6,
-     "net": 69,
-     "total": 412,
-     "orank": 976197,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 2
-    }
-   ],
-   "career": {
-    "seasons": 10,
-    "best_finish": 30971,
-    "best_season": "2018/19",
-    "overall_rank": 976193,
-    "region": "India",
-    "past": [
-     {
-      "s": "2016/17",
-      "pts": 2212,
-      "rank": 56692
-     },
-     {
-      "s": "2017/18",
-      "pts": 1990,
-      "rank": 1261857
-     },
-     {
-      "s": "2018/19",
-      "pts": 2334,
-      "rank": 30971
-     },
-     {
-      "s": "2019/20",
-      "pts": 2136,
-      "rank": 644143
-     },
-     {
-      "s": "2020/21",
-      "pts": 2125,
-      "rank": 1484555
-     },
-     {
-      "s": "2021/22",
-      "pts": 2399,
-      "rank": 311695
-     },
-     {
-      "s": "2022/23",
-      "pts": 2331,
-      "rank": 1219740
-     },
-     {
-      "s": "2024/25",
-      "pts": 2238,
-      "rank": 2314112
-     },
-     {
-      "s": "2025/26",
-      "pts": 2347,
-      "rank": 58227
-     }
-    ]
-   },
-   "chips_used": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 9,
    "last_rank": 17,
    "id": 3909562,
    "team": "Goal Diggers FC",
@@ -1360,6 +1230,136 @@
     "3xc",
     "bboost",
     "freehit",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 9,
+   "last_rank": 12,
+   "id": 374875,
+   "team": "Fluente in Football",
+   "name": "Yash Beohar",
+   "total": 412,
+   "event_total": 69,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 61,
+     "total": 61,
+     "orank": 1605173,
+     "chip": "bboost",
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 0
+    },
+    {
+     "gw": 2,
+     "net": 107,
+     "total": 168,
+     "orank": 570762,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 17
+    },
+    {
+     "gw": 3,
+     "net": 40,
+     "total": 208,
+     "orank": 1472197,
+     "chip": "wildcard",
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 3
+    },
+    {
+     "gw": 4,
+     "net": 91,
+     "total": 299,
+     "orank": 774645,
+     "chip": null,
+     "cap_pts": 10,
+     "cap": "Palmer",
+     "bench": 4
+    },
+    {
+     "gw": 5,
+     "net": 44,
+     "total": 343,
+     "orank": 1054718,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 1
+    },
+    {
+     "gw": 6,
+     "net": 69,
+     "total": 412,
+     "orank": 976197,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 2
+    }
+   ],
+   "career": {
+    "seasons": 10,
+    "best_finish": 30971,
+    "best_season": "2018/19",
+    "overall_rank": 976193,
+    "region": "India",
+    "past": [
+     {
+      "s": "2016/17",
+      "pts": 2212,
+      "rank": 56692
+     },
+     {
+      "s": "2017/18",
+      "pts": 1990,
+      "rank": 1261857
+     },
+     {
+      "s": "2018/19",
+      "pts": 2334,
+      "rank": 30971
+     },
+     {
+      "s": "2019/20",
+      "pts": 2136,
+      "rank": 644143
+     },
+     {
+      "s": "2020/21",
+      "pts": 2125,
+      "rank": 1484555
+     },
+     {
+      "s": "2021/22",
+      "pts": 2399,
+      "rank": 311695
+     },
+     {
+      "s": "2022/23",
+      "pts": 2331,
+      "rank": 1219740
+     },
+     {
+      "s": "2024/25",
+      "pts": 2238,
+      "rank": 2314112
+     },
+     {
+      "s": "2025/26",
+      "pts": 2347,
+      "rank": 58227
+     }
+    ]
+   },
+   "chips_used": [
+    "bboost",
     "wildcard"
    ]
   },
@@ -2122,7 +2122,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 1690115,
+    "overall_rank": 1690116,
     "region": "India",
     "past": [
      {
@@ -2256,7 +2256,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 1743168,
+    "overall_rank": 1743169,
     "region": "India",
     "past": [
      {
@@ -3007,7 +3007,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2432975,
+    "overall_rank": 2432976,
     "region": "India",
     "past": [
      {
@@ -3116,7 +3116,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 2451027,
+    "overall_rank": 2451028,
     "region": "India",
     "past": [
      {
@@ -3240,7 +3240,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 2549618,
+    "overall_rank": 2549620,
     "region": "India",
     "past": [
      {
@@ -3375,7 +3375,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2741974,
+    "overall_rank": 2741976,
     "region": "India",
     "past": [
      {
@@ -3491,7 +3491,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 2958085,
+    "overall_rank": 2958087,
     "region": "India",
     "past": [
      {
@@ -3635,7 +3635,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 3104068,
+    "overall_rank": 3104070,
     "region": "India",
     "past": [
      {
@@ -3739,7 +3739,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 5544557,
+    "overall_rank": 5544554,
     "region": "India",
     "past": [
      {
@@ -3828,7 +3828,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 5892269,
+    "overall_rank": 5892266,
     "region": "England",
     "past": [
      {
@@ -3932,7 +3932,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 8841616,
+    "overall_rank": 8841606,
     "region": "USA",
     "past": []
    },
