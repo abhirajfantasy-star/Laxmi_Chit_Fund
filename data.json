@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-10-22T04:21:52Z"
+  "updated_iso": "2026-10-22T11:35:27Z"
  },
  "standings": [
   {
@@ -274,6 +274,147 @@
   },
   {
    "rank": 3,
+   "last_rank": 4,
+   "id": 2003955,
+   "team": "Loading...",
+   "name": "Aayush Khanna",
+   "total": 507,
+   "event_total": 73,
+   "prize": "₹12,500",
+   "series": [
+    {
+     "gw": 1,
+     "net": 42,
+     "total": 42,
+     "orank": 6633922,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 5
+    },
+    {
+     "gw": 2,
+     "net": 114,
+     "total": 156,
+     "orank": 1383722,
+     "chip": null,
+     "cap_pts": 22,
+     "cap": "Mbeumo",
+     "bench": 10
+    },
+    {
+     "gw": 3,
+     "net": 52,
+     "total": 208,
+     "orank": 1516623,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 9
+    },
+    {
+     "gw": 4,
+     "net": 75,
+     "total": 283,
+     "orank": 1711492,
+     "chip": "wildcard",
+     "cap_pts": 4,
+     "cap": "Isak",
+     "bench": 12
+    },
+    {
+     "gw": 5,
+     "net": 61,
+     "total": 344,
+     "orank": 1003072,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 11
+    },
+    {
+     "gw": 6,
+     "net": 90,
+     "total": 434,
+     "orank": 311734,
+     "chip": "bboost",
+     "cap_pts": 18,
+     "cap": "Rogers",
+     "bench": 0
+    },
+    {
+     "gw": 7,
+     "net": 73,
+     "total": 507,
+     "orank": 275226,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "De Cuyper",
+     "bench": 7
+    }
+   ],
+   "career": {
+    "seasons": 9,
+    "best_finish": 486041,
+    "best_season": "2024/25",
+    "overall_rank": 275221,
+    "region": "India",
+    "past": [
+     {
+      "s": "2017/18",
+      "pts": 1991,
+      "rank": 1246959
+     },
+     {
+      "s": "2018/19",
+      "pts": 1739,
+      "rank": 4500017
+     },
+     {
+      "s": "2019/20",
+      "pts": 1613,
+      "rank": 5927311
+     },
+     {
+      "s": "2020/21",
+      "pts": 1728,
+      "rank": 5076297
+     },
+     {
+      "s": "2021/22",
+      "pts": 2200,
+      "rank": 1198300
+     },
+     {
+      "s": "2022/23",
+      "pts": 2393,
+      "rank": 702122
+     },
+     {
+      "s": "2023/24",
+      "pts": 2264,
+      "rank": 1398403
+     },
+     {
+      "s": "2024/25",
+      "pts": 2413,
+      "rank": 486041
+     },
+     {
+      "s": "2025/26",
+      "pts": 2173,
+      "rank": 1206623
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "bboost",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 3,
    "last_rank": 2,
    "id": 256447,
    "team": "Fiery Raiders",
@@ -433,147 +574,6 @@
     ]
    },
    "chips_used": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 3,
-   "last_rank": 4,
-   "id": 2003955,
-   "team": "Loading...",
-   "name": "Aayush Khanna",
-   "total": 507,
-   "event_total": 73,
-   "prize": "₹12,500",
-   "series": [
-    {
-     "gw": 1,
-     "net": 42,
-     "total": 42,
-     "orank": 6633922,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 5
-    },
-    {
-     "gw": 2,
-     "net": 114,
-     "total": 156,
-     "orank": 1383722,
-     "chip": null,
-     "cap_pts": 22,
-     "cap": "Mbeumo",
-     "bench": 10
-    },
-    {
-     "gw": 3,
-     "net": 52,
-     "total": 208,
-     "orank": 1516623,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 9
-    },
-    {
-     "gw": 4,
-     "net": 75,
-     "total": 283,
-     "orank": 1711492,
-     "chip": "wildcard",
-     "cap_pts": 4,
-     "cap": "Isak",
-     "bench": 12
-    },
-    {
-     "gw": 5,
-     "net": 61,
-     "total": 344,
-     "orank": 1003072,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 11
-    },
-    {
-     "gw": 6,
-     "net": 90,
-     "total": 434,
-     "orank": 311734,
-     "chip": "bboost",
-     "cap_pts": 18,
-     "cap": "Rogers",
-     "bench": 0
-    },
-    {
-     "gw": 7,
-     "net": 73,
-     "total": 507,
-     "orank": 275226,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "De Cuyper",
-     "bench": 7
-    }
-   ],
-   "career": {
-    "seasons": 9,
-    "best_finish": 486041,
-    "best_season": "2024/25",
-    "overall_rank": 275221,
-    "region": "India",
-    "past": [
-     {
-      "s": "2017/18",
-      "pts": 1991,
-      "rank": 1246959
-     },
-     {
-      "s": "2018/19",
-      "pts": 1739,
-      "rank": 4500017
-     },
-     {
-      "s": "2019/20",
-      "pts": 1613,
-      "rank": 5927311
-     },
-     {
-      "s": "2020/21",
-      "pts": 1728,
-      "rank": 5076297
-     },
-     {
-      "s": "2021/22",
-      "pts": 2200,
-      "rank": 1198300
-     },
-     {
-      "s": "2022/23",
-      "pts": 2393,
-      "rank": 702122
-     },
-     {
-      "s": "2023/24",
-      "pts": 2264,
-      "rank": 1398403
-     },
-     {
-      "s": "2024/25",
-      "pts": 2413,
-      "rank": 486041
-     },
-     {
-      "s": "2025/26",
-      "pts": 2173,
-      "rank": 1206623
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
     "bboost",
     "wildcard"
    ]
@@ -2954,7 +2954,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2357470,
+    "overall_rank": 2357471,
     "region": "India",
     "past": [
      {
@@ -3073,7 +3073,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 2372879,
+    "overall_rank": 2372880,
     "region": "India",
     "past": [
      {
@@ -3228,7 +3228,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 2431295,
+    "overall_rank": 2431296,
     "region": "India",
     "past": [
      {
@@ -3342,7 +3342,7 @@
     "seasons": 6,
     "best_finish": 31543,
     "best_season": "2022/23",
-    "overall_rank": 2490190,
+    "overall_rank": 2490191,
     "region": "USA",
     "past": [
      {
@@ -3467,7 +3467,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2679995,
+    "overall_rank": 2679996,
     "region": "India",
     "past": [
      {
@@ -3593,7 +3593,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 2925826,
+    "overall_rank": 2925828,
     "region": "India",
     "past": [
      {
@@ -3724,7 +3724,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 3065667,
+    "overall_rank": 3065668,
     "region": "India",
     "past": [
      {
@@ -3893,7 +3893,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 3960169,
+    "overall_rank": 3960170,
     "region": "India",
     "past": [
      {
@@ -4038,7 +4038,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6004220,
+    "overall_rank": 6004218,
     "region": "India",
     "past": [
      {
@@ -4137,7 +4137,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 7031992,
+    "overall_rank": 7031985,
     "region": "England",
     "past": [
      {
@@ -4251,7 +4251,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 9357361,
+    "overall_rank": 9357350,
     "region": "USA",
     "past": []
    },
