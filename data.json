@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-10-24T18:42:47Z"
+  "updated_iso": "2026-10-24T22:23:07Z"
  },
  "standings": [
   {
@@ -104,9 +104,9 @@
     },
     {
      "gw": 8,
-     "net": 2,
-     "total": 527,
-     "orank": 76125,
+     "net": 41,
+     "total": 566,
+     "orank": 48078,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
@@ -117,7 +117,7 @@
     "seasons": 2,
     "best_finish": 545267,
     "best_season": "2025/26",
-    "overall_rank": 48077,
+    "overall_rank": 48078,
     "region": "England",
     "past": [
      {
@@ -218,20 +218,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 536,
-     "orank": 33681,
+     "net": 27,
+     "total": 563,
+     "orank": 58481,
      "chip": null,
      "cap_pts": 2,
      "cap": "Rogers",
-     "bench": 0
+     "bench": 12
     }
    ],
    "career": {
     "seasons": 9,
     "best_finish": 38561,
     "best_season": "2018/19",
-    "overall_rank": 58480,
+    "overall_rank": 58481,
     "region": "India",
     "past": [
      {
@@ -374,13 +374,13 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 507,
-     "orank": 289261,
+     "net": 39,
+     "total": 546,
+     "orank": 190707,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 9
     }
    ],
    "career": {
@@ -549,20 +549,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 477,
-     "orank": 1150019,
+     "net": 52,
+     "total": 529,
+     "orank": 468987,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 1
     }
    ],
    "career": {
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 468987,
+    "overall_rank": 468985,
     "region": "India",
     "past": [
      {
@@ -726,9 +726,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 491,
-     "orank": 646878,
+     "net": 37,
+     "total": 528,
+     "orank": 488769,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
@@ -739,7 +739,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 488769,
+    "overall_rank": 488767,
     "region": "India",
     "past": [
      {
@@ -897,20 +897,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 498,
-     "orank": 464690,
+     "net": 30,
+     "total": 528,
+     "orank": 491776,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
-     "bench": 0
+     "bench": 2
     }
    ],
    "career": {
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 491776,
+    "overall_rank": 491774,
     "region": "India",
     "past": [
      {
@@ -1037,20 +1037,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 498,
-     "orank": 461618,
+     "net": 29,
+     "total": 527,
+     "orank": 512272,
      "chip": null,
      "cap_pts": -2,
      "cap": "Palmer",
-     "bench": 0
+     "bench": 10
     }
    ],
    "career": {
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 512272,
+    "overall_rank": 512270,
     "region": "India",
     "past": [
      {
@@ -1207,9 +1207,9 @@
     },
     {
      "gw": 8,
-     "net": 2,
-     "total": 489,
-     "orank": 711770,
+     "net": 38,
+     "total": 525,
+     "orank": 564914,
      "chip": null,
      "cap_pts": 0,
      "cap": "Saka",
@@ -1220,7 +1220,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 564914,
+    "overall_rank": 564913,
     "region": "India",
     "past": [
      {
@@ -1358,20 +1358,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 507,
-     "orank": 289261,
+     "net": 18,
+     "total": 525,
+     "orank": 570695,
      "chip": null,
      "cap_pts": 0,
      "cap": "De Cuyper",
-     "bench": 0
+     "bench": 3
     }
    ],
    "career": {
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 570695,
+    "overall_rank": 570694,
     "region": "India",
     "past": [
      {
@@ -1509,20 +1509,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 474,
-     "orank": 1277495,
+     "net": 44,
+     "total": 518,
+     "orank": 763211,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 9
     }
    ],
    "career": {
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 763211,
+    "overall_rank": 763209,
     "region": "India",
     "past": [
      {
@@ -1670,20 +1670,20 @@
     },
     {
      "gw": 8,
-     "net": 2,
-     "total": 474,
-     "orank": 1270302,
+     "net": 41,
+     "total": 513,
+     "orank": 922640,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 3
     }
    ],
    "career": {
     "seasons": 9,
     "best_finish": 182900,
     "best_season": "2025/26",
-    "overall_rank": 922641,
+    "overall_rank": 922638,
     "region": "India",
     "past": [
      {
@@ -1815,9 +1815,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 486,
-     "orank": 804760,
+     "net": 26,
+     "total": 512,
+     "orank": 960097,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
@@ -1828,7 +1828,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 960098,
+    "overall_rank": 960095,
     "region": "India",
     "past": [
      {
@@ -1996,20 +1996,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 493,
-     "orank": 599536,
+     "net": 18,
+     "total": 511,
+     "orank": 1008332,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
-     "bench": 0
+     "bench": 1
     }
    ],
    "career": {
     "seasons": 5,
     "best_finish": 273503,
     "best_season": "2024/25",
-    "overall_rank": 1008334,
+    "overall_rank": 1008329,
     "region": "India",
     "past": [
      {
@@ -2126,20 +2126,20 @@
     },
     {
      "gw": 8,
-     "net": 1,
-     "total": 456,
-     "orank": 2210626,
+     "net": 56,
+     "total": 511,
+     "orank": 1017843,
      "chip": "freehit",
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 10
     }
    ],
    "career": {
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 1017845,
+    "overall_rank": 1017840,
     "region": "India",
     "past": [
      {
@@ -2242,9 +2242,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 462,
-     "orank": 1853494,
+     "net": 47,
+     "total": 509,
+     "orank": 1071304,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
@@ -2255,7 +2255,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 1071306,
+    "overall_rank": 1071301,
     "region": "India",
     "past": [
      {
@@ -2377,20 +2377,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 476,
-     "orank": 1191794,
+     "net": 32,
+     "total": 508,
+     "orank": 1114746,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 11
     }
    ],
    "career": {
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 1114748,
+    "overall_rank": 1114743,
     "region": "India",
     "past": [
      {
@@ -2532,9 +2532,9 @@
     },
     {
      "gw": 8,
-     "net": 2,
-     "total": 475,
-     "orank": 1229454,
+     "net": 32,
+     "total": 505,
+     "orank": 1230961,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
@@ -2545,7 +2545,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 1230963,
+    "overall_rank": 1230957,
     "region": "India",
     "past": [
      {
@@ -2687,20 +2687,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 451,
-     "orank": 2470103,
+     "net": 36,
+     "total": 487,
+     "orank": 2087303,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 11
     }
    ],
    "career": {
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 2087309,
+    "overall_rank": 2087294,
     "region": "India",
     "past": [
      {
@@ -2811,9 +2811,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 463,
-     "orank": 1816250,
+     "net": 22,
+     "total": 485,
+     "orank": 2209895,
      "chip": null,
      "cap_pts": -2,
      "cap": "Palmer",
@@ -2824,7 +2824,7 @@
     "seasons": 15,
     "best_finish": 27153,
     "best_season": "2022/23",
-    "overall_rank": 2209902,
+    "overall_rank": 2209885,
     "region": "India",
     "past": [
      {
@@ -2972,20 +2972,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 453,
-     "orank": 2399050,
+     "net": 32,
+     "total": 485,
+     "orank": 2238579,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
-     "bench": 0
+     "bench": 2
     }
    ],
    "career": {
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 2238586,
+    "overall_rank": 2238569,
     "region": "India",
     "past": [
      {
@@ -3101,20 +3101,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 456,
-     "orank": 2187491,
+     "net": 27,
+     "total": 483,
+     "orank": 2311150,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
-     "bench": 0
+     "bench": 22
     }
    ],
    "career": {
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 2311157,
+    "overall_rank": 2311140,
     "region": "India",
     "past": [
      {
@@ -3260,20 +3260,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 466,
-     "orank": 1652942,
+     "net": 17,
+     "total": 483,
+     "orank": 2311150,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
-     "bench": 0
+     "bench": 1
     }
    ],
    "career": {
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 2311157,
+    "overall_rank": 2311140,
     "region": "India",
     "past": [
      {
@@ -3405,9 +3405,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 450,
-     "orank": 2534776,
+     "net": 31,
+     "total": 481,
+     "orank": 2422689,
      "chip": null,
      "cap_pts": -2,
      "cap": "Palmer",
@@ -3418,7 +3418,7 @@
     "seasons": 6,
     "best_finish": 31543,
     "best_season": "2022/23",
-    "overall_rank": 2422696,
+    "overall_rank": 2422678,
     "region": "USA",
     "past": [
      {
@@ -3540,20 +3540,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 447,
-     "orank": 2725528,
+     "net": 31,
+     "total": 478,
+     "orank": 2603406,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 0
+     "bench": 10
     }
    ],
    "career": {
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2603414,
+    "overall_rank": 2603396,
     "region": "India",
     "past": [
      {
@@ -3676,20 +3676,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 452,
-     "orank": 2417173,
+     "net": 25,
+     "total": 477,
+     "orank": 2651702,
      "chip": null,
      "cap_pts": -2,
      "cap": "Palmer",
-     "bench": 0
+     "bench": 15
     }
    ],
    "career": {
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 2651710,
+    "overall_rank": 2651691,
     "region": "India",
     "past": [
      {
@@ -3841,9 +3841,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 443,
-     "orank": 2962039,
+     "net": 26,
+     "total": 469,
+     "orank": 3126715,
      "chip": null,
      "cap_pts": 0,
      "cap": "B.Fernandes",
@@ -3854,7 +3854,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 3126725,
+    "overall_rank": 3126703,
     "region": "India",
     "past": [
      {
@@ -3982,20 +3982,20 @@
     },
     {
      "gw": 8,
-     "net": 2,
-     "total": 443,
-     "orank": 2985692,
+     "net": 17,
+     "total": 458,
+     "orank": 3827436,
      "chip": "3xc",
      "cap_pts": -3,
      "cap": "Palmer",
-     "bench": 0
+     "bench": 10
     }
    ],
    "career": {
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 3827450,
+    "overall_rank": 3827422,
     "region": "India",
     "past": [
      {
@@ -4162,9 +4162,9 @@
     },
     {
      "gw": 8,
-     "net": 8,
-     "total": 435,
-     "orank": 3495900,
+     "net": 13,
+     "total": 440,
+     "orank": 4947594,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
@@ -4175,7 +4175,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 4947618,
+    "overall_rank": 4947571,
     "region": "India",
     "past": [
      {
@@ -4317,20 +4317,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 396,
-     "orank": 6042696,
+     "net": 25,
+     "total": 421,
+     "orank": 6084011,
      "chip": null,
      "cap_pts": 16,
      "cap": "Haaland",
-     "bench": 2
+     "bench": 4
     }
    ],
    "career": {
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6084042,
+    "overall_rank": 6083977,
     "region": "India",
     "past": [
      {
@@ -4426,9 +4426,9 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 378,
-     "orank": 7068361,
+     "net": 15,
+     "total": 393,
+     "orank": 7501937,
      "chip": null,
      "cap_pts": -2,
      "cap": "Palmer",
@@ -4439,7 +4439,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 7501975,
+    "overall_rank": 7501894,
     "region": "England",
     "past": [
      {
@@ -4550,20 +4550,20 @@
     },
     {
      "gw": 8,
-     "net": 0,
-     "total": 312,
-     "orank": 9362297,
+     "net": 8,
+     "total": 320,
+     "orank": 9591848,
      "chip": null,
      "cap_pts": 0,
      "cap": "João Pedro",
-     "bench": 2
+     "bench": 8
     }
    ],
    "career": {
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 9591901,
+    "overall_rank": 9591789,
     "region": "USA",
     "past": []
    },
@@ -4956,8 +4956,8 @@
     "final": {
      "a": "Xa bing chilling",
      "b": "Goal Diggers FC",
-     "sa": 0,
-     "sb": 0,
+     "sa": 37,
+     "sb": 52,
      "win": "Goal Diggers FC"
     },
     "champion": "Goal Diggers FC"
