@@ -7,19 +7,19 @@
   "managers": 31,
   "expected": 31,
   "my_id": 427154,
-  "gw": 7,
+  "gw": 8,
   "next_gw": 9,
-  "live": 8,
+  "live": null,
   "next_deadline": "2026-10-31T11:00:00Z",
   "started": true,
   "captain_week": {
    "player": "Haaland",
-   "count": 24,
-   "pts": 13,
+   "count": 11,
+   "pts": 8,
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-10-26T12:43:02Z"
+  "updated_iso": "2026-10-26T19:49:45Z"
  },
  "standings": [
   {
@@ -387,7 +387,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 324176,
+    "overall_rank": 324174,
     "region": "India",
     "past": [
      {
@@ -562,7 +562,7 @@
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 337753,
+    "overall_rank": 337751,
     "region": "India",
     "past": [
      {
@@ -702,7 +702,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 478195,
+    "overall_rank": 478193,
     "region": "India",
     "past": [
      {
@@ -873,7 +873,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 551162,
+    "overall_rank": 551161,
     "region": "India",
     "past": [
      {
@@ -1054,7 +1054,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 554417,
+    "overall_rank": 554416,
     "region": "India",
     "past": [
      {
@@ -1205,7 +1205,7 @@
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 560282,
+    "overall_rank": 560281,
     "region": "India",
     "past": [
      {
@@ -1356,7 +1356,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 688879,
+    "overall_rank": 688878,
     "region": "India",
     "past": [
      {
@@ -1526,7 +1526,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 722417,
+    "overall_rank": 722416,
     "region": "India",
     "past": [
      {
@@ -1703,7 +1703,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 785201,
+    "overall_rank": 785200,
     "region": "India",
     "past": [
      {
@@ -1858,7 +1858,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 800772,
+    "overall_rank": 800771,
     "region": "India",
     "past": [
      {
@@ -1974,7 +1974,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 920618,
+    "overall_rank": 920617,
     "region": "India",
     "past": [
      {
@@ -2135,7 +2135,7 @@
     "seasons": 9,
     "best_finish": 182900,
     "best_season": "2025/26",
-    "overall_rank": 986857,
+    "overall_rank": 986856,
     "region": "India",
     "past": [
      {
@@ -2280,7 +2280,7 @@
     "seasons": 5,
     "best_finish": 273503,
     "best_season": "2024/25",
-    "overall_rank": 1000945,
+    "overall_rank": 1000944,
     "region": "India",
     "past": [
      {
@@ -2410,7 +2410,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 1103732,
+    "overall_rank": 1103730,
     "region": "India",
     "past": [
      {
@@ -2545,7 +2545,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 1148451,
+    "overall_rank": 1148449,
     "region": "India",
     "past": [
      {
@@ -2690,7 +2690,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 1400878,
+    "overall_rank": 1400874,
     "region": "India",
     "past": [
      {
@@ -2845,7 +2845,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 1626592,
+    "overall_rank": 1626589,
     "region": "India",
     "past": [
      {
@@ -2974,7 +2974,7 @@
     "seasons": 15,
     "best_finish": 27153,
     "best_season": "2022/23",
-    "overall_rank": 1799644,
+    "overall_rank": 1799641,
     "region": "India",
     "past": [
      {
@@ -3135,7 +3135,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 2218645,
+    "overall_rank": 2218643,
     "region": "India",
     "past": [
      {
@@ -3294,7 +3294,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2693198,
+    "overall_rank": 2693195,
     "region": "India",
     "past": [
      {
@@ -3430,7 +3430,7 @@
     "seasons": 5,
     "best_finish": 117338,
     "best_season": "2025/26",
-    "overall_rank": 2738230,
+    "overall_rank": 2738227,
     "region": "India",
     "past": [
      {
@@ -3554,7 +3554,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 2744009,
+    "overall_rank": 2744006,
     "region": "India",
     "past": [
      {
@@ -3719,7 +3719,7 @@
     "seasons": 6,
     "best_finish": 31543,
     "best_season": "2022/23",
-    "overall_rank": 2804875,
+    "overall_rank": 2804871,
     "region": "USA",
     "past": [
      {
@@ -3854,7 +3854,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 3820362,
+    "overall_rank": 3820357,
     "region": "India",
     "past": [
      {
@@ -3995,7 +3995,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 4560067,
+    "overall_rank": 4560058,
     "region": "India",
     "past": [
      {
@@ -4175,7 +4175,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 5332763,
+    "overall_rank": 5332753,
     "region": "India",
     "past": [
      {
@@ -4330,7 +4330,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6539226,
+    "overall_rank": 6539215,
     "region": "India",
     "past": [
      {
@@ -4439,7 +4439,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 6698625,
+    "overall_rank": 6698614,
     "region": "England",
     "past": [
      {
@@ -4563,7 +4563,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 9429632,
+    "overall_rank": 9429600,
     "region": "USA",
     "past": []
    },
@@ -4977,8 +4977,327 @@
     14
    ],
    "status": "upcoming",
-   "seed": null,
-   "groups": null,
+   "seed": 73788827649726,
+   "groups": [
+    {
+     "group": "A",
+     "rows": [
+      {
+       "id": 5340498,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Old Reijnders Nagar",
+       "name": "Sid Shaurya"
+      },
+      {
+       "id": 5926399,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "BattleBorn",
+       "name": "Aquib Razack"
+      },
+      {
+       "id": 3323226,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "ItDzntMata",
+       "name": "Danish Javed"
+      },
+      {
+       "id": 6023506,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "sakalaka",
+       "name": "prateek gupta"
+      }
+     ]
+    },
+    {
+     "group": "B",
+     "rows": [
+      {
+       "id": 1086057,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "ShakeNBake",
+       "name": "Arshaq Razack"
+      },
+      {
+       "id": 3909562,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Goal Diggers FC",
+       "name": "Varun Khurana"
+      },
+      {
+       "id": 3181909,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Mishra's 13",
+       "name": "Aparnesh Mishra"
+      },
+      {
+       "id": 5582398,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Southall United",
+       "name": "Rohan Agrawal"
+      }
+     ]
+    },
+    {
+     "group": "C",
+     "rows": [
+      {
+       "id": 5419891,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Onside Offside",
+       "name": "Ajith Thomas Kuthukatt George"
+      },
+      {
+       "id": 2003955,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Loading...",
+       "name": "Aayush Khanna"
+      },
+      {
+       "id": 1362641,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Carrick Janta Party",
+       "name": "Pranshul Jain"
+      },
+      {
+       "id": 79306,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Totally Szobo",
+       "name": "Abhinav Premsekhar"
+      }
+     ]
+    },
+    {
+     "group": "D",
+     "rows": [
+      {
+       "id": 3942416,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "115 FC",
+       "name": "Abhay Rawat"
+      },
+      {
+       "id": 5008941,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Pole Calmer �",
+       "name": "Ashwin Jose"
+      },
+      {
+       "id": 2354537,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "MaSalah",
+       "name": "Raveesh Kalra"
+      },
+      {
+       "id": 5970777,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "fpl_26_27",
+       "name": "Karan Chopra"
+      }
+     ]
+    },
+    {
+     "group": "E",
+     "rows": [
+      {
+       "id": 256447,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Fiery Raiders",
+       "name": "Anish Joshi"
+      },
+      {
+       "id": 1301167,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Cment_mixers",
+       "name": "Deepankar Sachdeva"
+      },
+      {
+       "id": 9695,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "His Name is Diogo",
+       "name": "Aditya Vaidya"
+      },
+      {
+       "id": 4795345,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Malisahi Randuas",
+       "name": "Parakh Tripathy"
+      }
+     ]
+    },
+    {
+     "group": "F",
+     "rows": [
+      {
+       "id": 46711,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Xa bing chilling",
+       "name": "Satweek Nayak"
+      },
+      {
+       "id": 374875,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "Fluente in Football",
+       "name": "Yash Beohar"
+      },
+      {
+       "id": 427154,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "KingOfKings Fc",
+       "name": "Abhiraj Singh"
+      },
+      {
+       "id": 4837220,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "pts": 0,
+       "gf": 0,
+       "hits": 0,
+       "played": 0,
+       "team": "FC Teetotallers",
+       "name": "Rajit Das"
+      }
+     ]
+    }
+   ],
    "ko": null
   },
   {
@@ -5134,15 +5453,50 @@
     "id": 9695,
     "team": "His Name is Diogo",
     "name": "Aditya Vaidya",
-    "n": 5,
-    "improvement": 6103090
+    "n": 6,
+    "improvement": 6425369
    },
    {
     "id": 5008941,
     "team": "Pole Calmer �",
     "name": "Ashwin Jose",
+    "n": 6,
+    "improvement": 5878661
+   },
+   {
+    "id": 1301167,
+    "team": "Cment_mixers",
+    "name": "Deepankar Sachdeva",
     "n": 5,
-    "improvement": 5505949
+    "improvement": 6689104
+   },
+   {
+    "id": 3909562,
+    "team": "Goal Diggers FC",
+    "name": "Varun Khurana",
+    "n": 5,
+    "improvement": 5870101
+   },
+   {
+    "id": 5582398,
+    "team": "Southall United",
+    "name": "Rohan Agrawal",
+    "n": 5,
+    "improvement": 3398987
+   },
+   {
+    "id": 3181909,
+    "team": "Mishra's 13",
+    "name": "Aparnesh Mishra",
+    "n": 5,
+    "improvement": 2556476
+   },
+   {
+    "id": 374875,
+    "team": "Fluente in Football",
+    "name": "Yash Beohar",
+    "n": 5,
+    "improvement": 2232265
    },
    {
     "id": 3323226,
@@ -5166,20 +5520,6 @@
     "improvement": 6686466
    },
    {
-    "id": 3909562,
-    "team": "Goal Diggers FC",
-    "name": "Varun Khurana",
-    "n": 4,
-    "improvement": 5476008
-   },
-   {
-    "id": 1301167,
-    "team": "Cment_mixers",
-    "name": "Deepankar Sachdeva",
-    "n": 4,
-    "improvement": 5254027
-   },
-   {
     "id": 4837220,
     "team": "FC Teetotallers",
     "name": "Rajit Das",
@@ -5192,27 +5532,6 @@
     "name": "Nilay jain",
     "n": 4,
     "improvement": 2924779
-   },
-   {
-    "id": 5582398,
-    "team": "Southall United",
-    "name": "Rohan Agrawal",
-    "n": 4,
-    "improvement": 2668094
-   },
-   {
-    "id": 3181909,
-    "team": "Mishra's 13",
-    "name": "Aparnesh Mishra",
-    "n": 4,
-    "improvement": 2095543
-   },
-   {
-    "id": 374875,
-    "team": "Fluente in Football",
-    "name": "Yash Beohar",
-    "n": 4,
-    "improvement": 2030860
    }
   ],
   "chips": {
@@ -5242,11 +5561,11 @@
    }
   },
   "pity": {
-   "id": 20569,
-   "team": "Captn Magnifico",
-   "name": "Naman Agrawal",
-   "score": 27,
-   "gw": 5,
+   "id": 4688717,
+   "team": "Enzotic",
+   "name": "Abhishek Gupte",
+   "score": 23,
+   "gw": 8,
    "hit": 0,
    "auto_ok": true,
    "blanks": 0,
