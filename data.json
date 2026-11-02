@@ -19,7 +19,7 @@
    "total": 31
   },
   "updated": "",
-  "updated_iso": "2026-11-01T23:28:03Z"
+  "updated_iso": "2026-11-02T05:40:11Z"
  },
  "standings": [
   {
@@ -127,7 +127,7 @@
     "seasons": 2,
     "best_finish": 545267,
     "best_season": "2025/26",
-    "overall_rank": 18891,
+    "overall_rank": 17782,
     "region": "England",
     "past": [
      {
@@ -252,7 +252,7 @@
     "seasons": 9,
     "best_finish": 38561,
     "best_season": "2018/19",
-    "overall_rank": 123351,
+    "overall_rank": 118149,
     "region": "India",
     "past": [
      {
@@ -418,7 +418,7 @@
     "seasons": 7,
     "best_finish": 189374,
     "best_season": "2024/25",
-    "overall_rank": 133375,
+    "overall_rank": 127722,
     "region": "India",
     "past": [
      {
@@ -568,7 +568,7 @@
     "seasons": 9,
     "best_finish": 486041,
     "best_season": "2024/25",
-    "overall_rank": 332772,
+    "overall_rank": 321228,
     "region": "India",
     "past": [
      {
@@ -730,7 +730,7 @@
     "seasons": 15,
     "best_finish": 6474,
     "best_season": "2025/26",
-    "overall_rank": 368823,
+    "overall_rank": 356454,
     "region": "India",
     "past": [
      {
@@ -921,7 +921,7 @@
     "seasons": 14,
     "best_finish": 281617,
     "best_season": "2019/20",
-    "overall_rank": 374037,
+    "overall_rank": 361656,
     "region": "India",
     "past": [
      {
@@ -1106,7 +1106,7 @@
     "seasons": 14,
     "best_finish": 14603,
     "best_season": "2016/17",
-    "overall_rank": 498897,
+    "overall_rank": 483514,
     "region": "India",
     "past": [
      {
@@ -1188,8 +1188,8 @@
    "id": 5926399,
    "team": "BattleBorn",
    "name": "Aquib Razack",
-   "total": 596,
-   "event_total": 60,
+   "total": 594,
+   "event_total": 58,
    "prize": null,
    "series": [
     {
@@ -1287,7 +1287,7 @@
     "seasons": 13,
     "best_finish": 71857,
     "best_season": "2020/21",
-    "overall_rank": 556412,
+    "overall_rank": 584055,
     "region": "India",
     "past": [
      {
@@ -1368,8 +1368,8 @@
    "id": 3909562,
    "team": "Goal Diggers FC",
    "name": "Varun Khurana",
-   "total": 594,
-   "event_total": 59,
+   "total": 592,
+   "event_total": 57,
    "prize": null,
    "series": [
     {
@@ -1467,7 +1467,7 @@
     "seasons": 15,
     "best_finish": 410102,
     "best_season": "2009/10",
-    "overall_rank": 601528,
+    "overall_rank": 630703,
     "region": "India",
     "past": [
      {
@@ -1551,161 +1551,6 @@
   },
   {
    "rank": 10,
-   "last_rank": 14,
-   "id": 1362641,
-   "team": "Carrick Janta Party",
-   "name": "Pranshul Jain",
-   "total": 589,
-   "event_total": 62,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 53,
-     "total": 53,
-     "orank": 3482299,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 8
-    },
-    {
-     "gw": 2,
-     "net": 118,
-     "total": 171,
-     "orank": 442465,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 3
-    },
-    {
-     "gw": 3,
-     "net": 55,
-     "total": 226,
-     "orank": 408916,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 6
-    },
-    {
-     "gw": 4,
-     "net": 71,
-     "total": 297,
-     "orank": 866801,
-     "chip": "wildcard",
-     "cap_pts": 10,
-     "cap": "Palmer",
-     "bench": 28
-    },
-    {
-     "gw": 5,
-     "net": 48,
-     "total": 345,
-     "orank": 953327,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 16
-    },
-    {
-     "gw": 6,
-     "net": 63,
-     "total": 408,
-     "orank": 1156782,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 14
-    },
-    {
-     "gw": 7,
-     "net": 64,
-     "total": 472,
-     "orank": 1324735,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 10
-    },
-    {
-     "gw": 8,
-     "net": 55,
-     "total": 527,
-     "orank": 986857,
-     "chip": null,
-     "cap_pts": 16,
-     "cap": "Haaland",
-     "bench": 5
-    },
-    {
-     "gw": 9,
-     "net": 62,
-     "total": 589,
-     "orank": 724736,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 21
-    }
-   ],
-   "career": {
-    "seasons": 9,
-    "best_finish": 182900,
-    "best_season": "2025/26",
-    "overall_rank": 724736,
-    "region": "India",
-    "past": [
-     {
-      "s": "2017/18",
-      "pts": 2009,
-      "rank": 1103808
-     },
-     {
-      "s": "2019/20",
-      "pts": 2164,
-      "rank": 470042
-     },
-     {
-      "s": "2020/21",
-      "pts": 2172,
-      "rank": 1108467
-     },
-     {
-      "s": "2021/22",
-      "pts": 1852,
-      "rank": 4263681
-     },
-     {
-      "s": "2022/23",
-      "pts": 2397,
-      "rank": 672575
-     },
-     {
-      "s": "2023/24",
-      "pts": 1836,
-      "rank": 6778662
-     },
-     {
-      "s": "2024/25",
-      "pts": 2245,
-      "rank": 2211766
-     },
-     {
-      "s": "2025/26",
-      "pts": 2300,
-      "rank": 182900
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 11,
    "last_rank": 7,
    "id": 374875,
    "team": "Fluente in Football",
@@ -1809,7 +1654,7 @@
     "seasons": 10,
     "best_finish": 30971,
     "best_season": "2018/19",
-    "overall_rank": 732350,
+    "overall_rank": 712513,
     "region": "India",
     "past": [
      {
@@ -1862,6 +1707,161 @@
    "chips_used": [
     "3xc",
     "bboost",
+    "wildcard"
+   ]
+  },
+  {
+   "rank": 11,
+   "last_rank": 14,
+   "id": 1362641,
+   "team": "Carrick Janta Party",
+   "name": "Pranshul Jain",
+   "total": 587,
+   "event_total": 60,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 53,
+     "total": 53,
+     "orank": 3482299,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 8
+    },
+    {
+     "gw": 2,
+     "net": 118,
+     "total": 171,
+     "orank": 442465,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 3
+    },
+    {
+     "gw": 3,
+     "net": 55,
+     "total": 226,
+     "orank": 408916,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 6
+    },
+    {
+     "gw": 4,
+     "net": 71,
+     "total": 297,
+     "orank": 866801,
+     "chip": "wildcard",
+     "cap_pts": 10,
+     "cap": "Palmer",
+     "bench": 28
+    },
+    {
+     "gw": 5,
+     "net": 48,
+     "total": 345,
+     "orank": 953327,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 16
+    },
+    {
+     "gw": 6,
+     "net": 63,
+     "total": 408,
+     "orank": 1156782,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 14
+    },
+    {
+     "gw": 7,
+     "net": 64,
+     "total": 472,
+     "orank": 1324735,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 10
+    },
+    {
+     "gw": 8,
+     "net": 55,
+     "total": 527,
+     "orank": 986857,
+     "chip": null,
+     "cap_pts": 16,
+     "cap": "Haaland",
+     "bench": 5
+    },
+    {
+     "gw": 9,
+     "net": 62,
+     "total": 589,
+     "orank": 724736,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 21
+    }
+   ],
+   "career": {
+    "seasons": 9,
+    "best_finish": 182900,
+    "best_season": "2025/26",
+    "overall_rank": 757291,
+    "region": "India",
+    "past": [
+     {
+      "s": "2017/18",
+      "pts": 2009,
+      "rank": 1103808
+     },
+     {
+      "s": "2019/20",
+      "pts": 2164,
+      "rank": 470042
+     },
+     {
+      "s": "2020/21",
+      "pts": 2172,
+      "rank": 1108467
+     },
+     {
+      "s": "2021/22",
+      "pts": 1852,
+      "rank": 4263681
+     },
+     {
+      "s": "2022/23",
+      "pts": 2397,
+      "rank": 672575
+     },
+     {
+      "s": "2023/24",
+      "pts": 1836,
+      "rank": 6778662
+     },
+     {
+      "s": "2024/25",
+      "pts": 2245,
+      "rank": 2211766
+     },
+     {
+      "s": "2025/26",
+      "pts": 2300,
+      "rank": 182900
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
     "wildcard"
    ]
   },
@@ -1970,7 +1970,7 @@
     "seasons": 10,
     "best_finish": 95791,
     "best_season": "2018/19",
-    "overall_rank": 780019,
+    "overall_rank": 759453,
     "region": "India",
     "past": [
      {
@@ -2135,7 +2135,7 @@
     "seasons": 11,
     "best_finish": 15288,
     "best_season": "2020/21",
-    "overall_rank": 841932,
+    "overall_rank": 820108,
     "region": "India",
     "past": [
      {
@@ -2202,147 +2202,7 @@
    ]
   },
   {
-   "rank": 13,
-   "last_rank": 15,
-   "id": 3323226,
-   "team": "ItDzntMata",
-   "name": "Danish Javed",
-   "total": 585,
-   "event_total": 58,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 40,
-     "total": 40,
-     "orank": 7094513,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 13
-    },
-    {
-     "gw": 2,
-     "net": 118,
-     "total": 158,
-     "orank": 1213143,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 7
-    },
-    {
-     "gw": 3,
-     "net": 55,
-     "total": 213,
-     "orank": 1065607,
-     "chip": "3xc",
-     "cap_pts": 27,
-     "cap": "Haaland",
-     "bench": 20
-    },
-    {
-     "gw": 4,
-     "net": 71,
-     "total": 284,
-     "orank": 1622014,
-     "chip": "wildcard",
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 10
-    },
-    {
-     "gw": 5,
-     "net": 60,
-     "total": 344,
-     "orank": 996186,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 6,
-     "net": 80,
-     "total": 424,
-     "orank": 547376,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 15
-    },
-    {
-     "gw": 7,
-     "net": 69,
-     "total": 493,
-     "orank": 569690,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 13
-    },
-    {
-     "gw": 8,
-     "net": 34,
-     "total": 527,
-     "orank": 1000945,
-     "chip": null,
-     "cap_pts": 0,
-     "cap": "João Pedro",
-     "bench": 4
-    },
-    {
-     "gw": 9,
-     "net": 58,
-     "total": 585,
-     "orank": 841933,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 17
-    }
-   ],
-   "career": {
-    "seasons": 5,
-    "best_finish": 273503,
-    "best_season": "2024/25",
-    "overall_rank": 841932,
-    "region": "India",
-    "past": [
-     {
-      "s": "2021/22",
-      "pts": 1613,
-      "rank": 6584642
-     },
-     {
-      "s": "2022/23",
-      "pts": 2389,
-      "rank": 732972
-     },
-     {
-      "s": "2023/24",
-      "pts": 2380,
-      "rank": 461598
-     },
-     {
-      "s": "2024/25",
-      "pts": 2455,
-      "rank": 273503
-     },
-     {
-      "s": "2025/26",
-      "pts": 2122,
-      "rank": 1917309
-     }
-    ]
-   },
-   "chips_used": [
-    "3xc",
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 15,
+   "rank": 14,
    "last_rank": 19,
    "id": 5582398,
    "team": "Southall United",
@@ -2446,7 +2306,7 @@
     "seasons": 8,
     "best_finish": 1320699,
     "best_season": "2020/21",
-    "overall_rank": 858253,
+    "overall_rank": 836424,
     "region": "India",
     "past": [
      {
@@ -2482,13 +2342,153 @@
    ]
   },
   {
+   "rank": 15,
+   "last_rank": 15,
+   "id": 3323226,
+   "team": "ItDzntMata",
+   "name": "Danish Javed",
+   "total": 583,
+   "event_total": 56,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 40,
+     "total": 40,
+     "orank": 7094513,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 13
+    },
+    {
+     "gw": 2,
+     "net": 118,
+     "total": 158,
+     "orank": 1213143,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 7
+    },
+    {
+     "gw": 3,
+     "net": 55,
+     "total": 213,
+     "orank": 1065607,
+     "chip": "3xc",
+     "cap_pts": 27,
+     "cap": "Haaland",
+     "bench": 20
+    },
+    {
+     "gw": 4,
+     "net": 71,
+     "total": 284,
+     "orank": 1622014,
+     "chip": "wildcard",
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 10
+    },
+    {
+     "gw": 5,
+     "net": 60,
+     "total": 344,
+     "orank": 996186,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 6,
+     "net": 80,
+     "total": 424,
+     "orank": 547376,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 15
+    },
+    {
+     "gw": 7,
+     "net": 69,
+     "total": 493,
+     "orank": 569690,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 13
+    },
+    {
+     "gw": 8,
+     "net": 34,
+     "total": 527,
+     "orank": 1000945,
+     "chip": null,
+     "cap_pts": 0,
+     "cap": "João Pedro",
+     "bench": 4
+    },
+    {
+     "gw": 9,
+     "net": 58,
+     "total": 585,
+     "orank": 841933,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 17
+    }
+   ],
+   "career": {
+    "seasons": 5,
+    "best_finish": 273503,
+    "best_season": "2024/25",
+    "overall_rank": 878046,
+    "region": "India",
+    "past": [
+     {
+      "s": "2021/22",
+      "pts": 1613,
+      "rank": 6584642
+     },
+     {
+      "s": "2022/23",
+      "pts": 2389,
+      "rank": 732972
+     },
+     {
+      "s": "2023/24",
+      "pts": 2380,
+      "rank": 461598
+     },
+     {
+      "s": "2024/25",
+      "pts": 2455,
+      "rank": 273503
+     },
+     {
+      "s": "2025/26",
+      "pts": 2122,
+      "rank": 1917309
+     }
+    ]
+   },
+   "chips_used": [
+    "3xc",
+    "wildcard"
+   ]
+  },
+  {
    "rank": 16,
    "last_rank": 12,
    "id": 1301167,
    "team": "Cment_mixers",
    "name": "Deepankar Sachdeva",
-   "total": 580,
-   "event_total": 51,
+   "total": 578,
+   "event_total": 49,
    "prize": null,
    "series": [
     {
@@ -2586,7 +2586,7 @@
     "seasons": 2,
     "best_finish": 1128645,
     "best_season": "2025/26",
-    "overall_rank": 1007163,
+    "overall_rank": 1046741,
     "region": "India",
     "past": [
      {
@@ -2613,8 +2613,8 @@
    "id": 3181909,
    "team": "Mishra's 13",
    "name": "Aparnesh Mishra",
-   "total": 574,
-   "event_total": 51,
+   "total": 572,
+   "event_total": 49,
    "prize": null,
    "series": [
     {
@@ -2712,7 +2712,7 @@
     "seasons": 9,
     "best_finish": 334016,
     "best_season": "2020/21",
-    "overall_rank": 1184241,
+    "overall_rank": 1227558,
     "region": "India",
     "past": [
      {
@@ -2867,7 +2867,7 @@
     "seasons": 6,
     "best_finish": 8917,
     "best_season": "2021/22",
-    "overall_rank": 1325559,
+    "overall_rank": 1297197,
     "region": "India",
     "past": [
      {
@@ -2913,8 +2913,8 @@
    "id": 427154,
    "team": "KingOfKings Fc",
    "name": "Abhiraj Singh",
-   "total": 569,
-   "event_total": 52,
+   "total": 567,
+   "event_total": 50,
    "prize": null,
    "series": [
     {
@@ -3012,7 +3012,7 @@
     "seasons": 12,
     "best_finish": 28582,
     "best_season": "2021/22",
-    "overall_rank": 1363138,
+    "overall_rank": 1409880,
     "region": "India",
     "past": [
      {
@@ -3177,7 +3177,7 @@
     "seasons": 11,
     "best_finish": 81907,
     "best_season": "2020/21",
-    "overall_rank": 1877260,
+    "overall_rank": 1843414,
     "region": "India",
     "past": [
      {
@@ -3234,140 +3234,6 @@
       "s": "2025/26",
       "pts": 1505,
       "rank": 11118394
-     }
-    ]
-   },
-   "chips_used": [
-    "wildcard"
-   ]
-  },
-  {
-   "rank": 21,
-   "last_rank": 23,
-   "id": 6023506,
-   "team": "sakalaka",
-   "name": "prateek gupta",
-   "total": 555,
-   "event_total": 63,
-   "prize": null,
-   "series": [
-    {
-     "gw": 1,
-     "net": 29,
-     "total": 29,
-     "orank": 8566706,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "B.Fernandes",
-     "bench": 8
-    },
-    {
-     "gw": 2,
-     "net": 101,
-     "total": 130,
-     "orank": 4603574,
-     "chip": null,
-     "cap_pts": 46,
-     "cap": "B.Fernandes",
-     "bench": 16
-    },
-    {
-     "gw": 3,
-     "net": 48,
-     "total": 178,
-     "orank": 5141430,
-     "chip": null,
-     "cap_pts": 18,
-     "cap": "Haaland",
-     "bench": 11
-    },
-    {
-     "gw": 4,
-     "net": 69,
-     "total": 247,
-     "orank": 4982912,
-     "chip": "wildcard",
-     "cap_pts": 10,
-     "cap": "Palmer",
-     "bench": 27
-    },
-    {
-     "gw": 5,
-     "net": 46,
-     "total": 293,
-     "orank": 5109269,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 12
-    },
-    {
-     "gw": 6,
-     "net": 84,
-     "total": 377,
-     "orank": 3104076,
-     "chip": null,
-     "cap_pts": 12,
-     "cap": "Haaland",
-     "bench": 23
-    },
-    {
-     "gw": 7,
-     "net": 74,
-     "total": 451,
-     "orank": 2431313,
-     "chip": null,
-     "cap_pts": 26,
-     "cap": "Haaland",
-     "bench": 5
-    },
-    {
-     "gw": 8,
-     "net": 41,
-     "total": 492,
-     "orank": 2738231,
-     "chip": null,
-     "cap_pts": 16,
-     "cap": "Haaland",
-     "bench": 16
-    },
-    {
-     "gw": 9,
-     "net": 63,
-     "total": 555,
-     "orank": 1955340,
-     "chip": null,
-     "cap_pts": 4,
-     "cap": "Haaland",
-     "bench": 17
-    }
-   ],
-   "career": {
-    "seasons": 5,
-    "best_finish": 117338,
-    "best_season": "2025/26",
-    "overall_rank": 1955339,
-    "region": "India",
-    "past": [
-     {
-      "s": "2021/22",
-      "pts": 1711,
-      "rank": 5696751
-     },
-     {
-      "s": "2023/24",
-      "pts": 1858,
-      "rank": 6514040
-     },
-     {
-      "s": "2024/25",
-      "pts": 1911,
-      "rank": 6411589
-     },
-     {
-      "s": "2025/26",
-      "pts": 2320,
-      "rank": 117338
      }
     ]
    },
@@ -3480,7 +3346,7 @@
     "seasons": 13,
     "best_finish": 60517,
     "best_season": "2015/16",
-    "overall_rank": 1955339,
+    "overall_rank": 1920792,
     "region": "India",
     "past": [
      {
@@ -3551,13 +3417,147 @@
    ]
   },
   {
+   "rank": 22,
+   "last_rank": 23,
+   "id": 6023506,
+   "team": "sakalaka",
+   "name": "prateek gupta",
+   "total": 553,
+   "event_total": 61,
+   "prize": null,
+   "series": [
+    {
+     "gw": 1,
+     "net": 29,
+     "total": 29,
+     "orank": 8566706,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "B.Fernandes",
+     "bench": 8
+    },
+    {
+     "gw": 2,
+     "net": 101,
+     "total": 130,
+     "orank": 4603574,
+     "chip": null,
+     "cap_pts": 46,
+     "cap": "B.Fernandes",
+     "bench": 16
+    },
+    {
+     "gw": 3,
+     "net": 48,
+     "total": 178,
+     "orank": 5141430,
+     "chip": null,
+     "cap_pts": 18,
+     "cap": "Haaland",
+     "bench": 11
+    },
+    {
+     "gw": 4,
+     "net": 69,
+     "total": 247,
+     "orank": 4982912,
+     "chip": "wildcard",
+     "cap_pts": 10,
+     "cap": "Palmer",
+     "bench": 27
+    },
+    {
+     "gw": 5,
+     "net": 46,
+     "total": 293,
+     "orank": 5109269,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 12
+    },
+    {
+     "gw": 6,
+     "net": 84,
+     "total": 377,
+     "orank": 3104076,
+     "chip": null,
+     "cap_pts": 12,
+     "cap": "Haaland",
+     "bench": 23
+    },
+    {
+     "gw": 7,
+     "net": 74,
+     "total": 451,
+     "orank": 2431313,
+     "chip": null,
+     "cap_pts": 26,
+     "cap": "Haaland",
+     "bench": 5
+    },
+    {
+     "gw": 8,
+     "net": 41,
+     "total": 492,
+     "orank": 2738231,
+     "chip": null,
+     "cap_pts": 16,
+     "cap": "Haaland",
+     "bench": 16
+    },
+    {
+     "gw": 9,
+     "net": 63,
+     "total": 555,
+     "orank": 1955340,
+     "chip": null,
+     "cap_pts": 4,
+     "cap": "Haaland",
+     "bench": 17
+    }
+   ],
+   "career": {
+    "seasons": 5,
+    "best_finish": 117338,
+    "best_season": "2025/26",
+    "overall_rank": 2010953,
+    "region": "India",
+    "past": [
+     {
+      "s": "2021/22",
+      "pts": 1711,
+      "rank": 5696751
+     },
+     {
+      "s": "2023/24",
+      "pts": 1858,
+      "rank": 6514040
+     },
+     {
+      "s": "2024/25",
+      "pts": 1911,
+      "rank": 6411589
+     },
+     {
+      "s": "2025/26",
+      "pts": 2320,
+      "rank": 117338
+     }
+    ]
+   },
+   "chips_used": [
+    "wildcard"
+   ]
+  },
+  {
    "rank": 23,
    "last_rank": 22,
    "id": 4837220,
    "team": "FC Teetotallers",
    "name": "Rajit Das",
-   "total": 554,
-   "event_total": 61,
+   "total": 552,
+   "event_total": 59,
    "prize": null,
    "series": [
     {
@@ -3655,7 +3655,7 @@
     "seasons": 6,
     "best_finish": 1615102,
     "best_season": "2024/25",
-    "overall_rank": 2000619,
+    "overall_rank": 2057223,
     "region": "India",
     "past": [
      {
@@ -3801,7 +3801,7 @@
     "seasons": 15,
     "best_finish": 27153,
     "best_season": "2022/23",
-    "overall_rank": 2382028,
+    "overall_rank": 2343837,
     "region": "India",
     "past": [
      {
@@ -3972,7 +3972,7 @@
     "seasons": 6,
     "best_finish": 31543,
     "best_season": "2022/23",
-    "overall_rank": 2738597,
+    "overall_rank": 2698974,
     "region": "USA",
     "past": [
      {
@@ -4117,7 +4117,7 @@
     "seasons": 15,
     "best_finish": 37120,
     "best_season": "2014/15",
-    "overall_rank": 2843225,
+    "overall_rank": 2803194,
     "region": "India",
     "past": [
      {
@@ -4308,7 +4308,7 @@
     "seasons": 10,
     "best_finish": 15136,
     "best_season": "2021/22",
-    "overall_rank": 3610181,
+    "overall_rank": 3568534,
     "region": "India",
     "past": [
      {
@@ -4474,7 +4474,7 @@
     "seasons": 7,
     "best_finish": 453230,
     "best_season": "2019/20",
-    "overall_rank": 4639676,
+    "overall_rank": 4599398,
     "region": "India",
     "past": [
      {
@@ -4526,8 +4526,8 @@
    "id": 5565611,
    "team": "Slumber FC",
    "name": "Dean Jenkins",
-   "total": 484,
-   "event_total": 55,
+   "total": 482,
+   "event_total": 53,
    "prize": null,
    "series": [
     {
@@ -4625,7 +4625,7 @@
     "seasons": 5,
     "best_finish": 676529,
     "best_season": "2025/26",
-    "overall_rank": 5819122,
+    "overall_rank": 5893294,
     "region": "England",
     "past": [
      {
@@ -4759,7 +4759,7 @@
     "seasons": 1,
     "best_finish": 4884220,
     "best_season": "2025/26",
-    "overall_rank": 6664351,
+    "overall_rank": 6635474,
     "region": "India",
     "past": [
      {
@@ -4878,7 +4878,7 @@
     "seasons": 0,
     "best_finish": null,
     "best_season": null,
-    "overall_rank": 9534364,
+    "overall_rank": 9526180,
     "region": "USA",
     "past": []
    },
